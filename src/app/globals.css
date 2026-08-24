@@ -416,3 +416,21 @@ body::before {
     transition: none;
   }
 }
+
+/* Bars on the numbers page grow when their row scrolls into view */
+[data-reveal] .bar-fill {
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.9s var(--ease-out-soft) 0.15s;
+}
+
+[data-reveal].is-visible .bar-fill {
+  transform: scaleX(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] .bar-fill {
+    transform: none;
+    transition: none;
+  }
+}

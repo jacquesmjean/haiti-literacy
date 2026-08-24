@@ -627,5 +627,205 @@
     "orderTitle": "Cómo pedir",
     "orderBody": "Envíenos su nombre, correo, el uso previsto, un código postal, y los artículos y cantidades deseados. Respondemos con el costo de envío y el plazo.",
     "orderCta": "Pedir a través de la página de contacto"
+  },
+  "workPage": {
+    "eyebrow": "Nuestro trabajo",
+    "title": "Tres cosas, juntas, el tiempo que haga falta.",
+    "lede": "Libros, bibliotecas y personas formadas. Nada funciona solo, así que nunca hacemos una sola cosa.",
+    "pillars": [
+      {
+        "title": "Libros en kreyòl",
+        "body": "Escritos, ilustrados y editados por haitianos, para niños haitianos, sobre la vida haitiana. Un niño aprende a leer en la lengua que se habla en casa."
+      },
+      {
+        "title": "Bibliotecas de verdad",
+        "body": "Estantes, luz, electricidad, internet, computadoras y un trabajador remunerado. Una sala segura para leer después de clases y hacer tareas de noche."
+      },
+      {
+        "title": "Personas formadas",
+        "body": "Un programa de once módulos para trabajadores de biblioteca, creado en Haití. Los maestros aprenden lectura en voz alta, rincones de lectura y cómo mantener viva la curiosidad."
+      }
+    ],
+    "exploreTitle": "Explore el trabajo",
+    "explore": {
+      "libraries": "Cinco bibliotecas de aldea acompañadas hacia un mismo estándar",
+      "duplan": "Nuestro proyecto insignia: una biblioteca de veinte años que renace",
+      "young-readers": "Por qué los primeros cinco años lo deciden todo",
+      "kreyol-materials": "Seis libros y el cartel que tomó trece años",
+      "alliance": "Doce bibliotecas en red por todo Haití",
+      "statistics": "La evidencia detrás de cada decisión que tomamos"
+    },
+    "startTitle": "Inicie una biblioteca en su aldea",
+    "startBody": "Una biblioteca infantil empieza con una aldea que la quiere y que invertirá en ella. Postule, participe en una entrevista por Zoom o WhatsApp, y nuestro comité selecciona. La aldea se compromete a cuatro cosas:",
+    "commitments": [
+      "Pagar al trabajador de la biblioteca. Ayudamos a entrevistar a un candidato entusiasta.",
+      "Mantener buen wifi para las formaciones y reuniones de la aldea.",
+      "Elegir un comité de biblioteca activo con maestros y líderes.",
+      "Desarrollar ideas realistas y viables de sostenibilidad."
+    ],
+    "waitNote": "Como organización joven mantenemos una lista de espera para el servicio. Esa lista es exactamente la razón por la que su apoyo importa.",
+    "wordsTitle": "Una nota sobre las palabras",
+    "wordsBody": "En Haití, un trabajador de biblioteca dirige una biblioteca sin certificación formal, porque el país no tiene programa de acreditación. Un bibliotecario posee un título en bibliotecología. Haití tiene apenas unos puñados de bibliotecarios certificados para once millones y medio de personas. Cambiar eso es parte de nuestro juego largo.",
+    "cta": "Postule por la página de contacto"
+  },
+  "librariesPage": {
+    "eyebrow": "Bibliotecas para niños",
+    "title": "Una cultura de bibliotecas infantiles, aldea por aldea.",
+    "lede": "Fortalecemos bibliotecas rurales hasta que se sostienen solas. Este es el estándar hacia el que acompañamos, y las cinco bibliotecas que lo viven.",
+    "standardsTitle": "Lo que una biblioteca PILH aspira a ser",
+    "standards": [
+      {
+        "title": "Recursos de calidad",
+        "body": "Libros y herramientas bien seleccionados, en todos los formatos, digitales incluidos donde el wifi lo permite."
+      },
+      {
+        "title": "Trabajadores formados",
+        "body": "Al servicio de los niños desde el nacimiento hasta los ocho años, aprendiendo siempre de expertos."
+      },
+      {
+        "title": "Competencias informativas",
+        "body": "Guía para niños de siete y ocho años en encontrar y usar distintos tipos de información."
+      },
+      {
+        "title": "Una sala segura e iluminada",
+        "body": "Un lugar acogedor donde los mayores hacen tareas después del anochecer."
+      },
+      {
+        "title": "Programas kreyòl primero",
+        "body": "Actividades que incluyen a hermanos, padres y abuelos, y despiertan la creatividad de los niños."
+      },
+      {
+        "title": "Una comunidad conectada",
+        "body": "Maestros empoderados, líderes comprometidos, escuelas aliadas, ONG cooperando."
+      }
+    ],
+    "listTitle": "Las cinco bibliotecas",
+    "trainersTitle": "Nuestros socios de formación",
+    "trainersLede": "Cuando las condiciones impiden viajar al personal de PILH, trabajadores haitianos formados llevan la formación adelante.",
+    "trainers": [
+      {
+        "who": "Besly Belizaire, biblioteca de Deschapelles",
+        "detail": "Trabajador principal, formado por Terry Peterson MLIS, Sister Cities Essex"
+      },
+      {
+        "who": "Fernand Constant, La Chapelle",
+        "detail": "Formado por Janet Deavor MLIS, voluntaria de HEPI"
+      },
+      {
+        "who": "Equipo de la biblioteca de Cange",
+        "detail": "Formado por la Dra. Sara Mansbach, especialista en lectura de PILH"
+      },
+      {
+        "who": "Formación docente en La Chapelle",
+        "detail": "Janet Deavor, pastor Carlo Belon, Dr. Peter Manuel, Dra. Sara Mansbach"
+      },
+      {
+        "who": "Mortenson Center, University of Illinois",
+        "detail": "Presentaciones en red dirigidas por su directora, la Dra. Clara M. Chu"
+      }
+    ],
+    "allianceTitle": "Doce bibliotecas, una red",
+    "allianceBody": "La Alianza de Bibliotecas de Haití conecta a trabajadores de bibliotecas por Zoom, del catalogado a los programas infantiles. La membresía es gratuita.",
+    "allianceCta": "Visitar la Alianza"
+  },
+  "readersPage": {
+    "eyebrow": "Formar jóvenes lectores",
+    "title": "El lector se construye antes del quinto cumpleaños.",
+    "lede": "El futuro de Haití depende de una generación que lea. La ventana se abre al nacer, y se abre en kreyòl.",
+    "windowTitle": "La ventana que más importa",
+    "windowBody": "El cerebro de un niño se construye con mayor intensidad desde el nacimiento hasta los cuatro años. Las bibliotecas dan a maestros, padres y cuidadores ese conocimiento, y los libros que lo convierten en práctica diaria. La alegría debe venir primero, y debe venir en kreyòl, con libros que enseñan, deleitan y desafían.",
+    "desertTitle": "Los llamamos desiertos de libros",
+    "desertLabels": {
+      "schools": "escuelas rurales estudiadas",
+      "classrooms": "aulas recorridas",
+      "books": "libros adicionales encontrados"
+    },
+    "desertBody": "Ni un estante, y ninguna fuente de libros cerca. Las aldeas de montaña de Haití están aisladas de los libros adecuados a la edad y de una cultura lectora. El setenta por ciento de las escuelas primarias son privadas y rara vez presupuestan lectura recreativa. Donde una familia vive con menos de 2.15 dólares al día, comprar libros es imposible. Una biblioteca o un rincón de lectura cercano cambia el paradigma.",
+    "whyTitle": "Por qué el kreyòl",
+    "whyBody": "El kreyòl es la lengua hablada del noventa y cinco por ciento de los haitianos. La vieja norma era el francés colonial, enseñado de memoria, que frustraba a los lectores con dificultades y ayudó a que el setenta por ciento de los niños dejara la escuela antes de sexto grado.",
+    "policyCallout": "En febrero de 2022, el ministro de Educación de Haití proclamó que las escuelas públicas deben enseñar a los niños de tres a ocho años en kreyòl. Cada libro, cartel y formación de PILH se basa en la premisa que el gobierno ahora comparte: un niño haitiano debe aprender a leer en la lengua haitiana.",
+    "ctaTitle": "Ponga diez libros en manos jóvenes",
+    "ctaBody": "Quince dólares al mes financian diez libros infantiles en kreyòl, cada mes.",
+    "cta": "Donar $15 al mes"
+  },
+  "alliancePage": {
+    "eyebrow": "Byenvini. Bienvenue. Welcome.",
+    "title": "La Alianza de Bibliotecas de Haití",
+    "lede": "Una comunidad gratuita de trabajadores y defensores de bibliotecas, dentro de Haití y en el mundo.",
+    "aboutBody": "La Alianza promueve las bibliotecas, fortalece la bibliotecología y conecta a la gente de bibliotecas mediante el intercambio de información, el desarrollo de capacidades y la colaboración. Se creó en 2020 tras una encuesta a las bibliotecas de Haití, y comenzó sus reuniones mensuales y su lista electrónica en 2021. Es una colaboración entre el Mortenson Center for International Library Programs de la University of Illinois y Partners in Literacy Haiti.",
+    "facts": [
+      "Fundada en 2020",
+      "Reuniones mensuales por Zoom desde 2021",
+      "12 bibliotecas miembro y creciendo",
+      "Unirse es gratis"
+    ],
+    "benefitsTitle": "Lo que reciben los miembros",
+    "benefits": [
+      {
+        "title": "Reuniones mensuales",
+        "body": "Presentaciones por Zoom, del catalogado a los programas infantiles, grabadas para quien no pueda asistir."
+      },
+      {
+        "title": "La lista biblio-haiti",
+        "body": "Una lista de correo que conecta a la gente de bibliotecas en Haití y la diáspora."
+      },
+      {
+        "title": "Recursos para miembros",
+        "body": "Un área protegida con contraseña: guías, plantillas y material de formación."
+      },
+      {
+        "title": "Una comunidad real",
+        "body": "Doce bibliotecas compartiendo lo que funciona, en kreyòl, francés e inglés."
+      }
+    ],
+    "joinTitle": "La membresía es gratuita",
+    "joinBody": "Díganos quién es, qué solicita y por qué quiere unirse. Le daremos la bienvenida y le enviaremos la contraseña de acceso a los recursos.",
+    "joinCta": "Contáctenos para unirse"
+  },
+  "numbersPage": {
+    "eyebrow": "Las cifras",
+    "title": "La evidencia detrás de cada decisión.",
+    "lede": "Trabajamos con datos, no con sentimientos. Este es el contexto que da forma a nuestra estrategia, con fuentes verificables.",
+    "contextTitle": "Haití en cuatro cifras",
+    "contextStats": [
+      {
+        "value": "11.3M",
+        "label": "personas, con el kreyòl y el francés como lenguas oficiales"
+      },
+      {
+        "value": "95%",
+        "label": "hablan kreyòl. A lo sumo uno de cada diez habla francés"
+      },
+      {
+        "value": "80%",
+        "label": "viven en pobreza, la mayoría de agricultura de subsistencia"
+      },
+      {
+        "value": "$2.50",
+        "label": "al día es el salario mínimo, y dos tercios carecen de empleo formal"
+      }
+    ],
+    "chartTitle": "La educación, lado a lado",
+    "chartNote": "Escala porcentual, 0 a 100. Fuente: USAID International Data and Economic Analysis, noviembre de 2022. Las cifras regionales corresponden a América Latina y el Caribe.",
+    "legend": {
+      "haiti": "Haití",
+      "region": "Región",
+      "world": "Mundo"
+    },
+    "indicators": {
+      "outOfSchool": "Niños sin escolarizar, % de edad primaria",
+      "youthLit": "Alfabetización juvenil, 15 a 24 años, %",
+      "adultLit": "Alfabetización adulta, 15 años o más, %",
+      "enrollment": "Matrícula primaria neta, %",
+      "prePrimary": "Matrícula preprimaria bruta, %",
+      "completion": "Finalización de primaria, %"
+    },
+    "miniTitle1": "Años de escolaridad ajustados por aprendizaje",
+    "miniTitle2": "Gasto público en educación, % del PIB",
+    "yearsUnit": "años",
+    "takeTitle": "Lo que concluimos",
+    "takeBody": "Dos cifras guían nuestra estrategia. El noventa y cinco por ciento de los haitianos habla kreyòl, y la matrícula preprimaria ronda el cinco por ciento. Los aprendices más pequeños son los peor atendidos, en la lengua en la que casi nadie imprime libros. Exactamente ahí una biblioteca infantil cambia vidas, y exactamente ahí trabaja PILH.",
+    "sourceNote": "Los disturbios recientes, la Covid y el terremoto del Grand Sud de 2021 mantuvieron muchas escuelas cerradas o atrasadas, así que las condiciones actuales probablemente sean más duras que estas cifras.",
+    "cta": "Vea lo que hace su donación"
   }
 }

@@ -627,5 +627,205 @@
     "orderTitle": "How to order",
     "orderBody": "Send us your name, email, where the materials will be used, a postal code, and the items and quantities you want. We reply with shipping cost and delivery time.",
     "orderCta": "Order through the contact page"
+  },
+  "workPage": {
+    "eyebrow": "Our work",
+    "title": "Three things, done together, for as long as it takes.",
+    "lede": "Books, libraries and trained people. None of them works alone, so we never do just one.",
+    "pillars": [
+      {
+        "title": "Kreyòl books",
+        "body": "Written, illustrated and edited by Haitians, for Haitian children, about Haitian life. A child learns to read in the language spoken at home."
+      },
+      {
+        "title": "Real libraries",
+        "body": "Shelves, light, power, internet, computers and a paid library worker. A safe room to read after school and do homework in the evening."
+      },
+      {
+        "title": "Trained people",
+        "body": "An eleven module curriculum for library workers, developed in Haiti. Teachers learn read alouds, book corners and how to keep children curious."
+      }
+    ],
+    "exploreTitle": "Explore the work",
+    "explore": {
+      "libraries": "Five village libraries mentored to one standard",
+      "duplan": "Our flagship: a twenty year old library reborn",
+      "young-readers": "Why the first five years decide everything",
+      "kreyol-materials": "Six books and the chart that took thirteen years",
+      "alliance": "Twelve libraries networking across Haiti",
+      "statistics": "The evidence behind every decision we make"
+    },
+    "startTitle": "Start a library in your village",
+    "startBody": "A children's library begins with a village that wants one and will invest in it. Apply, join a Zoom or WhatsApp interview, and our review committee selects. The village commits to four things:",
+    "commitments": [
+      "Pay the library worker. We help you interview an enthusiastic candidate.",
+      "Maintain strong wi-fi for training sessions and village meetings.",
+      "Elect an active library committee of teachers and village leaders.",
+      "Develop realistic, workable ideas for sustainability."
+    ],
+    "waitNote": "As a young nonprofit we keep a waiting list for service. That list is exactly why your support matters.",
+    "wordsTitle": "A note on words",
+    "wordsBody": "In Haiti, a library worker runs a library without formal certification, because the country has no accrediting program. A librarian holds a degree in library science. Haiti has only a few handfuls of certified librarians for eleven and a half million people. Changing that is part of our long game.",
+    "cta": "Apply through the contact page"
+  },
+  "librariesPage": {
+    "eyebrow": "Libraries for children",
+    "title": "A culture of children's libraries, built village by village.",
+    "lede": "We strengthen rural libraries until they stand on their own. Here is the standard we mentor toward, and the five libraries living it.",
+    "standardsTitle": "What a PILH library strives to be",
+    "standards": [
+      {
+        "title": "Quality resources",
+        "body": "Carefully selected books and tools in every format, digital included where wi-fi allows."
+      },
+      {
+        "title": "Trained library workers",
+        "body": "Serving children from birth through eight, and always learning from library experts."
+      },
+      {
+        "title": "Information skills",
+        "body": "Guidance for seven and eight year olds in finding and using different kinds of information."
+      },
+      {
+        "title": "A safe, lit evening room",
+        "body": "A welcoming place where older girls and boys do schoolwork after dark."
+      },
+      {
+        "title": "Kreyòl first programs",
+        "body": "Activities that include siblings, parents and grandparents, and spark children's own creativity."
+      },
+      {
+        "title": "A connected community",
+        "body": "Teachers empowered, leaders engaged, schools in partnership, NGOs working together."
+      }
+    ],
+    "listTitle": "The five libraries",
+    "trainersTitle": "Our partners in training",
+    "trainersLede": "When conditions keep PILH personnel from traveling, trained Haitian library workers carry the training forward.",
+    "trainers": [
+      {
+        "who": "Besly Belizaire, Deschapelles Library",
+        "detail": "Head library worker, trained by Terry Peterson MLIS, Sister Cities Essex"
+      },
+      {
+        "who": "Fernand Constant, La Chapelle",
+        "detail": "Trained by Janet Deavor MLIS, an HEPI volunteer"
+      },
+      {
+        "who": "Cange Library team",
+        "detail": "Trained by Dr. Sara Mansbach, PILH reading specialist"
+      },
+      {
+        "who": "La Chapelle teacher training",
+        "detail": "Janet Deavor, Pastor Carlo Belon, Dr. Peter Manuel, Dr. Sara Mansbach"
+      },
+      {
+        "who": "Mortenson Center, University of Illinois",
+        "detail": "Networking presentations led by its director, Dr. Clara M. Chu"
+      }
+    ],
+    "allianceTitle": "Twelve libraries, one network",
+    "allianceBody": "The Haiti Libraries Alliance connects library workers across Haiti on Zoom, from cataloguing to children's programming. Membership is free.",
+    "allianceCta": "Visit the Alliance"
+  },
+  "readersPage": {
+    "eyebrow": "Growing young readers",
+    "title": "The reader is built before the fifth birthday.",
+    "lede": "Haiti's future depends on a generation that reads. The window opens at birth, and it opens in Kreyòl.",
+    "windowTitle": "The window that matters most",
+    "windowBody": "A child's brain builds itself most intensively from birth to age four. Libraries equip village teachers, parents and caregivers with that knowledge, and with the books that turn it into daily practice. The joy has to come first, and it has to come in Kreyòl, with books that teach, delight and challenge.",
+    "desertTitle": "We call them book deserts",
+    "desertLabels": {
+      "schools": "rural schools we surveyed",
+      "classrooms": "classrooms we walked through",
+      "books": "extra books we found in them"
+    },
+    "desertBody": "Not one bookshelf, and no source of books anywhere nearby. Haiti's mountain villages are cut off from age appropriate books and from a culture of reading. Seventy percent of primary schools are private and rarely budget for pleasure reading. Where a family lives on less than 2.15 dollars a day, buying books is out of reach. A library or book corner nearby changes the paradigm.",
+    "whyTitle": "Why Kreyòl",
+    "whyBody": "Kreyòl is the spoken language of ninety five percent of Haiti's people. The old standard was colonial French, taught by rote, which frustrated struggling readers and helped drive seventy percent of children out of school before sixth grade.",
+    "policyCallout": "In February 2022 Haiti's Minister of Education proclaimed that public schools should teach children aged three to eight in Kreyòl. Every PILH book, chart and training is built on the premise the government now shares: a Haitian child should learn to read in the Haitian language.",
+    "ctaTitle": "Put ten books in young hands",
+    "ctaBody": "Fifteen dollars a month funds ten Kreyòl children's books, every month.",
+    "cta": "Give $15 a month"
+  },
+  "alliancePage": {
+    "eyebrow": "Byenvini. Bienvenue. Welcome.",
+    "title": "The Haiti Libraries Alliance",
+    "lede": "A free community of library workers and library advocates, inside Haiti and around the world.",
+    "aboutBody": "The Alliance promotes libraries, strengthens librarianship and connects library people through information sharing, capacity development and collaboration. It was established in 2020 after a survey of Haiti's libraries and stakeholders, and began monthly meetings and its e-list in 2021. It is a collaboration between the Mortenson Center for International Library Programs at the University of Illinois and Partners in Literacy Haiti.",
+    "facts": [
+      "Founded 2020",
+      "Monthly Zoom meetings since 2021",
+      "12 member libraries and growing",
+      "Free to join"
+    ],
+    "benefitsTitle": "What members get",
+    "benefits": [
+      {
+        "title": "Monthly meetings",
+        "body": "Presentations on Zoom, from cataloguing to children's programming, recorded for anyone who cannot attend live."
+      },
+      {
+        "title": "The biblio-haiti e-list",
+        "body": "An electronic mailing list connecting library people across Haiti and the diaspora."
+      },
+      {
+        "title": "Member resources",
+        "body": "A password protected resource area of guides, templates and training material."
+      },
+      {
+        "title": "A real community",
+        "body": "Twelve libraries sharing what works, in Kreyòl, French and English."
+      }
+    ],
+    "joinTitle": "Membership is free",
+    "joinBody": "Tell us who you are, what you are requesting, and why you want to join. We will welcome you and send the resource access password.",
+    "joinCta": "Contact us to join"
+  },
+  "numbersPage": {
+    "eyebrow": "The numbers",
+    "title": "The evidence behind every decision.",
+    "lede": "We work from data, not sentiment. Here is the context that shapes our strategy, from sources you can check.",
+    "contextTitle": "Haiti in four numbers",
+    "contextStats": [
+      {
+        "value": "11.3M",
+        "label": "people, with Kreyòl and French as official languages"
+      },
+      {
+        "value": "95%",
+        "label": "speak Kreyòl. At most one in ten speaks French"
+      },
+      {
+        "value": "80%",
+        "label": "live in poverty, most on subsistence farming"
+      },
+      {
+        "value": "$2.50",
+        "label": "a day is the minimum wage, and two thirds lack formal jobs"
+      }
+    ],
+    "chartTitle": "Education, side by side",
+    "chartNote": "Percent scale, 0 to 100. Source: USAID International Data and Economic Analysis, November 2022. Regional figures are Latin America and the Caribbean.",
+    "legend": {
+      "haiti": "Haiti",
+      "region": "Region",
+      "world": "World"
+    },
+    "indicators": {
+      "outOfSchool": "Children out of school, % of primary age",
+      "youthLit": "Youth literacy, ages 15 to 24, %",
+      "adultLit": "Adult literacy, ages 15 and up, %",
+      "enrollment": "Net primary enrollment, %",
+      "prePrimary": "Pre primary gross enrollment, %",
+      "completion": "Primary completion, %"
+    },
+    "miniTitle1": "Learning adjusted years of school",
+    "miniTitle2": "Government education spending, % of GDP",
+    "yearsUnit": "years",
+    "takeTitle": "What we take from this",
+    "takeBody": "Two numbers drive our strategy. Ninety five percent of Haitians speak Kreyòl, and pre primary enrollment sits near five percent. The earliest learners are the least served, in the language almost nobody prints books in. That is exactly where a children's library changes lives, and exactly where PILH works.",
+    "sourceNote": "Recent years of unrest, Covid and the 2021 Grand Sud earthquake kept many schools closed or late to open, so current conditions are likely harder than these figures show.",
+    "cta": "See what your gift does"
   }
 }

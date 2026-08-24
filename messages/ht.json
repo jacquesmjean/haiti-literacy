@@ -627,5 +627,205 @@
     "orderTitle": "Kijan pou kòmande",
     "orderBody": "Voye non w, imel ou, kote materyèl yo pral itilize, yon kòd postal, ak atik ak kantite ou vle yo. N ap reponn ak pri transpò ak delè livrezon.",
     "orderCta": "Kòmande atravè paj kontak la"
+  },
+  "workPage": {
+    "eyebrow": "Travay nou",
+    "title": "Twa bagay, ansanm, pou tout tan sa mande.",
+    "lede": "Liv, bibliyotèk ak moun ki fòme. Youn pa mache pou kont li, kidonk nou pa janm fè yon sèl.",
+    "pillars": [
+      {
+        "title": "Liv kreyòl",
+        "body": "Ekri, ilistre epi edite pa Ayisyen, pou timoun ayisyen, sou lavi ayisyen. Yon timoun aprann li nan lang yo pale lakay li."
+      },
+      {
+        "title": "Vrè bibliyotèk",
+        "body": "Etajè, limyè, kouran, entènèt, òdinatè ak yon travayè bibliyotèk ki peye. Yon sal an sekirite pou li apre lekòl ak fè devwa leswa."
+      },
+      {
+        "title": "Moun ki fòme",
+        "body": "Yon pwogram onz modil pou travayè bibliyotèk, devlope ann Ayiti. Pwofesè yo aprann li awotvwa, kwen liv ak kijan pou kenbe kiryozite timoun."
+      }
+    ],
+    "exploreTitle": "Eksplore travay la",
+    "explore": {
+      "libraries": "Senk bibliyotèk vilaj akonpaye sou yon sèl estanda",
+      "duplan": "Pwojè prensipal nou: yon bibliyotèk ven an ki fèt ankò",
+      "young-readers": "Poukisa senk premye ane yo deside tout bagay",
+      "kreyol-materials": "Sis liv ak tablo ki pran trèz ane a",
+      "alliance": "Douz bibliyotèk an rezo atravè Ayiti",
+      "statistics": "Prèv ki dèyè chak desizyon nou pran"
+    },
+    "startTitle": "Kòmanse yon bibliyotèk nan vilaj ou",
+    "startBody": "Yon bibliyotèk timoun kòmanse ak yon vilaj ki vle li epi k ap envesti ladan. Fè aplikasyon, patisipe nan yon entèvyou sou Zoom oswa WhatsApp, epi komite revizyon nou an chwazi. Vilaj la angaje l sou kat bagay:",
+    "commitments": [
+      "Peye travayè bibliyotèk la. Nou ede w entèvyouve yon kandida motive.",
+      "Kenbe yon bon wifi pou seyans fòmasyon ak reyinyon vilaj.",
+      "Eli yon komite bibliyotèk aktif ak pwofesè ak lidè vilaj.",
+      "Devlope lide reyalis ki ka kenbe pwojè a."
+    ],
+    "waitNote": "Kòm yon jèn òganizasyon, nou kenbe yon lis datant pou sèvis. Se lis sa a menm ki fè sipò ou enpòtan.",
+    "wordsTitle": "Yon nòt sou mo yo",
+    "wordsBody": "Ann Ayiti, yon travayè bibliyotèk dirije yon bibliyotèk san sètifikasyon fòmèl, paske peyi a pa gen pwogram akreditasyon. Yon bibliyotekè gen yon diplòm nan syans bibliyotèk. Ayiti gen sèlman kèk ponyen bibliyotekè sètifye pou onz milyon edmi moun. Chanje sa fè pati plan alontèm nou.",
+    "cta": "Fè aplikasyon atravè paj kontak la"
+  },
+  "librariesPage": {
+    "eyebrow": "Bibliyotèk pou timoun",
+    "title": "Yon kilti bibliyotèk timoun, bati vilaj pa vilaj.",
+    "lede": "Nou ranfòse bibliyotèk riral jiskaske yo kanpe pou kont yo. Men estanda n ap akonpaye a, ak senk bibliyotèk k ap viv li.",
+    "standardsTitle": "Sa yon bibliyotèk PILH ap chèche vin ye",
+    "standards": [
+      {
+        "title": "Resous kalite",
+        "body": "Liv ak zouti byen chwazi nan tout fòma, dijital tou kote wifi pèmèt."
+      },
+      {
+        "title": "Travayè ki fòme",
+        "body": "K ap sèvi timoun depi nesans jiska uit an, epi k ap toujou aprann nan men ekspè."
+      },
+      {
+        "title": "Konpetans enfòmasyon",
+        "body": "Gid pou timoun sèt ak uit an nan jwenn ak itilize diferan kalite enfòmasyon."
+      },
+      {
+        "title": "Yon sal klere leswa",
+        "body": "Yon kote akeyan e an sekirite kote pi gran timoun fè devwa apre solèy kouche."
+      },
+      {
+        "title": "Pwogram kreyòl anvan",
+        "body": "Aktivite ki mete frè ak sè, paran ak granparan ladan, epi ki limen kreyativite timoun."
+      },
+      {
+        "title": "Yon kominote konekte",
+        "body": "Pwofesè ranfòse, lidè angaje, lekòl an patenarya, ONG k ap travay ansanm."
+      }
+    ],
+    "listTitle": "Senk bibliyotèk yo",
+    "trainersTitle": "Patnè nou nan fòmasyon",
+    "trainersLede": "Lè kondisyon yo anpeche pèsonèl PILH vwayaje, travayè bibliyotèk ayisyen ki fòme pote fòmasyon an pi devan.",
+    "trainers": [
+      {
+        "who": "Besly Belizaire, Bibliyotèk Deschapelles",
+        "detail": "Chèf travayè bibliyotèk, fòme pa Terry Peterson MLIS, Sister Cities Essex"
+      },
+      {
+        "who": "Fernand Constant, La Chapelle",
+        "detail": "Fòme pa Janet Deavor MLIS, yon volontè HEPI"
+      },
+      {
+        "who": "Ekip Bibliyotèk Cange",
+        "detail": "Fòme pa Doktè Sara Mansbach, espesyalis lekti PILH"
+      },
+      {
+        "who": "Fòmasyon pwofesè La Chapelle",
+        "detail": "Janet Deavor, Pastè Carlo Belon, Doktè Peter Manuel, Doktè Sara Mansbach"
+      },
+      {
+        "who": "Mortenson Center, University of Illinois",
+        "detail": "Prezantasyon rezo ak direktè li, Doktè Clara M. Chu"
+      }
+    ],
+    "allianceTitle": "Douz bibliyotèk, yon sèl rezo",
+    "allianceBody": "Alyans Bibliyotèk Ayiti konekte travayè bibliyotèk atravè Ayiti sou Zoom, depi katalogaj jiska pwogram pou timoun. Manm gratis.",
+    "allianceCta": "Vizite Alyans la"
+  },
+  "readersPage": {
+    "eyebrow": "Fè jèn lektè grandi",
+    "title": "Lektè a bati anvan senkyèm anivèsè a.",
+    "lede": "Avni Ayiti depann de yon jenerasyon ki li. Fenèt la louvri depi nesans, epi li louvri an kreyòl.",
+    "windowTitle": "Fenèt ki pi enpòtan an",
+    "windowBody": "Sèvo yon timoun bati tèt li pi entansman depi nesans jiska kat an. Bibliyotèk yo bay pwofesè vilaj, paran ak moun k ap bay swen konesans sa a, ansanm ak liv ki fè li tounen pratik chak jou. Lajwa dwe vini anvan, epi li dwe vini an kreyòl, ak liv ki enstwi, fè plezi epi bay defi.",
+    "desertTitle": "Nou rele yo dezè liv",
+    "desertLabels": {
+      "schools": "lekòl riral nou te sonde",
+      "classrooms": "sal klas nou te mache ladan",
+      "books": "liv anplis nou te jwenn ladan yo"
+    },
+    "desertBody": "Pa yon etajè, epi okenn sous liv toupre. Vilaj mòn Ayiti yo koupe de liv ki adapte ak laj ak yon kilti lekti. Swasanndis pousan lekòl primè yo prive epi yo raman gen bidjè pou lekti plezi. Kote yon fanmi viv ak mwens pase 2.15 dola pa jou, achte liv pa posib. Yon bibliyotèk oswa yon kwen liv toupre chanje paradigm nan.",
+    "whyTitle": "Poukisa kreyòl",
+    "whyBody": "Kreyòl se lang katrevenkenz pousan pèp ayisyen an pale. Ansyen estanda a se te franse kolonyal, anseye pa kè, ki te fristre lektè ki t ap lite yo epi ki te ede pouse swasanndis pousan timoun kite lekòl anvan sizyèm ane.",
+    "policyCallout": "An fevriye 2022, Minis Edikasyon Ayiti a te pwoklame lekòl piblik yo dwe anseye timoun twa a uit an an kreyòl. Chak liv, tablo ak fòmasyon PILH bati sou prensip gouvènman an pataje kounye a: yon timoun ayisyen dwe aprann li nan lang ayisyen an.",
+    "ctaTitle": "Mete dis liv nan men jèn timoun",
+    "ctaBody": "Kenz dola pa mwa finanse dis liv kreyòl pou timoun, chak mwa.",
+    "cta": "Bay $15 pa mwa"
+  },
+  "alliancePage": {
+    "eyebrow": "Byenvini. Bienvenue. Welcome.",
+    "title": "Alyans Bibliyotèk Ayiti",
+    "lede": "Yon kominote gratis travayè bibliyotèk ak defansè bibliyotèk, anndan Ayiti ak toupatou nan mond lan.",
+    "aboutBody": "Alyans la fè pwomosyon bibliyotèk, ranfòse metye bibliyotekè epi konekte moun bibliyotèk atravè pataj enfòmasyon, devlopman kapasite ak kolaborasyon. Li te etabli an 2020 apre yon sondaj sou bibliyotèk Ayiti yo, epi li kòmanse reyinyon chak mwa ak lis elektwonik li an 2021. Se yon kolaborasyon ant Mortenson Center for International Library Programs nan University of Illinois ak Partners in Literacy Haiti.",
+    "facts": [
+      "Fonde an 2020",
+      "Reyinyon Zoom chak mwa depi 2021",
+      "12 bibliyotèk manm e n ap grandi",
+      "Gratis pou antre"
+    ],
+    "benefitsTitle": "Sa manm yo jwenn",
+    "benefits": [
+      {
+        "title": "Reyinyon chak mwa",
+        "body": "Prezantasyon sou Zoom, depi katalogaj jiska pwogram timoun, anrejistre pou moun ki pa ka la."
+      },
+      {
+        "title": "Lis biblio-haiti a",
+        "body": "Yon lis elektwonik ki konekte moun bibliyotèk atravè Ayiti ak dyaspora a."
+      },
+      {
+        "title": "Resous pou manm",
+        "body": "Yon espas resous ak modpas: gid, modèl ak materyèl fòmasyon."
+      },
+      {
+        "title": "Yon vrè kominote",
+        "body": "Douz bibliyotèk k ap pataje sa ki mache, an kreyòl, franse ak anglè."
+      }
+    ],
+    "joinTitle": "Manm gratis",
+    "joinBody": "Di nou kiyès ou ye, sa w ap mande, ak poukisa ou vle antre. N ap akeyi w epi n ap voye modpas aksè resous yo.",
+    "joinCta": "Kontakte nou pou antre"
+  },
+  "numbersPage": {
+    "eyebrow": "Chif yo",
+    "title": "Prèv ki dèyè chak desizyon.",
+    "lede": "Nou travay sou done, pa sou santiman. Men kontèks ki fòme estrateji nou, ak sous ou ka verifye.",
+    "contextTitle": "Ayiti nan kat chif",
+    "contextStats": [
+      {
+        "value": "11.3M",
+        "label": "moun, ak kreyòl ak franse kòm lang ofisyèl"
+      },
+      {
+        "value": "95%",
+        "label": "pale kreyòl. Omaksimòm yon sou dis pale franse"
+      },
+      {
+        "value": "80%",
+        "label": "viv nan povrete, pifò sou agrikilti sibzistans"
+      },
+      {
+        "value": "$2.50",
+        "label": "pa jou se salè minimòm, epi de tyè pa gen travay fòmèl"
+      }
+    ],
+    "chartTitle": "Edikasyon, kòt a kòt",
+    "chartNote": "Echèl pousantaj, 0 a 100. Sous: USAID International Data and Economic Analysis, novanm 2022. Chif rejyonal yo se Amerik Latin ak Karayib la.",
+    "legend": {
+      "haiti": "Ayiti",
+      "region": "Rejyon",
+      "world": "Mond"
+    },
+    "indicators": {
+      "outOfSchool": "Timoun ki pa lekòl, % laj primè",
+      "youthLit": "Alfabetizasyon jèn, 15 a 24 an, %",
+      "adultLit": "Alfabetizasyon granmoun, 15 an plis, %",
+      "enrollment": "Enskripsyon primè nèt, %",
+      "prePrimary": "Enskripsyon preprimè brit, %",
+      "completion": "Fini lekòl primè, %"
+    },
+    "miniTitle1": "Ane lekòl ajiste pou aprantisaj",
+    "miniTitle2": "Depans gouvènman pou edikasyon, % PIB",
+    "yearsUnit": "ane",
+    "takeTitle": "Sa nou pran nan sa",
+    "takeBody": "De chif dirije estrateji nou. Katrevenkenz pousan Ayisyen pale kreyòl, epi enskripsyon preprimè a prèske senk pousan. Timoun ki pi piti yo se yo ki pi mal sèvi, nan lang prèske pèsonn pa enprime liv ladan. Se egzakteman la yon bibliyotèk timoun chanje lavi, epi egzakteman la PILH ap travay.",
+    "sourceNote": "Dènye ane yo, twoub, Covid ak tranblemanntè Gran Sid 2021 an te kenbe anpil lekòl fèmen oswa an reta, kidonk kondisyon aktyèl yo pwobableman pi difisil pase chif sa yo.",
+    "cta": "Gade sa don ou fè"
   }
 }
