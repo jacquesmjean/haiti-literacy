@@ -340,5 +340,48 @@
     "transparencyBody": "Publicamos nuestros informes anuales, declaramos ante el IRS cada año y tenemos el sello Platino de Candid. Pregúntenos lo que quiera sobre el dinero. Responderemos.",
     "transparencyCta": "Leer nuestros informes anuales",
     "contactCta": "Díganos cómo quiere ayudar"
+  },
+  "campaigns": {
+    "eyebrow": "Campañas",
+    "title": "Elija una campaña. Apodérese del resultado.",
+    "lede": "Cada campaña tiene un precio claro, un resultado claro y un informe con fotos al terminar. Perfecta para una familia, una empresa, un club Rotary, una iglesia o un aula de la diáspora.",
+    "items": [
+      {
+        "id": "classroom",
+        "title": "Cambie un aula",
+        "amount": "$135",
+        "body": "Equipe un aula con un juego completo de doce libros en kreyòl, cuatro carteles del alfabeto y útiles de lectura. El maestro recibe los materiales, los niños reciben su primer rincón de lectura.",
+        "cta": "Cambiar un aula"
+      },
+      {
+        "id": "school-library",
+        "title": "Financie una biblioteca en una escuela",
+        "amount": "$2,500",
+        "body": "Convierta una sala vacía de una escuela rural en una biblioteca infantil que funcione. Estanterías, una colección inicial en kreyòl y francés, carteles y un trabajador capacitado para dirigirla.",
+        "cta": "Financiar una biblioteca"
+      },
+      {
+        "id": "adopt",
+        "title": "Adopte una biblioteca",
+        "amount": "$250/mes",
+        "body": "Mantenga viva una biblioteca de aldea durante un año. Su donación mensual cubre el estipendio del bibliotecario, el internet y los libros nuevos. Recibirá sus noticias y fotos, y su nombre en la pared si lo desea.",
+        "cta": "Adoptar una biblioteca"
+      },
+      {
+        "id": "volunteer",
+        "title": "Sea voluntario",
+        "amount": "Su tiempo",
+        "body": "Subvenciones, marketing, eventos, traducción, diseño de programas. Los comités se reúnen por Zoom en el idioma que prefiera. Unas horas al mes hacen avanzar trabajo real.",
+        "cta": "Ser voluntario"
+      },
+      {
+        "id": "ambassador",
+        "title": "Sea embajador",
+        "amount": "Su voz",
+        "body": "Represente a PILH en su ciudad, su empresa o su club. Le damos la presentación, la historia y los materiales. Usted abre las puertas. Perfecto para la diáspora haitiana en todo el mundo.",
+        "cta": "Ser embajador"
+      }
+    ],
+    "note": "Los montos de las campañas son estimaciones basadas en nuestros costos de programa publicados. Cada campaña recibe un informe de impacto escrito."
   }
 }

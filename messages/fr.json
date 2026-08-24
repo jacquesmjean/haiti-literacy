@@ -340,5 +340,48 @@
     "transparencyBody": "Nous publions nos rapports annuels, déclarons chaque année auprès de l'IRS et détenons le sceau Platine de Candid. Posez nous toutes vos questions sur l'argent. Nous répondrons.",
     "transparencyCta": "Lire nos rapports annuels",
     "contactCta": "Dites nous comment vous voulez aider"
+  },
+  "campaigns": {
+    "eyebrow": "Campagnes",
+    "title": "Choisissez une campagne. Devenez maître du résultat.",
+    "lede": "Chaque campagne a un prix clair, un résultat clair, et un rapport avec photos quand elle est achevée. Parfait pour une famille, une entreprise, un club Rotary, une église ou une classe de la diaspora.",
+    "items": [
+      {
+        "id": "classroom",
+        "title": "Changer une salle de classe",
+        "amount": "135 $",
+        "body": "Équipez une salle de classe d'un ensemble complet de douze livres kreyòl, quatre affiches alphabétiques et du matériel de lecture. L'enseignant reçoit les supports, les enfants reçoivent leur premier coin lecture.",
+        "cta": "Changer une classe"
+      },
+      {
+        "id": "school-library",
+        "title": "Financer une bibliothèque scolaire",
+        "amount": "2 500 $",
+        "body": "Transformez une salle vide d'une école rurale en véritable bibliothèque pour enfants. Étagères, collection de départ en kreyòl et en français, affiches et un employé formé pour la faire vivre.",
+        "cta": "Financer une bibliothèque"
+      },
+      {
+        "id": "adopt",
+        "title": "Adopter une bibliothèque",
+        "amount": "250 $/mois",
+        "body": "Maintenez en vie une bibliothèque de village pendant un an. Votre don mensuel couvre l'allocation du bibliothécaire, la connexion et les nouveaux livres. Vous recevez ses nouvelles et ses photos, et votre nom sur son mur si vous le souhaitez.",
+        "cta": "Adopter une bibliothèque"
+      },
+      {
+        "id": "volunteer",
+        "title": "Devenir bénévole",
+        "amount": "Votre temps",
+        "body": "Subventions, marketing, événements, traduction, conception de programmes. Les comités se réunissent sur Zoom dans la langue de votre choix. Quelques heures par mois font avancer un vrai travail.",
+        "cta": "Devenir bénévole"
+      },
+      {
+        "id": "ambassador",
+        "title": "Devenir ambassadeur",
+        "amount": "Votre voix",
+        "body": "Représentez PILH dans votre ville, votre entreprise ou votre club. Nous fournissons la présentation, l'histoire et les supports. Vous ouvrez les portes. Parfait pour la diaspora haïtienne partout dans le monde.",
+        "cta": "Devenir ambassadeur"
+      }
+    ],
+    "note": "Les montants des campagnes sont des estimations fondées sur nos coûts de programme publiés. Chaque campagne reçoit un rapport d'impact écrit."
   }
 }

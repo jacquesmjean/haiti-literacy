@@ -75,6 +75,53 @@ export default async function GetInvolvedPage(props: {
         </div>
       </section>
 
+      {/* Campaigns */}
+      <section className="wrap py-16 lg:py-24">
+        <div className="max-w-2xl" data-reveal>
+          <p className="eyebrow">{m.campaigns.eyebrow}</p>
+          <h2 className="display mt-4 text-[clamp(1.8rem,2.4vw+1rem,2.9rem)] text-ink">
+            {m.campaigns.title}
+          </h2>
+          <p className="lede mt-5">{m.campaigns.lede}</p>
+        </div>
+
+        <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {m.campaigns.items.map((campaign, index) => {
+            const toGive = campaign.id !== "volunteer" && campaign.id !== "ambassador";
+            const target = toGive ? href(locale, "/give") : href(locale, "/contact");
+            return (
+              <article
+                key={campaign.id}
+                data-reveal
+                style={{ "--reveal-delay": `${index * 80}ms` } as React.CSSProperties}
+                className="group flex flex-col rounded-3xl border border-ink/8 bg-white p-8 shadow-[var(--shadow-lift)] transition hover:-translate-y-1 hover:shadow-[var(--shadow-deep)]"
+              >
+                <p className="display text-3xl text-red">{campaign.amount}</p>
+                <h3 className="serif mt-3 text-xl font-semibold text-ink">
+                  {campaign.title}
+                </h3>
+                <p className="mt-3 flex-1 text-sm leading-relaxed text-ink-soft">
+                  {campaign.body}
+                </p>
+                <Link
+                  href={target}
+                  className={`mt-6 inline-block self-start rounded-full px-5 py-2.5 text-sm font-semibold transition ${
+                    toGive
+                      ? "bg-red text-white hover:bg-red-deep"
+                      : "border border-blue/40 text-blue hover:bg-blue-wash"
+                  }`}
+                >
+                  {campaign.cta}
+                </Link>
+              </article>
+            );
+          })}
+        </div>
+        <p className="mt-8 max-w-2xl text-xs text-ink-faint" data-reveal>
+          {m.campaigns.note}
+        </p>
+      </section>
+
       {/* Ways to serve */}
       <section className="wrap py-16 lg:py-24">
         <h2 className="display text-[clamp(1.7rem,2.2vw+1rem,2.7rem)] text-ink" data-reveal>

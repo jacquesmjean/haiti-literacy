@@ -340,5 +340,48 @@
     "transparencyBody": "We publish our annual reports, file with the IRS every year, and hold the Candid Platinum Transparency seal. Ask us anything about the money. We will answer.",
     "transparencyCta": "Read our annual reports",
     "contactCta": "Tell us how you want to help"
+  },
+  "campaigns": {
+    "eyebrow": "Campaigns",
+    "title": "Pick a campaign. Own the outcome.",
+    "lede": "Each campaign has a clear price, a clear result, and a report back with photos when it is done. Perfect for a family, a company, a Rotary club, a church or a classroom in the diaspora.",
+    "items": [
+      {
+        "id": "classroom",
+        "title": "Change a classroom",
+        "amount": "$135",
+        "body": "Stock one classroom with a full set of twelve Kreyòl books, four alphabet charts and reading supplies. The teacher gets trained materials, the children get their first book corner.",
+        "cta": "Change a classroom"
+      },
+      {
+        "id": "school-library",
+        "title": "Fund a library in a school",
+        "amount": "$2,500",
+        "body": "Turn an empty room in a rural school into a working children's library. Shelving, a starter collection of Kreyòl and French books, charts and a trained library worker to run it.",
+        "cta": "Fund a school library"
+      },
+      {
+        "id": "adopt",
+        "title": "Adopt a library",
+        "amount": "$250/mo",
+        "body": "Keep one existing village library alive for a year. Your monthly gift covers the librarian stipend, internet and new books. You receive that library's updates and photos, and your name on its wall if you wish.",
+        "cta": "Adopt a library"
+      },
+      {
+        "id": "volunteer",
+        "title": "Volunteer",
+        "amount": "Your time",
+        "body": "Grants, marketing, events, translation, program design. Committees meet on Zoom in the language you prefer. A few hours a month moves real work forward.",
+        "cta": "Volunteer with us"
+      },
+      {
+        "id": "ambassador",
+        "title": "Be an ambassador",
+        "amount": "Your voice",
+        "body": "Represent PILH in your city, your company or your club. We give you the deck, the story and the materials. You open the doors. Perfect for the Haitian diaspora everywhere.",
+        "cta": "Become an ambassador"
+      }
+    ],
+    "note": "Campaign amounts are estimates based on our published program costs. Every campaign receives a written impact report."
   }
 }

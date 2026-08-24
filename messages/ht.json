@@ -340,5 +340,48 @@
     "transparencyBody": "Nou pibliye rapò anyèl nou, nou depoze dokiman nou bay IRS chak ane, epi nou genyen so Transparans Platinum Candid la. Mande nou nenpòt bagay sou lajan an. N ap reponn.",
     "transparencyCta": "Li rapò anyèl nou yo",
     "contactCta": "Di nou kijan ou vle ede"
+  },
+  "campaigns": {
+    "eyebrow": "Kanpay",
+    "title": "Chwazi yon kanpay. Pran rezilta a an men w.",
+    "lede": "Chak kanpay gen yon pri klè, yon rezilta klè, ak yon rapò ak foto lè li fini. Pafè pou yon fanmi, yon konpayi, yon klib Rotary, yon legliz oswa yon sal klas nan dyaspora a.",
+    "items": [
+      {
+        "id": "classroom",
+        "title": "Chanje yon sal klas",
+        "amount": "$135",
+        "body": "Ekipe yon sal klas ak yon seri konplè douz liv kreyòl, kat tablo alfabè ak materyèl lekti. Pwofesè a jwenn materyèl, timoun yo jwenn premye kwen liv yo.",
+        "cta": "Chanje yon sal klas"
+      },
+      {
+        "id": "school-library",
+        "title": "Finanse yon bibliyotèk nan yon lekòl",
+        "amount": "$2,500",
+        "body": "Fè yon sal vid nan yon lekòl riral tounen yon bibliyotèk timoun k ap fonksyone. Etajè, yon koleksyon liv kreyòl ak franse, tablo ak yon travayè bibliyotèk fòme pou mennen li.",
+        "cta": "Finanse yon bibliyotèk lekòl"
+      },
+      {
+        "id": "adopt",
+        "title": "Adopte yon bibliyotèk",
+        "amount": "$250/mwa",
+        "body": "Kenbe yon bibliyotèk vilaj vivan pandan yon ane. Don chak mwa w kouvri bous bibliyotekè a, entènèt ak nouvo liv. W ap resevwa nouvèl ak foto bibliyotèk la, ak non w sou mi li si ou vle.",
+        "cta": "Adopte yon bibliyotèk"
+      },
+      {
+        "id": "volunteer",
+        "title": "Vin volontè",
+        "amount": "Tan ou",
+        "body": "Sibvansyon, maketing, evènman, tradiksyon, konsepsyon pwogram. Komite yo reyini sou Zoom nan lang ou pito. Kèk èdtan pa mwa fè vrè travay avanse.",
+        "cta": "Vin volontè avèk nou"
+      },
+      {
+        "id": "ambassador",
+        "title": "Vin yon anbasadè",
+        "amount": "Vwa ou",
+        "body": "Reprezante PILH nan vil ou, konpayi w oswa klib ou. Nou ba ou prezantasyon an, istwa a ak materyèl yo. Ou louvri pòt yo. Pafè pou dyaspora ayisyen an toupatou.",
+        "cta": "Vin yon anbasadè"
+      }
+    ],
+    "note": "Montan kanpay yo se estimasyon ki baze sou pri pwogram nou pibliye yo. Chak kanpay resevwa yon rapò enpak ekri."
   }
 }
