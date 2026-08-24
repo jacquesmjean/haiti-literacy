@@ -1,26 +1,395 @@
 @import "tailwindcss";
 
+/* ---------------------------------------------------------------
+   Partners in Literacy Haiti design system
+   Brand blue and red are taken from the PILH mark, which follows the
+   Haitian flag. Everything else is a warm paper palette so that photos
+   of children and books carry the colour.
+   --------------------------------------------------------------- */
+
+@theme {
+  --color-paper: #fdfaf5;
+  --color-sand: #f4ebdd;
+  --color-sand-deep: #e8dbc7;
+  --color-ink: #10142a;
+  --color-ink-soft: #4a5068;
+  --color-ink-faint: #8c92a8;
+
+  --color-blue: #273792;
+  --color-blue-deep: #141c4f;
+  --color-blue-mid: #3a4bb5;
+  --color-blue-wash: #e8eaf7;
+
+  --color-red: #d51f36;
+  --color-red-deep: #a01327;
+  --color-red-wash: #fbe9eb;
+
+  --color-gold: #e4a33c;
+  --color-sea: #0e6e63;
+
+  --font-display: var(--font-fraunces), "Iowan Old Style", Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --radius-arch: 999px 999px 12px 12px;
+
+  --shadow-lift: 0 1px 2px rgba(16, 20, 42, 0.04),
+    0 12px 32px -12px rgba(16, 20, 42, 0.18);
+  --shadow-deep: 0 2px 4px rgba(16, 20, 42, 0.06),
+    0 32px 64px -24px rgba(16, 20, 42, 0.3);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  min-width: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Fine paper grain over the whole page. Costs nothing, adds warmth. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: none;
+  background-image: var(--grain);
+  opacity: 0.035;
+  mix-blend-mode: multiply;
+}
+
+::selection {
+  background: var(--color-blue);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-blue);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ---------------------------------------------------------------
+   Type scale
+   --------------------------------------------------------------- */
+
+.display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-variation-settings: "SOFT" 30, "WONK" 1, "opsz" 100;
+  letter-spacing: -0.022em;
+  line-height: 0.98;
+  text-wrap: balance;
+}
+
+.serif {
+  font-family: var(--font-display);
+  font-variation-settings: "SOFT" 20, "WONK" 0, "opsz" 24;
+}
+
+.eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-red);
+}
+
+.lede {
+  font-size: clamp(1.0625rem, 0.6vw + 0.95rem, 1.3125rem);
+  line-height: 1.55;
+  color: var(--color-ink-soft);
+  text-wrap: pretty;
+}
+
+/* ---------------------------------------------------------------
+   Shapes and decoration
+   --------------------------------------------------------------- */
+
+.arch {
+  border-radius: 50% 50% 8px 8px / 28% 28% 3% 3%;
+  overflow: hidden;
+}
+
+.rule {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    color-mix(in srgb, var(--color-ink) 16%, transparent),
+    transparent
+  );
+}
+
+.tricolor {
+  background: linear-gradient(
+    to right,
+    var(--color-blue) 0 50%,
+    var(--color-red) 50% 100%
+  );
+}
+
+.underline-sketch {
+  background-image: linear-gradient(
+    to right,
+    color-mix(in srgb, var(--color-gold) 70%, transparent),
+    color-mix(in srgb, var(--color-gold) 70%, transparent)
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 0.32em;
+  background-position: 0 88%;
+}
+
+/* ---------------------------------------------------------------
+   Scroll reveal. Elements start slightly low and fade up once seen.
+   --------------------------------------------------------------- */
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.7s var(--ease-out-soft),
+    transform 0.7s var(--ease-out-soft);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---------------------------------------------------------------
+   Long form article styling for markdown pages
+   --------------------------------------------------------------- */
+
+.prose-pilh {
+  font-size: 1.0625rem;
+  line-height: 1.72;
+  color: var(--color-ink-soft);
+}
+
+.prose-pilh > * + * {
+  margin-top: 1.15em;
+}
+
+.prose-pilh h2 {
+  font-family: var(--font-display);
+  font-variation-settings: "SOFT" 30, "WONK" 1, "opsz" 60;
+  font-weight: 600;
+  font-size: clamp(1.5rem, 1.6vw + 1.1rem, 2rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--color-ink);
+  margin-top: 2.4em;
+  scroll-margin-top: 7rem;
+}
+
+.prose-pilh h3 {
+  font-family: var(--font-display);
+  font-variation-settings: "SOFT" 20, "opsz" 30;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--color-ink);
+  margin-top: 1.9em;
+  scroll-margin-top: 7rem;
+}
+
+.prose-pilh h4 {
+  font-weight: 650;
+  color: var(--color-ink);
+  margin-top: 1.6em;
+}
+
+.prose-pilh strong {
+  color: var(--color-ink);
+  font-weight: 620;
+}
+
+.prose-pilh a {
+  color: var(--color-blue);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.2s;
+}
+
+.prose-pilh a:hover {
+  color: var(--color-red);
+}
+
+.prose-pilh ul,
+.prose-pilh ol {
+  padding-left: 1.15rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.prose-pilh ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prose-pilh ul > li {
+  position: relative;
+  padding-left: 1.45rem;
+}
+
+.prose-pilh ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0.15rem;
+  top: 0.66em;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 2px;
+  background: var(--color-gold);
+}
+
+.prose-pilh ol {
+  list-style: decimal;
+}
+
+.prose-pilh ol > li::marker {
+  color: var(--color-blue);
+  font-weight: 650;
+}
+
+.prose-pilh blockquote {
+  border-left: 3px solid var(--color-red);
+  padding: 0.15rem 0 0.15rem 1.25rem;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--color-ink);
+}
+
+.prose-pilh img {
+  border-radius: 14px;
+  box-shadow: var(--shadow-lift);
+}
+
+.prose-pilh hr {
+  border: 0;
+  height: 1px;
+  background: color-mix(in srgb, var(--color-ink) 12%, transparent);
+  margin: 2.6em 0;
+}
+
+.prose-pilh table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.prose-pilh thead th {
+  text-align: left;
+  font-weight: 650;
+  color: var(--color-ink);
+  border-bottom: 2px solid var(--color-blue);
+  padding: 0.6rem 0.75rem;
+}
+
+.prose-pilh tbody td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-ink) 10%, transparent);
+  vertical-align: top;
+}
+
+.prose-pilh tbody tr:nth-child(odd) {
+  background: color-mix(in srgb, var(--color-sand) 45%, transparent);
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+/* ---------------------------------------------------------------
+   Utilities
+   --------------------------------------------------------------- */
+
+.wrap {
+  width: 100%;
+  max-width: 78rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .wrap {
+    padding-inline: 2rem;
+  }
+}
+
+.wrap-narrow {
+  width: 100%;
+  max-width: 46rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate-rise {
+  animation: rise 0.9s var(--ease-out-soft) both;
 }

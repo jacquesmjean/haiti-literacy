@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "title": "Partners in Literacy Haiti",
+    "tagline": "Chaque enfant haïtien mérite un livre dans sa propre langue.",
+    "description": "Partners in Literacy Haiti crée et renforce des bibliothèques pour enfants en Haïti rurale avec des livres en kreyòl, de la technologie et de la formation. Organisation 501(c)(3), EIN 87-0904773."
+  },
+  "nav": {
+    "about": "À propos",
+    "work": "Notre travail",
+    "news": "Actualités",
+    "give": "Donner",
+    "contact": "Contact",
+    "donate": "Faire un don",
+    "menu": "Menu",
+    "close": "Fermer",
+    "language": "Langue",
+    "aboutItems": {
+      "about": "Vision et mission",
+      "history": "Notre histoire",
+      "board": "Conseil et direction",
+      "reports": "Rapports annuels"
+    },
+    "workItems": {
+      "our-work": "Notre méthode",
+      "libraries": "Bibliothèques pour enfants",
+      "duplan": "Le projet Duplan",
+      "young-readers": "Faire grandir de jeunes lecteurs",
+      "kreyol-materials": "Livres et affiches en kreyòl",
+      "alliance": "Alliance des bibliothèques d'Haïti",
+      "statistics": "Les chiffres"
+    },
+    "involved": "S'engager"
+  },
+  "welcome": {
+    "haiti": {
+      "eyebrow": "Bienvenue",
+      "title": "Vous nous rejoignez depuis Haïti.",
+      "body": "Les enseignants, les employés de bibliothèque et les responsables communautaires peuvent demander ici des livres en kreyòl, des affiches alphabétiques et de la formation. Demander ne coûte rien.",
+      "cta": "Demander du matériel"
+    },
+    "global": {
+      "eyebrow": "Bienvenue",
+      "title": "Merci d'être là.",
+      "body": "Chaque don finance des livres, des bibliothèques et de la formation pour les enfants en Haïti rurale. Votre reçu arrive par courriel dès que vous donnez.",
+      "cta": "Voir où va votre don"
+    },
+    "dismiss": "Fermer"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Haïti rurale, depuis 2011",
+      "title": "Une enfant qui lit dans sa langue ne s'arrête plus.",
+      "lede": "Partners in Literacy Haiti met des livres en kreyòl entre les mains d'enfants qui n'en ont jamais tenu un, et construit les bibliothèques de village qui les font revenir.",
+      "ctaPrimary": "Offrir un livre à un enfant",
+      "ctaSecondary": "Voir notre travail",
+      "caption": "Bibliothèque communautaire de La Chapelle, Artibonite"
+    },
+    "impact": {
+      "eyebrow": "Ce que vos dons ont bâti",
+      "books": "livres en kreyòl remis à des enfants",
+      "libraries": "bibliothèques de village accompagnées et modernisées",
+      "schools": "écoles équipées en affiches et en livres",
+      "students": "élèves touchés par la formation des enseignants",
+      "note": "Chiffres tirés de nos rapports annuels publiés. Nos états financiers sont déposés chaque année auprès de l'IRS."
+    },
+    "problem": {
+      "eyebrow": "Le problème",
+      "title": "Nous avons visité 32 salles de classe et trouvé zéro livre.",
+      "body": "Pas un livre de plus. Pas une étagère. Six écoles rurales, trente deux salles de classe, et rien qu'un enfant puisse lire pour le plaisir. Haïti est le pays le moins alphabétisé de l'hémisphère occidental. Les familles qui vivent avec moins de 2,15 dollars par jour ne peuvent pas acheter de livres, et les écoles privées rurales, qui scolarisent la majorité des enfants haïtiens, ont rarement un budget pour cela.",
+      "stat1Value": "50%",
+      "stat1Label": "des adultes en Haïti ne savent pas lire",
+      "stat2Value": "70%",
+      "stat2Label": "des enfants quittent l'école avant la sixième année",
+      "stat3Value": "95%",
+      "stat3Label": "parlent kreyòl, mais presque tous les livres sont en français",
+      "quote": "Là où il n'y a pas de livre, il n'y a pas de lecteur. Nous commençons par le livre.",
+      "quoteBy": "Dr Sara Currie Mansbach, fondatrice"
+    },
+    "approach": {
+      "eyebrow": "Notre méthode",
+      "title": "Trois choses, bien faites, un village à la fois.",
+      "lede": "Nous n'arrivons pas en parachute. Nous nous associons à un village qui veut une bibliothèque, et nous restons des années.",
+      "items": [
+        {
+          "title": "Des livres en kreyòl",
+          "body": "Nous publions et distribuons des livres faciles à lire, écrits pour les enfants haïtiens sur la vie haïtienne, ainsi que l'affiche alphabétique qui a demandé treize ans de travail et l'appui des linguistes du MIT."
+        },
+        {
+          "title": "Une vraie bibliothèque",
+          "body": "Des étagères, de la lumière, du courant, une connexion, des ordinateurs et un employé de bibliothèque rémunéré. Une salle sûre où un enfant peut s'asseoir et lire après l'école."
+        },
+        {
+          "title": "Des personnes formées",
+          "body": "Les employés de bibliothèque suivent un programme de onze modules conçu en Haïti. Les enseignants apprennent à lire à voix haute, à animer un coin lecture, à entretenir la curiosité d'un enfant."
+        }
+      ]
+    },
+    "libraries": {
+      "eyebrow": "Où nous travaillons",
+      "title": "Cinq bibliothèques. Trois départements. Une seule exigence.",
+      "lede": "Nous accompagnons une bibliothèque jusqu'à ce qu'elle tienne debout seule, puis nous aidons le village suivant.",
+      "all": "Services complets",
+      "partial": "Services partiels",
+      "since": "Partenaire depuis",
+      "cta": "Lire sur nos bibliothèques"
+    },
+    "give": {
+      "eyebrow": "Donner",
+      "title": "Choisissez le don qui vous ressemble.",
+      "lede": "Chaque montant ci dessous est réel. Nous achetons les livres, nous les expédions, nous rendons compte.",
+      "cta": "Donner maintenant",
+      "monthly": "par mois",
+      "once": "une fois",
+      "other": "Donner un autre montant",
+      "taxLine": "Déductible des impôts aux États Unis. EIN 87-0904773."
+    },
+    "testimonial": {
+      "eyebrow": "Dans leurs mots",
+      "quote": "Les seuls livres en kreyòl que j'ai jamais pu lire étaient dans un manuel scolaire. J'aimerais que nous ayons une grande bibliothèque où l'on trouverait toutes sortes de livres. Mon rêve est d'en écrire un moi même un jour.",
+      "attribution": "Une jeune lectrice en Haïti rurale, après avoir reçu son premier livre PILH"
+    },
+    "news": {
+      "eyebrow": "Actualités",
+      "title": "Depuis le terrain",
+      "cta": "Toutes les actualités"
+    },
+    "trust": {
+      "title": "Où va votre argent",
+      "body": "PILH fonctionne avec un conseil entièrement bénévole et deux spécialistes à temps partiel rémunérés. Nos livres sont achetés en Haïti quand c'est possible, pour que l'argent reste dans l'économie haïtienne.",
+      "seal": "Transparence Platine Candid",
+      "ein": "EIN 87-0904773",
+      "status": "Organisme de bienfaisance 501(c)(3)"
+    }
+  },
+  "give": {
+    "hero": {
+      "eyebrow": "Donner",
+      "title": "Quinze dollars achètent dix livres. Voilà toute l'idée.",
+      "lede": "PILH fonctionne avec peu de moyens, et c'est un choix. Un conseil bénévole, deux spécialistes à temps partiel, et des livres achetés en Haïti dès que possible. Voici exactement ce que fait votre don."
+    },
+    "amountsTitle": "Ce que chaque don achète",
+    "amounts": [
+      {
+        "amount": 5,
+        "text": "Crayons, crayons de couleur et marqueurs pour un cercle de lecture"
+      },
+      {
+        "amount": 15,
+        "text": "Dix livres pour enfants en kreyòl, ou de quoi ranger vingt livres"
+      },
+      {
+        "amount": 25,
+        "text": "Un ensemble de trois livres d'histoires en kreyòl"
+      },
+      {
+        "amount": 50,
+        "text": "Un mois de connexion internet pour une bibliothèque rurale"
+      },
+      {
+        "amount": 100,
+        "text": "Quatre affiches alphabétiques kreyòl format classe"
+      },
+      {
+        "amount": 250,
+        "text": "Un mois d'allocation pour un bibliothécaire et des ateliers de lecture"
+      },
+      {
+        "amount": 400,
+        "text": "Le matériel de formation complet pour un employé de bibliothèque"
+      },
+      {
+        "amount": 1000,
+        "text": "Des ordinateurs et une source d'électricité pour le projet Duplan"
+      }
+    ],
+    "formTitle": "Donner en toute sécurité",
+    "formNote": "Notre formulaire de don est traité par Zeffy, qui verse cent pour cent de votre don à PILH. Votre reçu fiscal vous est envoyé immédiatement par courriel.",
+    "altTitle": "Autres façons de donner",
+    "alt": [
+      {
+        "title": "Par chèque",
+        "body": "Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA"
+      },
+      {
+        "title": "Don doublé par votre employeur",
+        "body": "PILH est admissible aux programmes de dons jumelés. Beaucoup d'employeurs doublent votre don. Demandez à votre service des ressources humaines avec l'EIN 87-0904773."
+      },
+      {
+        "title": "Dons en hommage ou en mémoire",
+        "body": "Nous enverrons une carte en votre nom. Écrivez nous et dites nous qui honorer."
+      },
+      {
+        "title": "Un legs testamentaire",
+        "body": "Un legs garde une bibliothèque de village ouverte pendant une génération. Contactez nous et nous vous accompagnerons."
+      },
+      {
+        "title": "Campagnes Givebutter",
+        "body": "Vous organisez une collecte d'anniversaire ou une campagne d'équipe? Utilisez notre page Givebutter."
+      }
+    ],
+    "volunteerTitle": "Donner de votre temps",
+    "volunteerBody": "Nous cherchons des personnes qui aiment les livres et qui tiennent à Haïti. Finances et demandes de subvention, marketing et réseaux sociaux, collecte de fonds et événements, recrutement de bénévoles, conception et évaluation de programmes. Les comités se réunissent sur Zoom.",
+    "volunteerCta": "Devenir bénévole"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Dites nous ce dont vous avez besoin.",
+    "lede": "Les éducateurs en Haïti, les donateurs, les bénévoles et les organisations partenaires nous joignent tous au même endroit. Nous répondons aussi vite que possible.",
+    "form": {
+      "name": "Votre nom",
+      "email": "Courriel",
+      "org": "École ou organisation",
+      "location": "Ville ou commune",
+      "topic": "Sujet",
+      "topics": {
+        "materials": "Demander des livres ou des affiches",
+        "library": "Créer ou améliorer une bibliothèque",
+        "donate": "Un don ou une question sur les dons",
+        "volunteer": "Bénévolat",
+        "partner": "Partenariat ou presse",
+        "other": "Autre chose"
+      },
+      "message": "Votre message",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours",
+      "success": "Merci. Votre message est entre les mains de notre équipe et nous répondrons par courriel.",
+      "error": "Une erreur est survenue. Écrivez nous directement à administrator@haiti-literacy.org.",
+      "required": "Obligatoire"
+    },
+    "officeTitle": "Bureau",
+    "mailTitle": "Courrier et dons",
+    "emailTitle": "Courriel",
+    "legal": "Nous sommes une organisation à but non lucratif, EIN 87-0904773. L'engagement auprès de PILH est ouvert à toute personne qui partage notre vision, notre mission et nos valeurs."
+  },
+  "news": {
+    "eyebrow": "Actualités",
+    "title": "Depuis le terrain",
+    "lede": "Des histoires venues des villages, des bibliothèques et des personnes qui les gardent ouvertes.",
+    "readMore": "Lire l'article",
+    "back": "Toutes les actualités"
+  },
+  "reports": {
+    "eyebrow": "Transparence",
+    "title": "Rapports annuels",
+    "lede": "Chaque année nous publions ce que nous avons collecté, ce que nous avons dépensé et ce qui a changé pour les enfants. Téléchargez l'année de votre choix.",
+    "download": "Télécharger le PDF",
+    "year": "Rapport annuel"
+  },
+  "board": {
+    "roles": {
+      "executive": "Directrice générale",
+      "secretary": "Secrétaire du conseil",
+      "treasurer": "Trésorier du conseil",
+      "member": "Membre du conseil",
+      "founder": "Fondatrice et directrice générale émérite"
+    }
+  },
+  "concierge": {
+    "name": "Sèvitè PILH",
+    "subtitle": "Posez vos questions, en quatre langues",
+    "open": "Parler à Sèvitè PILH",
+    "placeholder": "Écrivez votre question",
+    "send": "Envoyer",
+    "greeting": "Bonjour et bienvenue. Je suis Sèvitè PILH. Je peux vous expliquer où va votre don, vous aider à parrainer une bibliothèque, ou aider un enseignant en Haïti à demander des livres en kreyòl. Qu'est ce qui vous amène aujourd'hui?",
+    "suggestions": [
+      "À quoi servent mes 25 dollars?",
+      "Je suis enseignant en Haïti et j'ai besoin de livres",
+      "Comment parrainer la bibliothèque de Duplan?",
+      "Les dons sont ils déductibles des impôts?"
+    ],
+    "offline": "Notre assistant se repose en ce moment. Écrivez à administrator@haiti-literacy.org et une personne vous répondra.",
+    "error": "Je n'ai pas pu joindre le serveur. Réessayez, ou écrivez à administrator@haiti-literacy.org.",
+    "disclaimer": "Sèvitè PILH est un assistant IA. Il ne demande jamais de numéro de carte.",
+    "close": "Fermer la discussion"
+  },
+  "newsletter": {
+    "title": "Recevoir notre infolettre",
+    "body": "Quelques fois par an. Des histoires venues des bibliothèques, et rien d'autre.",
+    "placeholder": "Votre courriel",
+    "submit": "S'abonner",
+    "success": "Vous êtes inscrit. Merci.",
+    "error": "Cela n'a pas fonctionné. Réessayez."
+  },
+  "footer": {
+    "mission": "Partners in Literacy Haiti améliore la lecture par des livres en kreyòl, la technologie et la formation, pour les enfants de la naissance à huit ans, leurs familles et leurs enseignants.",
+    "explore": "Explorer",
+    "support": "Soutenir",
+    "connect": "Nous suivre",
+    "legal": "Partners in Literacy Haiti est une organisation à but non lucratif 501(c)(3) exonérée d'impôt. EIN 87-0904773.",
+    "rights": "Tous droits réservés.",
+    "builtBy": "Site offert par",
+    "privacy": "Confidentialité",
+    "transparency": "Transparence"
+  },
+  "common": {
+    "readMore": "Lire la suite",
+    "backHome": "Retour à l'accueil",
+    "skip": "Aller au contenu",
+    "donateNow": "Faire un don",
+    "learnMore": "En savoir plus",
+    "onThisPage": "Sur cette page",
+    "notFoundTitle": "Cette page a été déplacée.",
+    "notFoundBody": "La bibliothèque est toujours ouverte. Laissez nous vous ramener."
+  },
+  "involved": {
+    "eyebrow": "S'engager",
+    "title": "Ce travail repose sur des gens qui se souviennent d'où ils viennent.",
+    "lede": "PILH est une organisation entièrement bénévole, avec des racines en Haïti et des mains partout dans le monde. Où que vous viviez, il y a une place pour vous.",
+    "diasporaTitle": "Pour la diaspora haïtienne",
+    "diasporaBody": "Vous êtes partis, mais Haïti ne vous a jamais quittés. Depuis Miami, Brooklyn, Montréal, Boston, Paris ou Santiago, vous pouvez mettre des livres en kreyòl entre les mains des enfants du village que votre famille appelle chez elle. Parrainez une bibliothèque, financez un envoi mensuel de livres, traduisez une histoire, ou prêtez vos compétences quelques heures par mois. Chaque comité se réunit sur Zoom, dans la langue de votre choix.",
+    "diasporaCta": "Participer d'où vous êtes",
+    "waysTitle": "Façons de servir",
+    "ways": [
+      {
+        "title": "Collecte de fonds et événements",
+        "body": "Lancez une campagne d'anniversaire, organisez un dîner soupe joumou, sollicitez votre entourage. Notre page Givebutter simplifie les campagnes d'équipe."
+      },
+      {
+        "title": "Subventions et finances",
+        "body": "Aidez à trouver et à rédiger des demandes de subvention, ou rejoignez le comité des finances."
+      },
+      {
+        "title": "Marketing et récits",
+        "body": "Créez du contenu pour les réseaux sociaux, concevez des affiches, filmez les histoires qui touchent."
+      },
+      {
+        "title": "Programmes et évaluation",
+        "body": "Concevez des activités pour enfants, des ateliers pour parents, aidez à mesurer ce qui fonctionne."
+      },
+      {
+        "title": "Bureau des conférenciers",
+        "body": "Racontez l'histoire de PILH à votre club Rotary, votre église, votre école ou votre entreprise, en personne ou sur Zoom."
+      },
+      {
+        "title": "Compétences professionnelles",
+        "body": "Juristes, comptables, bibliothécaires, enseignants, technologues. Quelques heures de votre métier vont loin."
+      }
+    ],
+    "transparencyTitle": "Transparence radicale",
+    "transparencyBody": "Nous publions nos rapports annuels, déclarons chaque année auprès de l'IRS et détenons le sceau Platine de Candid. Posez nous toutes vos questions sur l'argent. Nous répondrons.",
+    "transparencyCta": "Lire nos rapports annuels",
+    "contactCta": "Dites nous comment vous voulez aider"
+  }
+}

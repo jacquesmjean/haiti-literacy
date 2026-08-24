@@ -1,0 +1,139 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { isLocale, locales } from "@/lib/i18n";
+import { getMessages } from "@/lib/messages";
+import { site } from "@/lib/site";
+import { href } from "@/lib/routes";
+import DonateEmbed from "@/components/DonateEmbed";
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata(props: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await props.params;
+  if (!isLocale(locale)) return {};
+  const m = getMessages(locale);
+  return { title: m.nav.give, description: m.give.hero.lede };
+}
+
+export default async function GivePage(props: {
+  params: Promise<{ locale: string }>;
+  searchParams: Promise<{ amount?: string }>;
+}) {
+  const { locale } = await props.params;
+  const { amount } = await props.searchParams;
+  if (!isLocale(locale)) notFound();
+  const m = getMessages(locale);
+  const preselect = amount ? Number.parseInt(amount, 10) || undefined : undefined;
+
+  return (
+    <>
+      <section className="wrap pb-12 pt-12 lg:pt-20">
+        <div className="max-w-3xl animate-rise">
+          <p className="eyebrow">{m.give.hero.eyebrow}</p>
+          <h1 className="display mt-4 text-[clamp(2.2rem,3.6vw+1rem,3.8rem)] text-ink">
+            {m.give.hero.title}
+          </h1>
+          <p className="lede mt-6">{m.give.hero.lede}</p>
+        </div>
+      </section>
+
+      <section className="wrap grid gap-12 pb-20 lg:grid-cols-[1fr_1.05fr] lg:gap-16">
+        {/* What each gift buys */}
+        <div>
+          <h2 className="serif text-2xl font-semibold text-ink" data-reveal>
+            {m.give.amountsTitle}
+          </h2>
+          <ul className="mt-6 grid gap-3">
+            {m.give.amounts.map((row, index) => (
+              <li
+                key={row.amount}
+                data-reveal
+                style={{ "--reveal-delay": `${index * 60}ms` } as React.CSSProperties}
+                className="flex items-center gap-5 rounded-2xl border border-ink/8 bg-white px-5 py-4 shadow-[var(--shadow-lift)]"
+              >
+                <span className="display w-20 shrink-0 text-right text-2xl text-red">
+                  ${row.amount.toLocaleString(locale)}
+                </span>
+                <span className="h-8 w-px bg-ink/10" aria-hidden />
+                <span className="text-sm leading-snug text-ink-soft">{row.text}</span>
+              </li>
+            ))}
+          </ul>
+
+          <p className="mt-6 text-xs text-ink-faint" data-reveal>
+            {m.home.give.taxLine}
+          </p>
+
+          {/* Other ways */}
+          <h2 className="serif mt-12 text-2xl font-semibold text-ink" data-reveal>
+            {m.give.altTitle}
+          </h2>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            {m.give.alt.map((way, index) => (
+              <div
+                key={way.title}
+                data-reveal
+                style={{ "--reveal-delay": `${index * 60}ms` } as React.CSSProperties}
+                className="rounded-2xl bg-sand/60 p-5"
+              >
+                <h3 className="text-sm font-semibold text-ink">{way.title}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">
+                  {way.title.includes("Givebutter") ? (
+                    <>
+                      {way.body}{" "}
+                      <a
+                        href={site.giving.givebutter}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="font-medium text-blue underline underline-offset-2"
+                      >
+                        givebutter.com/WSWj3X
+                      </a>
+                    </>
+                  ) : (
+                    way.body
+                  )}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* Volunteer */}
+          <div
+            className="mt-12 rounded-3xl bg-blue-deep p-8 text-white"
+            data-reveal
+          >
+            <h2 className="serif text-xl font-semibold">{m.give.volunteerTitle}</h2>
+            <p className="mt-3 text-sm leading-relaxed text-white/75">
+              {m.give.volunteerBody}
+            </p>
+            <Link
+              href={href(locale, "/get-involved")}
+              className="mt-5 inline-block rounded-full bg-white px-6 py-3 text-sm font-semibold text-blue-deep transition hover:bg-sand"
+            >
+              {m.give.volunteerCta}
+            </Link>
+          </div>
+        </div>
+
+        {/* Secure form */}
+        <div className="lg:sticky lg:top-24 lg:self-start" data-reveal>
+          <h2 className="serif mb-5 text-2xl font-semibold text-ink">
+            {m.give.formTitle}
+          </h2>
+          <DonateEmbed
+            title={m.give.formTitle}
+            note={m.give.formNote}
+            fallbackLabel={site.giving.zeffyForm.replace("https://", "")}
+            amount={preselect}
+          />
+        </div>
+      </section>
+    </>
+  );
+}

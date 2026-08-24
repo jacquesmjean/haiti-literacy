@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "title": "Patnè pou Alfabetizasyon Ayiti",
+    "tagline": "Chak timoun ayisyen merite yon liv nan lang pa l.",
+    "description": "Patnè pou Alfabetizasyon Ayiti (PILH) ap bati epi ranfòse bibliyotèk timoun nan zòn riral ann Ayiti ak liv kreyòl, teknoloji ak fòmasyon. Se yon òganizasyon 501(c)(3), EIN 87-0904773."
+  },
+  "nav": {
+    "about": "Kiyès nou ye",
+    "work": "Travay nou",
+    "news": "Nouvèl",
+    "give": "Bay",
+    "contact": "Kontakte nou",
+    "donate": "Fè yon don",
+    "menu": "Meni",
+    "close": "Fèmen",
+    "language": "Lang",
+    "aboutItems": {
+      "about": "Vizyon ak misyon",
+      "history": "Istwa nou",
+      "board": "Konsèy administrasyon",
+      "reports": "Rapò anyèl"
+    },
+    "workItems": {
+      "our-work": "Kijan nou travay",
+      "libraries": "Bibliyotèk pou timoun",
+      "duplan": "Pwojè Duplan an",
+      "young-readers": "Fè jèn lektè grandi",
+      "kreyol-materials": "Liv ak tablo kreyòl",
+      "alliance": "Alyans Bibliyotèk Ayiti",
+      "statistics": "Chif yo"
+    },
+    "involved": "Patisipe"
+  },
+  "welcome": {
+    "haiti": {
+      "eyebrow": "Byenvini",
+      "title": "Ou konekte depi Ayiti.",
+      "body": "Pwofesè, travayè bibliyotèk ak lidè kominotè kapab mande liv kreyòl, tablo alfabè ak fòmasyon isit la. Sa pa koute anyen pou mande.",
+      "cta": "Mande materyèl"
+    },
+    "global": {
+      "eyebrow": "Byenvini",
+      "title": "Mèsi paske ou la.",
+      "body": "Chak don ale nan liv, bibliyotèk ak fòmasyon pou timoun nan zòn riral ann Ayiti. Resi w ap rive nan imel ou lè menm ou fin bay.",
+      "cta": "Gade kote don w ale"
+    },
+    "dismiss": "Fèmen"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Nan zòn riral Ayiti depi 2011",
+      "title": "Yon timoun ki li nan lang pa l pa janm kanpe.",
+      "lede": "Patnè pou Alfabetizasyon Ayiti mete liv kreyòl nan men timoun ki poko janm kenbe youn, epi nou bati bibliyotèk vilaj ki fè yo tounen chak jou.",
+      "ctaPrimary": "Bay yon timoun yon liv",
+      "ctaSecondary": "Gade travay nou",
+      "caption": "Bibliyotèk Kominotè La Chapelle, Latibonit"
+    },
+    "impact": {
+      "eyebrow": "Sa don ou yo bati",
+      "books": "liv kreyòl ki rive nan men timoun",
+      "libraries": "bibliyotèk vilaj nou akonpaye epi modènize",
+      "schools": "lekòl ki resevwa tablo ak liv",
+      "students": "elèv nou touche atravè fòmasyon pwofesè",
+      "note": "Chif sa yo soti nan rapò anyèl nou pibliye. Nou depoze eta finansye nou bay IRS chak ane."
+    },
+    "problem": {
+      "eyebrow": "Pwoblèm nan",
+      "title": "Nou vizite 32 sal klas epi nou pa jwenn yon sèl liv.",
+      "body": "Pa yon liv anplis. Pa yon etajè. Sis lekòl nan zòn riral, trannde sal klas, epi anyen pou yon timoun li pou plezi. Ayiti se peyi ki gen mwens moun ki konn li nan tout Amerik la. Fanmi k ap viv ak mwens pase $2.15 pa jou pa kapab achte liv, epi lekòl prive nan zòn riral yo, ki edike pifò timoun ayisyen, raman gen yon bidjè pou sa.",
+      "stat1Value": "50%",
+      "stat1Label": "granmoun ann Ayiti pa konn li",
+      "stat2Value": "70%",
+      "stat2Label": "timoun kite lekòl anvan sizyèm ane",
+      "stat3Value": "95%",
+      "stat3Label": "pale kreyòl, men prèske tout liv an franse",
+      "quote": "Kote ki pa gen liv, pa gen lektè. Nou kòmanse ak liv la.",
+      "quoteBy": "Doktè Sara Currie Mansbach, Fondatè"
+    },
+    "approach": {
+      "eyebrow": "Kijan nou travay",
+      "title": "Twa bagay, byen fèt, yon vilaj alafwa.",
+      "lede": "Nou pa desann yon kote epi nou ale. Nou fè patenarya ak yon vilaj ki vle yon bibliyotèk, epi nou rete pandan plizyè ane.",
+      "items": [
+        {
+          "title": "Liv an kreyòl",
+          "body": "Nou pibliye epi nou plase liv fasil pou li ki ekri pou timoun ayisyen sou lavi ayisyen, ansanm ak tablo alfabè a ki mande trèz ane ak lengwis MIT pou nou byen fè l."
+        },
+        {
+          "title": "Yon vrè bibliyotèk",
+          "body": "Etajè, limyè, kouran, entènèt, òdinatè ak yon travayè bibliyotèk ki gen salè. Yon sal ki an sekirite kote yon timoun ka chita li apre lekòl."
+        },
+        {
+          "title": "Moun ki fòme",
+          "body": "Travayè bibliyotèk yo fè yon pwogram onz modil ki devlope ann Ayiti. Pwofesè yo aprann kijan pou li awotvwa, kijan pou mennen yon kwen liv, kijan pou kenbe kiryozite yon timoun."
+        }
+      ]
+    },
+    "libraries": {
+      "eyebrow": "Kote nou travay",
+      "title": "Senk bibliyotèk. Twa depatman. Yon sèl estanda.",
+      "lede": "Nou akonpaye yon bibliyotèk jiskaske li kapab kanpe pou kont li, epi nou ale nan pwochen vilaj la.",
+      "all": "Tout sèvis",
+      "partial": "Sèvis pasyèl",
+      "since": "Patnè depi",
+      "cta": "Li sou travay bibliyotèk nou"
+    },
+    "give": {
+      "eyebrow": "Bay",
+      "title": "Chwazi don ki bon pou ou.",
+      "lede": "Chak montan anba a se yon bagay reyèl. Nou achte liv yo, nou voye yo, epi nou bay rapò.",
+      "cta": "Bay kounye a",
+      "monthly": "pa mwa",
+      "once": "yon sèl fwa",
+      "other": "Bay yon lòt montan",
+      "taxLine": "Dediktib nan taks Ozetazini. EIN 87-0904773."
+    },
+    "testimonial": {
+      "eyebrow": "Nan pawòl yo",
+      "quote": "Sèl liv an kreyòl mwen te janm gen chans li se te nan yon liv lekòl. Mwen ta renmen nou gen yon gwo bibliyotèk kote ou ta ka jwenn tout kalite liv. Rèv mwen se ekri youn tèt mwen yon jou.",
+      "attribution": "Yon jèn lektè nan zòn riral Ayiti, apre li resevwa premye liv PILH li"
+    },
+    "news": {
+      "eyebrow": "Nouvèl",
+      "title": "Depi sou teren an",
+      "cta": "Li tout nouvèl"
+    },
+    "trust": {
+      "title": "Kote lajan w ale",
+      "body": "PILH gen yon konsèy ki tout se volontè ak de espesyalis a tan pasyèl ki peye. Nou achte liv nou ann Ayiti lè nou kapab pou lajan an rete nan ekonomi ayisyen an.",
+      "seal": "Transparans Platinum Candid",
+      "ein": "EIN 87-0904773",
+      "status": "Òganizasyon charitab 501(c)(3)"
+    }
+  },
+  "give": {
+    "hero": {
+      "eyebrow": "Bay",
+      "title": "Kenz dola achte dis liv. Se tout ide a.",
+      "lede": "PILH ap travay ak ti mwayen espre. Yon konsèy volontè, de espesyalis a tan pasyèl, epi liv nou achte ann Ayiti chak fwa nou kapab. Men egzakteman sa don w ap fè."
+    },
+    "amountsTitle": "Sa chak don achte",
+    "amounts": [
+      {
+        "amount": 5,
+        "text": "Kreyon, kreyon koulè ak makè pou yon sèk lekti"
+      },
+      {
+        "amount": 15,
+        "text": "Dis liv kreyòl pou timoun, oswa etajè pou ven liv"
+      },
+      {
+        "amount": 25,
+        "text": "Yon seri twa liv istwa an kreyòl"
+      },
+      {
+        "amount": 50,
+        "text": "Yon mwa sèvis entènèt pou yon bibliyotèk riral"
+      },
+      {
+        "amount": 100,
+        "text": "Kat tablo alfabè kreyòl gwosè sal klas"
+      },
+      {
+        "amount": 250,
+        "text": "Yon mwa bous pou yon bibliyotekè ak atelye alfabetizasyon"
+      },
+      {
+        "amount": 400,
+        "text": "Yon seri konplè materyèl fòmasyon pou yon travayè bibliyotèk"
+      },
+      {
+        "amount": 1000,
+        "text": "Òdinatè ak yon sous kouran pou pwojè Duplan an"
+      }
+    ],
+    "formTitle": "Bay an sekirite",
+    "formNote": "Fòm don nou an pase pa Zeffy, ki voye san pou san don w bay PILH. Resi taks ou rive nan imel ou touswit.",
+    "altTitle": "Lòt fason pou bay",
+    "alt": [
+      {
+        "title": "Pa chèk",
+        "body": "Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA"
+      },
+      {
+        "title": "Konpayi w ka double don an",
+        "body": "PILH kalifye pou pwogram don ki double. Anpil konpayi double sa ou bay. Mande ekip resous imèn ou epi bay EIN 87-0904773."
+      },
+      {
+        "title": "Don an memwa yon moun",
+        "body": "N ap voye yon kat nan non w. Ekri nou epi di nou kiyès pou nou onore."
+      },
+      {
+        "title": "Yon don nan testaman w",
+        "body": "Yon don eritaj kenbe yon bibliyotèk vilaj louvri pou yon jenerasyon. Kontakte nou epi n ap gide w."
+      },
+      {
+        "title": "Kanpay Givebutter",
+        "body": "W ap fè yon kanpay pou anivèsè w oswa pou ekip ou? Sèvi ak paj Givebutter nou an."
+      }
+    ],
+    "volunteerTitle": "Bay tan w",
+    "volunteerBody": "Nou bezwen moun ki renmen liv epi ki pran Ayiti oserye. Finans ak ekriti sibvansyon, maketing ak rezo sosyal, evènman pou ranmase lajan, rekritman volontè, konsepsyon pwogram ak evalyasyon. Komite yo reyini sou Zoom.",
+    "volunteerCta": "Vin volontè avèk nou"
+  },
+  "contact": {
+    "eyebrow": "Kontak",
+    "title": "Di nou sa ou bezwen.",
+    "lede": "Edikatè ann Ayiti, donatè, volontè ak òganizasyon patnè, nou tout jwenn nou menm kote a. Nou reponn pi vit nou kapab.",
+    "form": {
+      "name": "Non ou",
+      "email": "Imel",
+      "org": "Lekòl oswa òganizasyon",
+      "location": "Vil oswa komin",
+      "topic": "Sou ki sa",
+      "topics": {
+        "materials": "Mande liv oswa tablo",
+        "library": "Kòmanse oswa amelyore yon bibliyotèk",
+        "donate": "Yon don oswa yon kesyon sou don",
+        "volunteer": "Volontarya",
+        "partner": "Patenarya oswa laprès",
+        "other": "Yon lòt bagay"
+      },
+      "message": "Mesaj ou",
+      "submit": "Voye mesaj la",
+      "sending": "N ap voye",
+      "success": "Mèsi. Mesaj ou nan men ekip nou an epi n ap reponn ou pa imel.",
+      "error": "Gen yon bagay ki pa mache. Tanpri ekri nou dirèk nan administrator@haiti-literacy.org.",
+      "required": "Obligatwa"
+    },
+    "officeTitle": "Biwo",
+    "mailTitle": "Lapòs ak don",
+    "emailTitle": "Imel",
+    "legal": "Nou se yon òganizasyon san bi likratif, EIN 87-0904773. Tout moun ki pataje vizyon, misyon ak valè nou kapab patisipe nan PILH."
+  },
+  "news": {
+    "eyebrow": "Nouvèl",
+    "title": "Depi sou teren an",
+    "lede": "Istwa ki soti nan vilaj yo, nan bibliyotèk yo, ak nan men moun k ap kenbe yo louvri.",
+    "readMore": "Li istwa a",
+    "back": "Tout nouvèl"
+  },
+  "reports": {
+    "eyebrow": "Transparans",
+    "title": "Rapò anyèl",
+    "lede": "Chak ane nou pibliye sa nou ranmase, sa nou depanse ak sa ki chanje pou timoun yo. Telechaje nenpòt ane anba a.",
+    "download": "Telechaje PDF",
+    "year": "Rapò anyèl"
+  },
+  "board": {
+    "roles": {
+      "executive": "Direktè Egzekitif",
+      "secretary": "Sekretè Konsèy la",
+      "treasurer": "Trezorye Konsèy la",
+      "member": "Manm Konsèy la",
+      "founder": "Fondatè ak Direktè Egzekitif Emerit"
+    }
+  },
+  "concierge": {
+    "name": "Sèvitè PILH",
+    "subtitle": "Mande nou nenpòt bagay, nan kat lang",
+    "open": "Mande Sèvitè PILH",
+    "placeholder": "Ekri kesyon w",
+    "send": "Voye",
+    "greeting": "Bonjou, epi byenvini. Se mwen menm Sèvitè PILH. Mwen ka esplike w kote don w ale, ede w patwone yon bibliyotèk, oswa ede yon pwofesè ann Ayiti mande liv kreyòl. Kisa k mennen w isit la jodi a?",
+    "suggestions": [
+      "Kijan $25 mwen an sèvi?",
+      "Mwen se yon pwofesè ann Ayiti epi mwen bezwen liv",
+      "Kijan pou m patwone bibliyotèk Duplan an?",
+      "Èske don yo dediktib nan taks?"
+    ],
+    "offline": "Asistan nou an ap poze kounye a. Ekri administrator@haiti-literacy.org epi yon moun ap reponn ou.",
+    "error": "Mwen pa rive jwenn sèvè a. Tanpri eseye ankò, oswa ekri administrator@haiti-literacy.org.",
+    "disclaimer": "Sèvitè PILH se yon asistan entèlijans atifisyèl. Li pa janm mande nimewo kat.",
+    "close": "Fèmen chat la"
+  },
+  "newsletter": {
+    "title": "Resevwa bilten nou an",
+    "body": "Kèk fwa nan yon ane. Istwa ki soti nan bibliyotèk yo, epi anyen lòt.",
+    "placeholder": "Imel ou",
+    "submit": "Abòne",
+    "success": "Ou sou lis la. Mèsi.",
+    "error": "Sa pa mache. Tanpri eseye ankò."
+  },
+  "footer": {
+    "mission": "Patnè pou Alfabetizasyon Ayiti amelyore lekti atravè liv kreyòl, teknoloji ak fòmasyon pou timoun depi nesans jiska uit an, fanmi yo ak pwofesè yo.",
+    "explore": "Eksplore",
+    "support": "Sipòte",
+    "connect": "Konekte",
+    "legal": "Patnè pou Alfabetizasyon Ayiti se yon òganizasyon san bi likratif 501(c)(3) ki egzante taks. EIN 87-0904773.",
+    "rights": "Tout dwa rezève.",
+    "builtBy": "Sit entènèt la se yon don",
+    "privacy": "Konfidansyalite",
+    "transparency": "Transparans"
+  },
+  "common": {
+    "readMore": "Li plis",
+    "backHome": "Retounen nan akèy",
+    "skip": "Ale nan kontni an",
+    "donateNow": "Fè yon don kounye a",
+    "learnMore": "Aprann plis",
+    "onThisPage": "Sou paj sa a",
+    "notFoundTitle": "Paj sa a deplase.",
+    "notFoundBody": "Bibliyotèk la toujou louvri. Kite nou mennen w tounen."
+  },
+  "involved": {
+    "eyebrow": "Patisipe",
+    "title": "Travay sa a mache ak moun ki sonje kote yo soti.",
+    "lede": "PILH se yon òganizasyon tout volontè ki gen rasin li ann Ayiti ak men li toupatou nan mond lan. Kèlkeswa kote w ap viv, gen yon plas pou ou.",
+    "diasporaTitle": "Pou dyaspora ayisyen an",
+    "diasporaBody": "Ou te pati, men Ayiti pa janm kite w. Depi Miami, Brooklyn, Monreyal, Boston, Pari oswa Santiago, ou kapab mete liv kreyòl nan men timoun nan vilaj fanmi w rele lakay. Patwone yon bibliyotèk, finanse yon chajman liv chak mwa, tradui yon istwa, oswa prete konpetans pwofesyonèl ou kèk èdtan pa mwa. Chak komite reyini sou Zoom, nan lang ou pito a.",
+    "diasporaCta": "Patisipe kote w ye a",
+    "waysTitle": "Fason pou sèvi",
+    "ways": [
+      {
+        "title": "Ranmase lajan ak evènman",
+        "body": "Fè yon kanpay pou anivèsè w, òganize yon dine soup joumou, mande moun pèsonèlman. Paj Givebutter nou an fè kanpay ekip yo senp."
+      },
+      {
+        "title": "Sibvansyon ak finans",
+        "body": "Ede jwenn epi ekri sibvansyon, oswa antre nan komite finans ak bidjè a."
+      },
+      {
+        "title": "Maketing ak istwa",
+        "body": "Kreye kontni rezo sosyal, fè afich, filme istwa ki fè moun pran ka."
+      },
+      {
+        "title": "Pwogram ak evalyasyon",
+        "body": "Kreye aktivite pou timoun, bati atelye pou paran, ede mezire sa k ap mache."
+      },
+      {
+        "title": "Biwo oratè",
+        "body": "Rakonte istwa PILH bay klib Rotary w, legliz ou, lekòl ou oswa konpayi w, an pèsòn oswa sou Zoom."
+      },
+      {
+        "title": "Konpetans pwofesyonèl",
+        "body": "Avoka, kontab, bibliyotekè, pwofesè, teknològ. Kèk èdtan nan metye w ale lwen."
+      }
+    ],
+    "transparencyTitle": "Transparans total",
+    "transparencyBody": "Nou pibliye rapò anyèl nou, nou depoze dokiman nou bay IRS chak ane, epi nou genyen so Transparans Platinum Candid la. Mande nou nenpòt bagay sou lajan an. N ap reponn.",
+    "transparencyCta": "Li rapò anyèl nou yo",
+    "contactCta": "Di nou kijan ou vle ede"
+  }
+}
