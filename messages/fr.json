@@ -253,6 +253,21 @@
       "treasurer": "Trésorier du conseil",
       "member": "Membre du conseil",
       "founder": "Fondatrice et directrice générale émérite"
+    },
+    "eyebrow": "Notre équipe",
+    "title": "Le conseil",
+    "lede": "Un conseil entièrement bénévole. Cliquez sur une personne pour la retrouver sur LinkedIn.",
+    "cta": "Retrouver sur LinkedIn",
+    "ctaOrg": "PILH sur LinkedIn",
+    "staffTitle": "Derrière le conseil",
+    "staffBody": "Deux spécialistes rémunérés à temps partiel portent le travail de terrain : une consultante haïtiano américaine chargée de la sensibilisation et de la formation, et une spécialiste américaine de la formation en bibliothèque. Des conseillers en Haïti et aux États Unis répondent aux questions difficiles.",
+    "blurbs": {
+      "fatima": "Dirigeante associative avec plus de dix ans d'action communautaire, elle guide la stratégie, les partenariats et la collecte de fonds de PILH.",
+      "lisa": "Responsable des services de métadonnées aux bibliothèques de l'Université Clemson, au service des bibliothèques d'Haïti depuis 2009.",
+      "dan": "Directeur artistique publicitaire retraité, auteur du dessin de l'affiche Alfabè Kreyòl Mwen.",
+      "yvan": "PDG de HamiltonDemo et quinze ans d'expérience de conseils associatifs, engagé pour la jeunesse.",
+      "lee": "Cadre retraité de l'ingénierie et de la stratégie, dont les racines familiales en Haïti remontent à des décennies.",
+      "sara": "Elle a fondé PILH en 2011 et voyagé quatorze fois en Haïti pour bâtir ses bibliothèques de village."
     }
   },
   "concierge": {

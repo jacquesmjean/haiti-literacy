@@ -253,6 +253,21 @@
       "treasurer": "Board Treasurer",
       "member": "Board Member",
       "founder": "Founder and Executive Director Emeritus"
+    },
+    "eyebrow": "Our people",
+    "title": "The board",
+    "lede": "An all volunteer board. Click anyone to connect on LinkedIn.",
+    "cta": "Connect on LinkedIn",
+    "ctaOrg": "PILH on LinkedIn",
+    "staffTitle": "Behind the board",
+    "staffBody": "Two part time paid specialists carry the field work: a Haitian American outreach and training consultant, and an American library training specialist. Advisors in Haiti and the United States answer the hard questions.",
+    "blurbs": {
+      "fatima": "Nonprofit leader with over a decade of community driven work, guiding PILH's strategy, partnerships and fundraising.",
+      "lisa": "Head of Metadata Services at Clemson University Libraries, serving Haiti's libraries since 2009.",
+      "dan": "Retired advertising art director who drew the Alfabè Kreyòl Mwen alphabet chart.",
+      "yvan": "CEO of HamiltonDemo and a fifteen year nonprofit board veteran committed to young people.",
+      "lee": "Retired engineering and strategy executive whose family roots in Haiti go back decades.",
+      "sara": "Founded PILH in 2011 and traveled to Haiti fourteen times to build its village libraries."
     }
   },
   "concierge": {
