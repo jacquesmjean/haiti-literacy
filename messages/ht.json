@@ -481,5 +481,151 @@
     "todayTitle": "Kote istwa a prale",
     "todayBody": "Yon sant fòmasyon nan Duplan k ap edike travayè bibliyotèk pou tout peyi a. Plis vilaj ki soti nan lis datant lan. Ou byenveni pou ekri pwochen chapit la avèk nou.",
     "todayCta": "Sipòte pwochen chapit la"
+  },
+  "duplanPage": {
+    "eyebrow": "Pwojè prensipal",
+    "title": "Duplan: yon bibliyotèk vilaj ki fèt ankò.",
+    "lede": "Yon bibliyotèk ven an nan Lwès, rebati kòm yon bibliyotèk timoun modèn ak yon sant fòmasyon pou tout peyi a demen.",
+    "statsLabels": {
+      "students": "elèv nan Lekòl Metodis Duplan an",
+      "years": "ane istwa legliz ak kominote a",
+      "families": "fanmi k ap patisipe nan sèvis yo",
+      "operating": "ane bibliyotèk la ap sèvi vilaj la"
+    },
+    "whyTitle": "Poukisa nou te chwazi Duplan",
+    "whyBody": "Nan mitan peyi a, semi riral epi relativman an sekirite, ak yon lekòl inik nan rejyon an ak gwo potansyèl pou sèvis. Pastè Edzaire Paul te fonde bibliyotèk la gen plis pase ven an epi li defann modènizasyon li. Yon akò siyen ant PILH ak komite gouvènans vilaj la ankadre tout pwojè a.",
+    "peopleTitle": "Moun k ap fè li mache",
+    "people": [
+      {
+        "id": "beverly",
+        "name": "Beverly Stephen",
+        "role": "Travayè Bibliyotèk Prensipal",
+        "body": "Li te aprann konpetans bibliyotèk pou kont li sou entènèt anvan fòmasyon fòmèl. Objektif li: vin yon bibliyotekè."
+      },
+      {
+        "id": "judeline",
+        "name": "Judeline Marechal",
+        "role": "Asistan Bibliyotekè",
+        "body": "Li vini nan prentan 2023 ak yon sèl objektif: amelyore edikasyon jèn timoun."
+      },
+      {
+        "id": "beatrice",
+        "name": "Doktè Beatrice Gaunthier",
+        "role": "Prezidan Komite Bibliyotèk la",
+        "body": "Yon entènis klinik k ap dirije komite vilaj la epi ki bay PILH rapò pwogrè chak mwa."
+      },
+      {
+        "id": "erick",
+        "name": "Erick Toussaint",
+        "role": "Fòmatè Prensipal",
+        "body": "Ansyen direktè pwogram bibliyotèk kominotè FOKAL yo. Pwogram onz modil li a ap fòme ekip la."
+      }
+    ],
+    "workTitle": "Sa pwojè a pote",
+    "workItems": [
+      {
+        "title": "Yon koleksyon kreyòl vivan",
+        "body": "Ane liv demode retire, ranplase ak yon gwo koleksyon liv kreyòl bon kalite pou elèv ak pwofesè."
+      },
+      {
+        "title": "Teknoloji ki mache",
+        "body": "Kat laptòp fini ranplase ak sis Chromebook nèf, yon bon wifi, ak sipò teknik vilaj la finanse."
+      },
+      {
+        "title": "Yon pwogram onz modil",
+        "body": "Baz administrasyon ak jesyon bibliyotèk, teste modil pa modil sou Zoom ak WhatsApp."
+      },
+      {
+        "title": "Pwogram lekti apre sa",
+        "body": "Nouvo liv, aktivite ak jwèt k ap bati lajwa lekti, ak paran yo k ap jwenn plas yo pandan pwogram nan ap grandi."
+      }
+    ],
+    "accountTitle": "Responsablite, alekri",
+    "accountBody": "Vilaj la finanse sekirite, salè, wifi, mèb, sèvis piblik ak teknoloji. PILH finanse sa toude bò dakò sou li, epi yon evalyatè ekstèn mezire pwogrè chak ane. Finansman swiv rezilta nou ka verifye. Se konsa nou trete chak dola.",
+    "ctaTitle": "Patwone pwojè Duplan an",
+    "ctaBody": "Mil dola ajoute òdinatè ak kouran. Desan senkant pa mwa kenbe yon bibliyotekè peye, konekte epi ekipe.",
+    "cta": "Bay pou Duplan"
+  },
+  "kreyolPage": {
+    "eyebrow": "Piblikasyon nou yo",
+    "title": "Liv ki ekri pou timoun ayisyen, nan lang pa yo.",
+    "lede": "Sis liv fasil ak yon tablo alfabè ki pran trèz ane. Chak paj edite pa lengwis ayisyen.",
+    "whyTitle": "Poukisa nou pibliye",
+    "whyBody": "Rechèch teren nou te jwenn sal klas riral san liv e san tablo alfabè ditou. Kidonk nou te jwenn patnè epi nou te fè yo nou menm. Atelye pwofesè sou materyèl sa yo te ranpli sal yo, epi evalyasyon endepandan yo te mande plis.",
+    "booksTitle": "Sis liv fasil yo",
+    "booksHint": "Touche yon liv pou istwa li",
+    "books": [
+      {
+        "id": "jesula",
+        "title": "Jesula Ap Apran Li",
+        "subtitle": "Jesula aprann li",
+        "summary": "Chak ane Carline vizite vilaj Jesula a ak nouvo liv. Jesula aprann li, li pataje kado a ak vilaj li, epi li grandi vin yon jèn fanm ki reyisi."
+      },
+      {
+        "id": "malachi",
+        "title": "Malachi Bay Tout Vilaj La Manje",
+        "subtitle": "Malachi bay vilaj la manje",
+        "summary": "Malachi plante grenn li jwenn bò rivyè a. Yo tounen soup joumou, epi vilaj la rasanble pou pataje soup la ak istwa endepandans Ayiti."
+      },
+      {
+        "id": "serafina",
+        "title": "Serafina",
+        "subtitle": "Serafina",
+        "summary": "Serafina bourik la pito jwe ak timoun pase travay, jiskaske zanmi l Joseph jwenn travay ki pafè pou li a."
+      },
+      {
+        "id": "istwa",
+        "title": "Istwa Konpé Kra Ak Konpé Po",
+        "subtitle": "Avanti Konpè Kra ak Konpè Po",
+        "summary": "De krapo nan avanti pran nan krèm epi yo aprann pou yo pa janm abandone."
+      },
+      {
+        "id": "zetwal",
+        "title": "Bèl Zetwal Nan Syèl Ansdeno",
+        "subtitle": "Yon nwit zetwal nan Ansdeno",
+        "summary": "Stella, pi piti zetwal nan syèl la, aprann ke klere ansanm pi bon pase klere pou kont ou."
+      },
+      {
+        "id": "mitan",
+        "title": "Mitan",
+        "subtitle": "Mitan match la",
+        "summary": "Pandan zanmi l yo ap jwe foutbòl, Frederic wè mango lòtbò rivyè a. Kolasyon mitan pafè a."
+      }
+    ],
+    "chartTitle": "Alfabè Kreyòl Mwen, tablo alfabè a",
+    "chartBody": "Kreyòl melanje Taino, franse, lang afriken, anglè, pòtigè ak panyòl, kidonk li gen plis son pase pifò alfabè. Tablo sa a pran trèz ane tès nan sal klas, verifye pa Pwofesè Michel DeGraff nan MIT Haiti Initiative, epi anrejistre nan Bibliyotèk Kongrè Etazini.",
+    "chartFacts": [
+      "13 ane devlopman",
+      "Verifye pa MIT Haiti Initiative",
+      "Anrejistre nan Bibliyotèk Kongrè a",
+      "Vinil enpèmeyab, fèt pou twopik yo"
+    ],
+    "pricingTitle": "Materyèl ak pri",
+    "pricing": [
+      {
+        "item": "Yon seri 6 tit liv",
+        "price": "$27",
+        "note": "$4.50 pa liv"
+      },
+      {
+        "item": "Yon seri 12 liv",
+        "price": "$42",
+        "note": "$3.50 pa liv, kòmand minimòm"
+      },
+      {
+        "item": "Ti tablo, 11 x 17 pous",
+        "price": "$8",
+        "note": "gwosè biwo"
+      },
+      {
+        "item": "Gwo tablo, 24 x 42 pous",
+        "price": "$35",
+        "note": "gwosè mi sal klas"
+      }
+    ],
+    "pricingNote": "Liv yo soti Ayiti, kidonk reta posib. Tablo yo soti Ozetazini. Revann ak reenprime pa pèmèt.",
+    "orderTitle": "Kijan pou kòmande",
+    "orderBody": "Voye non w, imel ou, kote materyèl yo pral itilize, yon kòd postal, ak atik ak kantite ou vle yo. N ap reponn ak pri transpò ak delè livrezon.",
+    "orderCta": "Kòmande atravè paj kontak la"
   }
 }

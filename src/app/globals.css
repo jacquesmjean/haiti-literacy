@@ -403,3 +403,16 @@ body::before {
   background-size: 100% 60rem;
   background-repeat: repeat-y;
 }
+
+/* Flip-on-hover book cards on the Kreyol materials page */
+.book-card:hover .book-inner,
+.book-card:focus-visible .book-inner,
+.book-card:focus-within .book-inner {
+  transform: rotateY(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .book-card .book-inner {
+    transition: none;
+  }
+}

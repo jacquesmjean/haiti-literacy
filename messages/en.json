@@ -481,5 +481,151 @@
     "todayTitle": "Where the story goes next",
     "todayBody": "A training center at Duplan that educates library workers for the whole country. More villages off the waiting list. You are welcome to write the next chapter with us.",
     "todayCta": "Support the next chapter"
+  },
+  "duplanPage": {
+    "eyebrow": "Flagship project",
+    "title": "Duplan: a village library reborn.",
+    "lede": "A twenty year old library in the Ouest, rebuilt as a modern children's library and a future training center for the whole country.",
+    "statsLabels": {
+      "students": "students at the Duplan Methodist School",
+      "years": "years of church and community history",
+      "families": "families attending services",
+      "operating": "years the library has served the village"
+    },
+    "whyTitle": "Why we chose Duplan",
+    "whyBody": "Central in the country, semi rural and relatively secure, with a school unique in the region and great potential for service. Pastor Edzaire Paul founded the library more than twenty years ago and champions its modernization. A signed agreement between PILH and the village governance committee frames the whole project.",
+    "peopleTitle": "The people who run it",
+    "people": [
+      {
+        "id": "beverly",
+        "name": "Beverly Stephen",
+        "role": "Lead Library Worker",
+        "body": "Taught herself library skills from the internet before formal training. Her goal: become a librarian."
+      },
+      {
+        "id": "judeline",
+        "name": "Judeline Marechal",
+        "role": "Assistant Librarian",
+        "body": "Joined in spring 2023 with one stated goal: improve young children's education."
+      },
+      {
+        "id": "beatrice",
+        "name": "Dr. Beatrice Gaunthier",
+        "role": "Library Committee Chair",
+        "body": "A clinical internist who leads the village committee and reports progress to PILH every month."
+      },
+      {
+        "id": "erick",
+        "name": "Erick Toussaint",
+        "role": "Lead Trainer",
+        "body": "Former director of FOKAL's community library programs. His eleven module curriculum trains the team."
+      }
+    ],
+    "workTitle": "What the project delivers",
+    "workItems": [
+      {
+        "title": "A living Kreyòl collection",
+        "body": "Years of outdated books weeded out, replaced with a large collection of quality Kreyòl titles for students and teachers."
+      },
+      {
+        "title": "Technology that works",
+        "body": "Four dying laptops replaced with six new Chromebooks, strong wi-fi, and IT support funded by the village."
+      },
+      {
+        "title": "An eleven module curriculum",
+        "body": "Library administration and management fundamentals, tested module by module over Zoom and WhatsApp."
+      },
+      {
+        "title": "Reading programs next",
+        "body": "New books, activities and games that build the joy of reading, with parents welcomed in as the program matures."
+      }
+    ],
+    "accountTitle": "Accountability, in writing",
+    "accountBody": "The village funds security, salaries, wi-fi, furniture, utilities and IT. PILH funds what is mutually agreed, and an external evaluator measures progress every year. Funding follows trackable results. That is how we treat every donated dollar.",
+    "ctaTitle": "Sponsor the Duplan project",
+    "ctaBody": "One thousand dollars adds computers and power. Two hundred fifty a month keeps a librarian paid, connected and stocked.",
+    "cta": "Give to Duplan"
+  },
+  "kreyolPage": {
+    "eyebrow": "Our publications",
+    "title": "Books written for Haitian children, in their own language.",
+    "lede": "Six easy readers and an alphabet chart thirteen years in the making. Every page edited by Haitian linguists.",
+    "whyTitle": "Why we publish",
+    "whyBody": "Our field research found rural classrooms with no books and no alphabet charts at all. So we found partners and made them ourselves. Teacher workshops around these materials drew overflow crowds, and independent evaluations came back asking for more.",
+    "booksTitle": "The six easy readers",
+    "booksHint": "Tap a book for its story",
+    "books": [
+      {
+        "id": "jesula",
+        "title": "Jesula Ap Apran Li",
+        "subtitle": "Jesula Learns to Read",
+        "summary": "Carline visits Jesula's village every year with new books. Jesula learns to read, shares the gift with her village, and grows into a successful young woman."
+      },
+      {
+        "id": "malachi",
+        "title": "Malachi Bay Tout Vilaj La Manje",
+        "subtitle": "Malachi Feeds the Village",
+        "summary": "Malachi plants seeds found by the river. They become soup joumou, and the village gathers to share the soup and the story of Haitian independence."
+      },
+      {
+        "id": "serafina",
+        "title": "Serafina",
+        "subtitle": "Serafina",
+        "summary": "Serafina the donkey would rather play with children than work, until her friend Joseph finds the job that is perfect for her."
+      },
+      {
+        "id": "istwa",
+        "title": "Istwa Konpé Kra Ak Konpé Po",
+        "subtitle": "The Adventures of Mr. Kra and Mr. Po",
+        "summary": "Two frogs on an adventure get trapped in cream and learn to never give up."
+      },
+      {
+        "id": "zetwal",
+        "title": "Bèl Zetwal Nan Syèl Ansdeno",
+        "subtitle": "A Starry Night in Anse d'Hainault",
+        "summary": "Stella, the smallest star in the sky, learns that shining together beats shining alone."
+      },
+      {
+        "id": "mitan",
+        "title": "Mitan",
+        "subtitle": "Half Time",
+        "summary": "While his friends play soccer, Frederic spots mangoes across the river. The perfect half time snack."
+      }
+    ],
+    "chartTitle": "Alfabè Kreyòl Mwen, the alphabet chart",
+    "chartBody": "Kreyòl blends Taino, French, African languages, English, Portuguese and Spanish, so it holds more sounds than most alphabets. This chart took thirteen years of classroom testing, was verified by Professor Michel DeGraff of the MIT Haiti Initiative, and is registered with the US Library of Congress.",
+    "chartFacts": [
+      "13 years in development",
+      "MIT Haiti Initiative verified",
+      "Library of Congress registered",
+      "Waterproof vinyl, made for the tropics"
+    ],
+    "pricingTitle": "Materials and pricing",
+    "pricing": [
+      {
+        "item": "Set of 6 book titles",
+        "price": "$27",
+        "note": "$4.50 per book"
+      },
+      {
+        "item": "Set of 12 books",
+        "price": "$42",
+        "note": "$3.50 per book, minimum order"
+      },
+      {
+        "item": "Small chart, 11 x 17 in",
+        "price": "$8",
+        "note": "desk size"
+      },
+      {
+        "item": "Large chart, 24 x 42 in",
+        "price": "$35",
+        "note": "classroom wall size"
+      }
+    ],
+    "pricingNote": "Books ship from Haiti, so delays are possible. Charts ship from the USA. Reselling and reprinting are not permitted.",
+    "orderTitle": "How to order",
+    "orderBody": "Send us your name, email, where the materials will be used, a postal code, and the items and quantities you want. We reply with shipping cost and delivery time.",
+    "orderCta": "Order through the contact page"
   }
 }

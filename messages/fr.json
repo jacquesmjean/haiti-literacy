@@ -481,5 +481,151 @@
     "todayTitle": "La suite de l'histoire",
     "todayBody": "Un centre de formation à Duplan pour les employés de bibliothèque de tout le pays. Plus de villages sortis de la liste d'attente. Vous êtes invités à écrire le prochain chapitre avec nous.",
     "todayCta": "Soutenir le prochain chapitre"
+  },
+  "duplanPage": {
+    "eyebrow": "Projet phare",
+    "title": "Duplan : une bibliothèque de village qui renaît.",
+    "lede": "Une bibliothèque vieille de vingt ans dans l'Ouest, rebâtie en bibliothèque moderne pour enfants et futur centre de formation pour tout le pays.",
+    "statsLabels": {
+      "students": "élèves à l'école méthodiste de Duplan",
+      "years": "ans d'histoire de l'église et de la communauté",
+      "families": "familles présentes aux offices",
+      "operating": "ans que la bibliothèque sert le village"
+    },
+    "whyTitle": "Pourquoi Duplan",
+    "whyBody": "Central dans le pays, semi rural et relativement sûr, avec une école unique dans la région et un grand potentiel de service. Le pasteur Edzaire Paul a fondé la bibliothèque il y a plus de vingt ans et défend sa modernisation. Un accord signé entre PILH et le comité de gouvernance du village encadre tout le projet.",
+    "peopleTitle": "Celles et ceux qui la font vivre",
+    "people": [
+      {
+        "id": "beverly",
+        "name": "Beverly Stephen",
+        "role": "Employée principale",
+        "body": "Elle a appris seule le métier sur internet avant toute formation. Son objectif : devenir bibliothécaire."
+      },
+      {
+        "id": "judeline",
+        "name": "Judeline Marechal",
+        "role": "Bibliothécaire assistante",
+        "body": "Arrivée au printemps 2023 avec un seul but : améliorer l'éducation des jeunes enfants."
+      },
+      {
+        "id": "beatrice",
+        "name": "Dre Beatrice Gaunthier",
+        "role": "Présidente du comité",
+        "body": "Interniste clinicienne, elle dirige le comité du village et rend compte des progrès à PILH chaque mois."
+      },
+      {
+        "id": "erick",
+        "name": "Erick Toussaint",
+        "role": "Formateur principal",
+        "body": "Ancien directeur des programmes de bibliothèques communautaires de la FOKAL. Son programme de onze modules forme l'équipe."
+      }
+    ],
+    "workTitle": "Ce que le projet apporte",
+    "workItems": [
+      {
+        "title": "Une collection kreyòl vivante",
+        "body": "Des années de livres périmés retirés, remplacés par une grande collection de titres kreyòl de qualité."
+      },
+      {
+        "title": "Une technologie qui fonctionne",
+        "body": "Quatre ordinateurs à bout de souffle remplacés par six Chromebooks neufs, un wifi solide et un soutien informatique financé par le village."
+      },
+      {
+        "title": "Un programme de onze modules",
+        "body": "Les fondamentaux de l'administration de bibliothèque, testés module par module sur Zoom et WhatsApp."
+      },
+      {
+        "title": "Les programmes de lecture ensuite",
+        "body": "Livres, activités et jeux qui cultivent le plaisir de lire, avec les parents accueillis à mesure que le programme mûrit."
+      }
+    ],
+    "accountTitle": "La redevabilité, par écrit",
+    "accountBody": "Le village finance sécurité, salaires, wifi, mobilier, services et informatique. PILH finance ce qui est convenu ensemble, et un évaluateur externe mesure les progrès chaque année. Le financement suit des résultats vérifiables. C'est ainsi que nous traitons chaque dollar.",
+    "ctaTitle": "Parrainez le projet Duplan",
+    "ctaBody": "Mille dollars ajoutent ordinateurs et électricité. Deux cent cinquante par mois gardent une bibliothécaire payée, connectée et approvisionnée.",
+    "cta": "Donner pour Duplan"
+  },
+  "kreyolPage": {
+    "eyebrow": "Nos publications",
+    "title": "Des livres écrits pour les enfants haïtiens, dans leur langue.",
+    "lede": "Six livres de lecture facile et une affiche alphabétique mûrie treize ans. Chaque page éditée par des linguistes haïtiens.",
+    "whyTitle": "Pourquoi nous publions",
+    "whyBody": "Nos recherches de terrain ont trouvé des classes rurales sans livres ni affiches alphabétiques. Alors nous avons trouvé des partenaires et les avons créés nous mêmes. Les ateliers d'enseignants autour de ces matériels ont fait salle comble, et les évaluations indépendantes en ont redemandé.",
+    "booksTitle": "Les six livres de lecture facile",
+    "booksHint": "Touchez un livre pour son histoire",
+    "books": [
+      {
+        "id": "jesula",
+        "title": "Jesula Ap Apran Li",
+        "subtitle": "Jesula apprend à lire",
+        "summary": "Chaque année, Carline visite le village de Jesula avec de nouveaux livres. Jesula apprend à lire, partage ce don avec son village et devient une jeune femme accomplie."
+      },
+      {
+        "id": "malachi",
+        "title": "Malachi Bay Tout Vilaj La Manje",
+        "subtitle": "Malachi nourrit le village",
+        "summary": "Malachi plante des graines trouvées près de la rivière. Elles deviennent la soupe joumou, et le village se rassemble autour de la soupe et du récit de l'indépendance."
+      },
+      {
+        "id": "serafina",
+        "title": "Serafina",
+        "subtitle": "Serafina",
+        "summary": "L'ânesse Serafina préfère jouer avec les enfants plutôt que travailler, jusqu'à ce que son ami Joseph lui trouve l'emploi parfait."
+      },
+      {
+        "id": "istwa",
+        "title": "Istwa Konpé Kra Ak Konpé Po",
+        "subtitle": "Les aventures de M. Kra et M. Po",
+        "summary": "Deux grenouilles en aventure se retrouvent piégées dans la crème et apprennent à ne jamais abandonner."
+      },
+      {
+        "id": "zetwal",
+        "title": "Bèl Zetwal Nan Syèl Ansdeno",
+        "subtitle": "Nuit étoilée à Anse d'Hainault",
+        "summary": "Stella, la plus petite étoile du ciel, découvre que briller ensemble vaut mieux que briller seule."
+      },
+      {
+        "id": "mitan",
+        "title": "Mitan",
+        "subtitle": "Mi temps",
+        "summary": "Pendant que ses amis jouent au football, Frederic repère des mangues de l'autre côté de la rivière. La collation parfaite."
+      }
+    ],
+    "chartTitle": "Alfabè Kreyòl Mwen, l'affiche alphabétique",
+    "chartBody": "Le kreyòl mêle taïno, français, langues africaines, anglais, portugais et espagnol, et compte donc plus de sons que la plupart des alphabets. Cette affiche a demandé treize ans de tests en classe, a été vérifiée par le professeur Michel DeGraff de l'initiative MIT Haïti et est déposée à la Bibliothèque du Congrès des États Unis.",
+    "chartFacts": [
+      "13 ans de développement",
+      "Vérifiée par le MIT Haiti Initiative",
+      "Déposée à la Bibliothèque du Congrès",
+      "Vinyle imperméable, fait pour les tropiques"
+    ],
+    "pricingTitle": "Matériels et tarifs",
+    "pricing": [
+      {
+        "item": "Ensemble de 6 titres",
+        "price": "27 $",
+        "note": "4,50 $ le livre"
+      },
+      {
+        "item": "Ensemble de 12 livres",
+        "price": "42 $",
+        "note": "3,50 $ le livre, commande minimale"
+      },
+      {
+        "item": "Petite affiche, 11 x 17 po",
+        "price": "8 $",
+        "note": "format pupitre"
+      },
+      {
+        "item": "Grande affiche, 24 x 42 po",
+        "price": "35 $",
+        "note": "format mural de classe"
+      }
+    ],
+    "pricingNote": "Les livres partent d'Haïti, des délais sont possibles. Les affiches partent des États Unis. Revente et réimpression interdites.",
+    "orderTitle": "Comment commander",
+    "orderBody": "Envoyez nous votre nom, votre courriel, l'usage prévu, un code postal, et les articles et quantités souhaités. Nous répondons avec les frais d'expédition et le délai.",
+    "orderCta": "Commander via la page contact"
   }
 }

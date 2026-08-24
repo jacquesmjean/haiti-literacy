@@ -481,5 +481,151 @@
     "todayTitle": "Hacia dónde va la historia",
     "todayBody": "Un centro de formación en Duplan que eduque a trabajadores de bibliotecas para todo el país. Más aldeas fuera de la lista de espera. Está invitado a escribir el próximo capítulo con nosotros.",
     "todayCta": "Apoyar el próximo capítulo"
+  },
+  "duplanPage": {
+    "eyebrow": "Proyecto insignia",
+    "title": "Duplan: una biblioteca de aldea que renace.",
+    "lede": "Una biblioteca de veinte años en el Ouest, reconstruida como biblioteca infantil moderna y futuro centro de formación para todo el país.",
+    "statsLabels": {
+      "students": "estudiantes en la escuela metodista de Duplan",
+      "years": "años de historia de la iglesia y la comunidad",
+      "families": "familias que asisten a los servicios",
+      "operating": "años que la biblioteca sirve a la aldea"
+    },
+    "whyTitle": "Por qué elegimos Duplan",
+    "whyBody": "Céntrica en el país, semirrural y relativamente segura, con una escuela única en la región y gran potencial de servicio. El pastor Edzaire Paul fundó la biblioteca hace más de veinte años y apoya su modernización. Un acuerdo firmado entre PILH y el comité de gobernanza de la aldea enmarca todo el proyecto.",
+    "peopleTitle": "Las personas que la hacen funcionar",
+    "people": [
+      {
+        "id": "beverly",
+        "name": "Beverly Stephen",
+        "role": "Trabajadora principal",
+        "body": "Aprendió sola el oficio en internet antes de la formación oficial. Su meta: ser bibliotecaria."
+      },
+      {
+        "id": "judeline",
+        "name": "Judeline Marechal",
+        "role": "Bibliotecaria asistente",
+        "body": "Llegó en la primavera de 2023 con una sola meta: mejorar la educación de los niños pequeños."
+      },
+      {
+        "id": "beatrice",
+        "name": "Dra. Beatrice Gaunthier",
+        "role": "Presidenta del comité",
+        "body": "Internista clínica que dirige el comité de la aldea e informa el progreso a PILH cada mes."
+      },
+      {
+        "id": "erick",
+        "name": "Erick Toussaint",
+        "role": "Formador principal",
+        "body": "Ex director de los programas de bibliotecas comunitarias de FOKAL. Su programa de once módulos forma al equipo."
+      }
+    ],
+    "workTitle": "Lo que entrega el proyecto",
+    "workItems": [
+      {
+        "title": "Una colección kreyòl viva",
+        "body": "Años de libros obsoletos depurados, reemplazados por una gran colección de títulos kreyòl de calidad."
+      },
+      {
+        "title": "Tecnología que funciona",
+        "body": "Cuatro laptops moribundas reemplazadas por seis Chromebooks nuevas, buen wifi y soporte técnico financiado por la aldea."
+      },
+      {
+        "title": "Un programa de once módulos",
+        "body": "Fundamentos de administración y gestión bibliotecaria, evaluados módulo a módulo por Zoom y WhatsApp."
+      },
+      {
+        "title": "Luego, programas de lectura",
+        "body": "Libros, actividades y juegos que cultivan el placer de leer, con los padres bienvenidos a medida que el programa madura."
+      }
+    ],
+    "accountTitle": "Rendición de cuentas, por escrito",
+    "accountBody": "La aldea financia seguridad, salarios, wifi, mobiliario, servicios y tecnología. PILH financia lo acordado mutuamente, y un evaluador externo mide el progreso cada año. El financiamiento sigue resultados verificables. Así tratamos cada dólar.",
+    "ctaTitle": "Apadrine el proyecto Duplan",
+    "ctaBody": "Mil dólares suman computadoras y electricidad. Doscientos cincuenta al mes mantienen a una bibliotecaria pagada, conectada y abastecida.",
+    "cta": "Donar para Duplan"
+  },
+  "kreyolPage": {
+    "eyebrow": "Nuestras publicaciones",
+    "title": "Libros escritos para niños haitianos, en su idioma.",
+    "lede": "Seis libros de lectura fácil y un cartel del alfabeto madurado trece años. Cada página editada por lingüistas haitianos.",
+    "whyTitle": "Por qué publicamos",
+    "whyBody": "Nuestra investigación de campo encontró aulas rurales sin libros ni carteles del alfabeto. Así que buscamos socios y los creamos nosotros mismos. Los talleres docentes sobre estos materiales llenaron las salas, y las evaluaciones independientes pidieron más.",
+    "booksTitle": "Los seis libros de lectura fácil",
+    "booksHint": "Toque un libro para conocer su historia",
+    "books": [
+      {
+        "id": "jesula",
+        "title": "Jesula Ap Apran Li",
+        "subtitle": "Jesula aprende a leer",
+        "summary": "Cada año Carline visita la aldea de Jesula con libros nuevos. Jesula aprende a leer, comparte el regalo con su aldea y se convierte en una joven exitosa."
+      },
+      {
+        "id": "malachi",
+        "title": "Malachi Bay Tout Vilaj La Manje",
+        "subtitle": "Malachi alimenta a la aldea",
+        "summary": "Malachi siembra semillas halladas junto al río. Se convierten en sopa joumou, y la aldea se reúne a compartir la sopa y la historia de la independencia."
+      },
+      {
+        "id": "serafina",
+        "title": "Serafina",
+        "subtitle": "Serafina",
+        "summary": "La burrita Serafina prefiere jugar con los niños antes que trabajar, hasta que su amigo Joseph le encuentra el trabajo perfecto."
+      },
+      {
+        "id": "istwa",
+        "title": "Istwa Konpé Kra Ak Konpé Po",
+        "subtitle": "Las aventuras del Sr. Kra y el Sr. Po",
+        "summary": "Dos ranas aventureras quedan atrapadas en la crema y aprenden a no rendirse jamás."
+      },
+      {
+        "id": "zetwal",
+        "title": "Bèl Zetwal Nan Syèl Ansdeno",
+        "subtitle": "Noche estrellada en Anse d'Hainault",
+        "summary": "Stella, la estrella más pequeña del cielo, descubre que brillar juntas vale más que brillar sola."
+      },
+      {
+        "id": "mitan",
+        "title": "Mitan",
+        "subtitle": "Medio tiempo",
+        "summary": "Mientras sus amigos juegan al fútbol, Frederic ve mangos al otro lado del río. La merienda perfecta."
+      }
+    ],
+    "chartTitle": "Alfabè Kreyòl Mwen, el cartel del alfabeto",
+    "chartBody": "El kreyòl mezcla taíno, francés, lenguas africanas, inglés, portugués y español, por lo que tiene más sonidos que la mayoría de los alfabetos. Este cartel requirió trece años de pruebas en aulas, fue verificado por el profesor Michel DeGraff de la iniciativa MIT Haití y está registrado en la Biblioteca del Congreso de los Estados Unidos.",
+    "chartFacts": [
+      "13 años de desarrollo",
+      "Verificado por el MIT Haiti Initiative",
+      "Registrado en la Biblioteca del Congreso",
+      "Vinilo impermeable, hecho para el trópico"
+    ],
+    "pricingTitle": "Materiales y precios",
+    "pricing": [
+      {
+        "item": "Juego de 6 títulos",
+        "price": "$27",
+        "note": "$4.50 por libro"
+      },
+      {
+        "item": "Juego de 12 libros",
+        "price": "$42",
+        "note": "$3.50 por libro, pedido mínimo"
+      },
+      {
+        "item": "Cartel pequeño, 11 x 17 pulg",
+        "price": "$8",
+        "note": "tamaño escritorio"
+      },
+      {
+        "item": "Cartel grande, 24 x 42 pulg",
+        "price": "$35",
+        "note": "tamaño mural de aula"
+      }
+    ],
+    "pricingNote": "Los libros se envían desde Haití, puede haber demoras. Los carteles se envían desde los Estados Unidos. Prohibida la reventa y la reimpresión.",
+    "orderTitle": "Cómo pedir",
+    "orderBody": "Envíenos su nombre, correo, el uso previsto, un código postal, y los artículos y cantidades deseados. Respondemos con el costo de envío y el plazo.",
+    "orderCta": "Pedir a través de la página de contacto"
   }
 }
