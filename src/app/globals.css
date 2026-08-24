@@ -393,3 +393,13 @@ body::before {
 .animate-rise {
   animation: rise 0.9s var(--ease-out-soft) both;
 }
+
+.tricolor-vertical {
+  background: linear-gradient(
+    to bottom,
+    var(--color-blue) 0 50%,
+    var(--color-red) 50% 100%
+  );
+  background-size: 100% 60rem;
+  background-repeat: repeat-y;
+}

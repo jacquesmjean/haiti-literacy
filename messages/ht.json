@@ -398,5 +398,88 @@
       }
     ],
     "note": "Montan kanpay yo se estimasyon ki baze sou pri pwogram nou pibliye yo. Chak kanpay resevwa yon rapò enpak ekri."
+  },
+  "aboutPage": {
+    "eyebrow": "Kiyès nou ye",
+    "title": "Lekti se pon ki mennen nan ekite.",
+    "lede": "Yon vizyon, yon misyon, senk valè. Men tout plan an.",
+    "visionLabel": "Vizyon nou",
+    "vision": "Patnè pou Alfabetizasyon Ayiti travay ansanm ak pèp ayisyen, bibliyotèk yo ak enstitisyon edikasyon yo pou konpetans lekti ak siksè nan aprantisaj monte ansanm.",
+    "missionLabel": "Misyon nou",
+    "mission": "Amelyore lekti atravè liv kreyòl, teknoloji ak fòmasyon pou timoun depi nesans jiska uit an, fanmi yo ak pwofesè yo, nan bibliyotèk kominotè, lekòl ak sant yo.",
+    "valuesEyebrow": "Sa nou kanpe sou li",
+    "valuesTitle": "Senk valè, chak jou",
+    "values": [
+      {
+        "title": "Patenarya",
+        "body": "Nou fè patenarya ak òganizasyon ki pataje vizyon nou. Jamè pou kont nou, jamè san kominote a."
+      },
+      {
+        "title": "Aksyon",
+        "body": "Plis timoun posib, pi bonè posib. Se nan premye ane yo sèvo a bati tèt li."
+      },
+      {
+        "title": "Edikasyon",
+        "body": "Pasyon pou aprantisaj, ak fleksibilite pou jwenn nouvo solisyon lè ansyen yo pa mache ankò."
+      },
+      {
+        "title": "Jesyon responsab",
+        "body": "Chak dola itilize ak responsablite. Konsèy nou an se tout volontè."
+      },
+      {
+        "title": "Egalite nan lekti",
+        "body": "Nou leve kapasite lekti timoun ki pi majinalize yo an premye, pa an dènye."
+      }
+    ],
+    "sdgEyebrow": "Aliyman mondyal",
+    "sdgTitle": "Yon pati nan ajanda 2030 Nasyonzini an",
+    "sdgBody": "Nasyonzini rekonèt bibliyotèk yo kòm patnè kle nan disèt Objektif Devlopman Dirab li yo, paske yon bibliyotèk bay yon kominote aksè a enfòmasyon, pwoteje eritaj kiltirèl epi mete konesans nan men moun. Chak bibliyotèk vilaj PILH fè ajanda sa a avanse.",
+    "sdgTags": [
+      "Edikasyon kalite",
+      "Fini ak povrete",
+      "Redwi inegalite",
+      "Patenarya pou objektif yo"
+    ],
+    "openTitle": "Travay sa a louvri pou ou",
+    "openBody": "Nenpòt moun ki vle ede jèn timoun vin lektè epi ki anbrase vizyon, misyon ak valè sa yo kapab patisipe nan PILH.",
+    "openCta": "Patisipe"
+  },
+  "historyPage": {
+    "eyebrow": "Istwa nou",
+    "title": "Kenz ane, yon paj alafwa.",
+    "lede": "Depi yon revelasyon nan yon vilaj mòn jiska yon chanjman politik nasyonal. Woule istwa a.",
+    "items": {
+      "epiphany": {
+        "title": "Yon revelasyon nan Cange",
+        "body": "Nan yon reyinyon lidè Rotary ann Ayiti, Doktè Sara Mansbach vizite vilaj kote timoun pa janm wè yon liv imaj. Li jwenn yon nouvo objektif lavi."
+      },
+      "rotary": {
+        "title": "Ane volontè yo kòmanse",
+        "body": "Yon komite Rotary Charities tout volontè kòmanse devlope bibliyotèk vilaj nan Plato Santral ak Latibonit. Nan dis ane, li bay plis pase 5,000 liv franse ak kreyòl epi li fòme pwofesè ak travayè bibliyotèk."
+      },
+      "materials": {
+        "title": "Nou fè pwòp liv nou",
+        "body": "Ak yon klib Rotary ostralyen ak yon ekip ayisyen ilistratè ak tradiktè, sis liv kreyòl fasil pibliye ansanm. Tablo alfabè Alfabè Kreyòl Mwen an, ki pran trèz ane ak lengwis MIT, rive nan 98 lekòl, 95 pwofesè ak 3,800 elèv."
+      },
+      "nonprofit": {
+        "title": "PILH vin endepandan",
+        "body": "Estati federal 501(c)(3) rive, EIN 87-0904773. Endepandans pote moun talan, yon konsiltan ayisyen peye, ak vrè finansman pou yon lis datant vilaj k ap grandi."
+      },
+      "duplan": {
+        "title": "Pwojè Duplan an lanse",
+        "body": "Sou demann vilaj la, PILH kòmanse modènize Bibliyotèk Kominotè Metodis ki gen ven an: yon koleksyon kreyòl, sis Chromebook nèf, ak yon pwogram fòmasyon onz modil Erick Toussaint ap dirije."
+      },
+      "kreyol": {
+        "title": "Kreyòl vin lang sal klas la",
+        "body": "Ministè Edikasyon Ayiti dekrete timoun yo aprann an kreyòl, lang manman an. Prensip PILH te bati sou li pandan dis ane vin politik nasyonal."
+      },
+      "books": {
+        "title": "Twa mil liv epi n ap kontinye",
+        "body": "Plis pase 3,000 liv kreyòl PILH nan men timoun atravè Ayiti riral kounye a, epi modèl la ap grandi: senk bibliyotèk akonpaye, yon lis datant vilaj, ak yon jenerasyon k ap aprann renmen lekti nan lang pa li."
+      }
+    },
+    "todayTitle": "Kote istwa a prale",
+    "todayBody": "Yon sant fòmasyon nan Duplan k ap edike travayè bibliyotèk pou tout peyi a. Plis vilaj ki soti nan lis datant lan. Ou byenveni pou ekri pwochen chapit la avèk nou.",
+    "todayCta": "Sipòte pwochen chapit la"
   }
 }

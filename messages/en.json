@@ -398,5 +398,88 @@
       }
     ],
     "note": "Campaign amounts are estimates based on our published program costs. Every campaign receives a written impact report."
+  },
+  "aboutPage": {
+    "eyebrow": "Who we are",
+    "title": "Reading is the bridge to equity.",
+    "lede": "One vision, one mission, five values. This is the whole playbook.",
+    "visionLabel": "Our vision",
+    "vision": "Partners in Literacy Haiti collaborates with the Haitian people, libraries and educational institutions so that reading proficiency and learning success rise together.",
+    "missionLabel": "Our mission",
+    "mission": "Enhance reading through Kreyòl books, technology and training for children from birth to eight years old, their families and their teachers, in community libraries, schools and centers.",
+    "valuesEyebrow": "What we stand on",
+    "valuesTitle": "Five values, lived daily",
+    "values": [
+      {
+        "title": "Partnership",
+        "body": "We partner with organizations that share our vision. Never alone, never around the community."
+      },
+      {
+        "title": "Action",
+        "body": "As many children as possible, as early as possible. The first years are when a brain builds itself."
+      },
+      {
+        "title": "Education",
+        "body": "Passion for learning, with the flexibility to find new solutions when old ones stop working."
+      },
+      {
+        "title": "Stewardship",
+        "body": "Every dollar is used responsibly. Our board is entirely volunteer."
+      },
+      {
+        "title": "Literacy equality",
+        "body": "We raise the reading ability of the most marginalized children first, not last."
+      }
+    ],
+    "sdgEyebrow": "Global alignment",
+    "sdgTitle": "Part of the United Nations 2030 agenda",
+    "sdgBody": "The UN names libraries as key partners in its seventeen Sustainable Development Goals, because a library gives a community access to information, protects cultural heritage and puts knowledge in people's hands. Every PILH village library advances that agenda.",
+    "sdgTags": [
+      "Quality education",
+      "No poverty",
+      "Reduced inequalities",
+      "Partnerships for the goals"
+    ],
+    "openTitle": "This work is open to you",
+    "openBody": "Involvement with PILH is open to anyone who wants to help young children become readers and who embraces this vision, mission and these values.",
+    "openCta": "Get involved"
+  },
+  "historyPage": {
+    "eyebrow": "Our history",
+    "title": "Fifteen years, one page at a time.",
+    "lede": "From an epiphany in a mountain village to a national policy change. Scroll the story.",
+    "items": {
+      "epiphany": {
+        "title": "An epiphany at Cange",
+        "body": "At a Rotary leaders meeting in Haiti, Dr. Sara Mansbach visits villages where children have never seen a picture book. She finds a new life purpose."
+      },
+      "rotary": {
+        "title": "The volunteer years begin",
+        "body": "An all volunteer Rotary Charities committee starts developing village libraries in the Central Plateau and the Artibonite. Over the next decade it donates more than 5,000 French and Kreyòl books and trains teachers and library workers."
+      },
+      "materials": {
+        "title": "Making our own books",
+        "body": "With an Australian Rotary club and a Haitian team of illustrators and translators, six Kreyòl easy readers are co published. The Alfabè Kreyòl Mwen alphabet chart, thirteen years in the making with MIT linguists, reaches 98 schools, 95 teachers and 3,800 students."
+      },
+      "nonprofit": {
+        "title": "PILH becomes independent",
+        "body": "Federal 501(c)(3) status arrives, EIN 87-0904773. Independence brings talented people, a paid Haitian consultant, and real fundraising for a growing waiting list of villages."
+      },
+      "duplan": {
+        "title": "The Duplan project launches",
+        "body": "At the village's request, PILH begins modernizing the twenty year old Methodist Community Library: a Kreyòl collection, six new Chromebooks, and an eleven module training curriculum led by Erick Toussaint."
+      },
+      "kreyol": {
+        "title": "Kreyòl becomes the language of the classroom",
+        "body": "Haiti's Ministry of Education decrees that children learn in Kreyòl, the mother tongue. The premise PILH built on for a decade becomes national policy."
+      },
+      "books": {
+        "title": "Three thousand books and counting",
+        "body": "Over 3,000 PILH Kreyòl books are now in children's hands across rural Haiti, and the model keeps scaling: five libraries mentored, a waiting list of villages, and a generation learning to love reading in its own language."
+      }
+    },
+    "todayTitle": "Where the story goes next",
+    "todayBody": "A training center at Duplan that educates library workers for the whole country. More villages off the waiting list. You are welcome to write the next chapter with us.",
+    "todayCta": "Support the next chapter"
   }
 }

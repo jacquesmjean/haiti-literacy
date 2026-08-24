@@ -398,5 +398,88 @@
       }
     ],
     "note": "Les montants des campagnes sont des estimations fondées sur nos coûts de programme publiés. Chaque campagne reçoit un rapport d'impact écrit."
+  },
+  "aboutPage": {
+    "eyebrow": "Qui nous sommes",
+    "title": "La lecture est le pont vers l'équité.",
+    "lede": "Une vision, une mission, cinq valeurs. Voilà tout le plan de jeu.",
+    "visionLabel": "Notre vision",
+    "vision": "Partners in Literacy Haiti collabore avec le peuple haïtien, les bibliothèques et les institutions éducatives pour que la maîtrise de la lecture et la réussite scolaire progressent ensemble.",
+    "missionLabel": "Notre mission",
+    "mission": "Améliorer la lecture par des livres en kreyòl, la technologie et la formation, pour les enfants de la naissance à huit ans, leurs familles et leurs enseignants, dans les bibliothèques communautaires, les écoles et les centres.",
+    "valuesEyebrow": "Nos fondations",
+    "valuesTitle": "Cinq valeurs, vécues au quotidien",
+    "values": [
+      {
+        "title": "Partenariat",
+        "body": "Nous travaillons avec des organisations qui partagent notre vision. Jamais seuls, jamais sans la communauté."
+      },
+      {
+        "title": "Action",
+        "body": "Le plus d'enfants possible, le plus tôt possible. C'est dans les premières années que le cerveau se construit."
+      },
+      {
+        "title": "Éducation",
+        "body": "La passion d'apprendre, et la souplesse de trouver de nouvelles solutions quand les anciennes ne fonctionnent plus."
+      },
+      {
+        "title": "Bonne gestion",
+        "body": "Chaque dollar est utilisé de façon responsable. Notre conseil est entièrement bénévole."
+      },
+      {
+        "title": "Égalité devant la lecture",
+        "body": "Nous élevons d'abord, et non en dernier, le niveau de lecture des enfants les plus marginalisés."
+      }
+    ],
+    "sdgEyebrow": "Alignement mondial",
+    "sdgTitle": "Inscrits dans l'agenda 2030 des Nations Unies",
+    "sdgBody": "L'ONU désigne les bibliothèques comme partenaires clés de ses dix sept Objectifs de développement durable, car une bibliothèque donne à une communauté l'accès à l'information, protège le patrimoine culturel et met le savoir entre les mains des gens. Chaque bibliothèque de village PILH fait avancer cet agenda.",
+    "sdgTags": [
+      "Éducation de qualité",
+      "Pas de pauvreté",
+      "Inégalités réduites",
+      "Partenariats pour les objectifs"
+    ],
+    "openTitle": "Ce travail vous est ouvert",
+    "openBody": "L'engagement auprès de PILH est ouvert à toute personne qui veut aider les jeunes enfants à devenir lecteurs et qui adhère à cette vision, cette mission et ces valeurs.",
+    "openCta": "S'engager"
+  },
+  "historyPage": {
+    "eyebrow": "Notre histoire",
+    "title": "Quinze ans, une page à la fois.",
+    "lede": "D'une révélation dans un village de montagne à un changement de politique nationale. Faites défiler l'histoire.",
+    "items": {
+      "epiphany": {
+        "title": "Une révélation à Cange",
+        "body": "Lors d'une réunion de responsables Rotary en Haïti, la Dre Sara Mansbach visite des villages où les enfants n'ont jamais vu un album illustré. Elle y trouve un nouveau but de vie."
+      },
+      "rotary": {
+        "title": "Les années bénévoles commencent",
+        "body": "Un comité entièrement bénévole de Rotary Charities développe des bibliothèques de village dans le Plateau Central et l'Artibonite. En dix ans, il donne plus de 5 000 livres en français et en kreyòl et forme enseignants et employés de bibliothèque."
+      },
+      "materials": {
+        "title": "Nous créons nos propres livres",
+        "body": "Avec un club Rotary australien et une équipe haïtienne d'illustrateurs et de traducteurs, six livres de lecture facile en kreyòl sont coédités. L'affiche Alfabè Kreyòl Mwen, mûrie treize ans avec des linguistes du MIT, atteint 98 écoles, 95 enseignants et 3 800 élèves."
+      },
+      "nonprofit": {
+        "title": "PILH devient indépendante",
+        "body": "Le statut fédéral 501(c)(3) arrive, EIN 87-0904773. L'indépendance apporte des talents, une consultante haïtienne rémunérée et une vraie collecte de fonds pour une liste d'attente de villages qui s'allonge."
+      },
+      "duplan": {
+        "title": "Le projet Duplan est lancé",
+        "body": "À la demande du village, PILH modernise la bibliothèque communautaire méthodiste vieille de vingt ans : collection kreyòl, six Chromebooks neufs et un programme de formation de onze modules dirigé par Erick Toussaint."
+      },
+      "kreyol": {
+        "title": "Le kreyòl devient la langue de la classe",
+        "body": "Le ministère de l'Éducation d'Haïti décrète que les enfants apprennent en kreyòl, la langue maternelle. Le principe qui guidait PILH depuis dix ans devient politique nationale."
+      },
+      "books": {
+        "title": "Trois mille livres, et ce n'est pas fini",
+        "body": "Plus de 3 000 livres kreyòl PILH sont entre les mains d'enfants de l'Haïti rurale, et le modèle grandit : cinq bibliothèques accompagnées, une liste d'attente de villages, et une génération qui apprend à aimer lire dans sa langue."
+      }
+    },
+    "todayTitle": "La suite de l'histoire",
+    "todayBody": "Un centre de formation à Duplan pour les employés de bibliothèque de tout le pays. Plus de villages sortis de la liste d'attente. Vous êtes invités à écrire le prochain chapitre avec nous.",
+    "todayCta": "Soutenir le prochain chapitre"
   }
 }

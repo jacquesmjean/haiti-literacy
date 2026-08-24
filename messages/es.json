@@ -398,5 +398,88 @@
       }
     ],
     "note": "Los montos de las campañas son estimaciones basadas en nuestros costos de programa publicados. Cada campaña recibe un informe de impacto escrito."
+  },
+  "aboutPage": {
+    "eyebrow": "Quiénes somos",
+    "title": "La lectura es el puente hacia la equidad.",
+    "lede": "Una visión, una misión, cinco valores. Ese es todo el plan.",
+    "visionLabel": "Nuestra visión",
+    "vision": "Partners in Literacy Haiti colabora con el pueblo haitiano, las bibliotecas y las instituciones educativas para que el dominio de la lectura y el éxito escolar crezcan juntos.",
+    "missionLabel": "Nuestra misión",
+    "mission": "Mejorar la lectura mediante libros en kreyòl, tecnología y formación, para los niños desde el nacimiento hasta los ocho años, sus familias y sus maestros, en bibliotecas comunitarias, escuelas y centros.",
+    "valuesEyebrow": "Nuestros cimientos",
+    "valuesTitle": "Cinco valores, vividos a diario",
+    "values": [
+      {
+        "title": "Alianza",
+        "body": "Trabajamos con organizaciones que comparten nuestra visión. Nunca solos, nunca sin la comunidad."
+      },
+      {
+        "title": "Acción",
+        "body": "El mayor número de niños posible, lo más temprano posible. En los primeros años el cerebro se construye."
+      },
+      {
+        "title": "Educación",
+        "body": "Pasión por aprender, y la flexibilidad de hallar nuevas soluciones cuando las viejas dejan de funcionar."
+      },
+      {
+        "title": "Buena administración",
+        "body": "Cada dólar se usa con responsabilidad. Nuestra junta es totalmente voluntaria."
+      },
+      {
+        "title": "Igualdad lectora",
+        "body": "Elevamos primero, no al final, la capacidad de lectura de los niños más marginados."
+      }
+    ],
+    "sdgEyebrow": "Alineación global",
+    "sdgTitle": "Parte de la agenda 2030 de las Naciones Unidas",
+    "sdgBody": "La ONU señala a las bibliotecas como socias clave de sus diecisiete Objetivos de Desarrollo Sostenible, porque una biblioteca da a la comunidad acceso a la información, protege el patrimonio cultural y pone el conocimiento en las manos de la gente. Cada biblioteca de aldea de PILH hace avanzar esa agenda.",
+    "sdgTags": [
+      "Educación de calidad",
+      "Fin de la pobreza",
+      "Reducción de desigualdades",
+      "Alianzas para los objetivos"
+    ],
+    "openTitle": "Este trabajo está abierto para usted",
+    "openBody": "La participación en PILH está abierta a cualquier persona que quiera ayudar a los niños pequeños a convertirse en lectores y que comparta esta visión, esta misión y estos valores.",
+    "openCta": "Participe"
+  },
+  "historyPage": {
+    "eyebrow": "Nuestra historia",
+    "title": "Quince años, una página a la vez.",
+    "lede": "De una revelación en una aldea de montaña a un cambio de política nacional. Recorra la historia.",
+    "items": {
+      "epiphany": {
+        "title": "Una revelación en Cange",
+        "body": "En una reunión de líderes Rotary en Haití, la Dra. Sara Mansbach visita aldeas donde los niños nunca han visto un libro ilustrado. Encuentra un nuevo propósito de vida."
+      },
+      "rotary": {
+        "title": "Comienzan los años voluntarios",
+        "body": "Un comité totalmente voluntario de Rotary Charities desarrolla bibliotecas de aldea en la Meseta Central y el Artibonite. En una década dona más de 5,000 libros en francés y kreyòl y forma a maestros y trabajadores de bibliotecas."
+      },
+      "materials": {
+        "title": "Creamos nuestros propios libros",
+        "body": "Con un club Rotary australiano y un equipo haitiano de ilustradores y traductores se coeditan seis libros de lectura fácil en kreyòl. El cartel Alfabè Kreyòl Mwen, madurado trece años con lingüistas del MIT, llega a 98 escuelas, 95 maestros y 3,800 estudiantes."
+      },
+      "nonprofit": {
+        "title": "PILH se independiza",
+        "body": "Llega el estatus federal 501(c)(3), EIN 87-0904773. La independencia trae talento, una consultora haitiana remunerada y una recaudación real para una lista de espera de aldeas que crece."
+      },
+      "duplan": {
+        "title": "Se lanza el proyecto Duplan",
+        "body": "A petición de la aldea, PILH moderniza la biblioteca comunitaria metodista de veinte años: colección en kreyòl, seis Chromebooks nuevas y un programa de formación de once módulos dirigido por Erick Toussaint."
+      },
+      "kreyol": {
+        "title": "El kreyòl se vuelve la lengua del aula",
+        "body": "El Ministerio de Educación de Haití decreta que los niños aprendan en kreyòl, la lengua materna. El principio que guio a PILH durante una década se convierte en política nacional."
+      },
+      "books": {
+        "title": "Tres mil libros y contando",
+        "body": "Más de 3,000 libros kreyòl de PILH están en manos de niños del Haití rural, y el modelo sigue creciendo: cinco bibliotecas acompañadas, una lista de espera de aldeas y una generación que aprende a amar la lectura en su idioma."
+      }
+    },
+    "todayTitle": "Hacia dónde va la historia",
+    "todayBody": "Un centro de formación en Duplan que eduque a trabajadores de bibliotecas para todo el país. Más aldeas fuera de la lista de espera. Está invitado a escribir el próximo capítulo con nosotros.",
+    "todayCta": "Apoyar el próximo capítulo"
   }
 }
