@@ -42,6 +42,36 @@ export default async function GivePage(props: {
         </div>
       </section>
 
+      {/* The Book Club: named monthly giving community */}
+      <section className="wrap pb-12" data-reveal>
+        <div className="relative overflow-hidden rounded-[2rem] bg-blue-deep p-9 text-white lg:p-11">
+          <div
+            aria-hidden
+            className="absolute inset-0 opacity-[0.07]"
+            style={{
+              backgroundImage:
+                "radial-gradient(circle at 20% 20%, #fff 1.5px, transparent 1.5px)",
+              backgroundSize: "34px 34px",
+            }}
+          />
+          <div className="relative flex flex-wrap items-center justify-between gap-8">
+            <div className="max-w-2xl">
+              <span className="inline-block rounded-full bg-gold/15 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.12em] text-gold">
+                {m.give.clubBadge}
+              </span>
+              <h2 className="serif mt-4 text-2xl font-semibold">{m.give.clubTitle}</h2>
+              <p className="mt-3 leading-relaxed text-white/75">{m.give.clubBody}</p>
+            </div>
+            <a
+              href="#give-form"
+              className="rounded-full bg-red px-8 py-4 text-sm font-semibold text-white shadow-[0_10px_28px_-8px_rgba(213,31,54,0.7)] transition hover:-translate-y-0.5 hover:bg-red-deep"
+            >
+              {m.home.give.cta}
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section className="wrap grid gap-12 pb-20 lg:grid-cols-[1fr_1.05fr] lg:gap-16">
         {/* What each gift buys */}
         <div>
@@ -122,7 +152,7 @@ export default async function GivePage(props: {
         </div>
 
         {/* Secure form */}
-        <div className="lg:sticky lg:top-24 lg:self-start" data-reveal>
+        <div id="give-form" className="scroll-mt-28 lg:sticky lg:top-24 lg:self-start" data-reveal>
           <h2 className="serif mb-5 text-2xl font-semibold text-ink">
             {m.give.formTitle}
           </h2>

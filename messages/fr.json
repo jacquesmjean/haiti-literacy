@@ -210,7 +210,10 @@
     ],
     "volunteerTitle": "Donner de votre temps",
     "volunteerBody": "Nous cherchons des personnes qui aiment les livres et qui tiennent à Haïti. Finances et demandes de subvention, marketing et réseaux sociaux, collecte de fonds et événements, recrutement de bénévoles, conception et évaluation de programmes. Les comités se réunissent sur Zoom.",
-    "volunteerCta": "Devenir bénévole"
+    "volunteerCta": "Devenir bénévole",
+    "clubBadge": "Klib Liv la · Le Club du Livre PILH",
+    "clubTitle": "Rejoignez le Club du Livre",
+    "clubBody": "Les donateurs mensuels sont le cœur battant de ce travail, alors nous leur avons donné un nom. Les membres du Klib Liv la financent les livres, les étagères et les bibliothécaires mois après mois, et reçoivent en premier les histoires des bibliothèques par notre infolettre. Dès quinze dollars par mois, dix livres en kreyòl, chaque mois."
   },
   "contact": {
     "eyebrow": "Contact",

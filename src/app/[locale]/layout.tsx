@@ -37,7 +37,19 @@ export async function generateMetadata(props: {
     openGraph: {
       type: "website",
       siteName: m.meta.title,
-      images: ["/img/hero-lachapelle.webp"],
+      locale: localeTags[locale],
+      images: [
+        {
+          url: `/og/${locale}.png`,
+          width: 1200,
+          height: 630,
+          alt: m.meta.tagline,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: [`/og/${locale}.png`],
     },
   };
 }

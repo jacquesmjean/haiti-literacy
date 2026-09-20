@@ -1,0 +1,34 @@
+# Partners in Literacy Haiti (PILH)
+
+> A 501(c)(3) nonprofit (EIN 87-0904773) building children's libraries in
+> rural Haiti with Kreyòl books, technology, and teacher training, for
+> children from birth to eight years old. Founded 2011, incorporated 2021.
+> Candid Platinum Transparency Seal holder. Site available in English (/en),
+> Haitian Kreyòl (/ht), French (/fr) and Spanish (/es).
+
+Key facts: more than 3,000 Kreyòl books placed in children's hands; five
+village libraries mentored across three departments (Ouest, Centre,
+Artibonite); 98 schools supplied with alphabet charts and books; 3,800
+students reached through teacher training. Flagship project: the Duplan
+Methodist Community Library, Ouest. Publisher of six Kreyòl easy readers and
+the Alfabè Kreyòl Mwen alphabet chart (MIT Haiti Initiative verified,
+US Library of Congress registered).
+
+Donations are processed by Zeffy, which passes one hundred percent of each
+gift to PILH; receipts are tax deductible in the United States. Checks:
+Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA.
+
+## Main pages
+
+- [Home](https://haiti-literacy.vercel.app/en): mission, impact numbers, giving tiers
+- [Give](https://haiti-literacy.vercel.app/en/give): what each gift funds, secure donation form
+- [Transparency](https://haiti-literacy.vercel.app/en/transparency): annual reports 2022 to 2025, EIN, accountability
+- [How we work](https://haiti-literacy.vercel.app/en/our-work): the three part model
+- [The Duplan project](https://haiti-literacy.vercel.app/en/duplan): flagship library
+- [Kreyòl books and charts](https://haiti-literacy.vercel.app/en/kreyol-materials): publications and ordering
+- [The numbers](https://haiti-literacy.vercel.app/en/statistics): sourced education statistics for Haiti
+- [Contact](https://haiti-literacy.vercel.app/en/contact): for donors, educators in Haiti, and partners
+
+## Contact
+
+administrator@haiti-literacy.org
