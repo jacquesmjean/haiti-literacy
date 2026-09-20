@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Partners in Literacy Haiti",
-    "tagline": "Every Haitian child deserves a book in their own language.",
+    "tagline": "Every Haitian child deserves books in their own language.",
     "description": "Partners in Literacy Haiti builds and strengthens children's libraries in rural Haiti with Kreyòl books, technology and training. A 501(c)(3) nonprofit, EIN 87-0904773."
   },
   "nav": {
@@ -18,7 +18,8 @@
       "about": "Vision and mission",
       "history": "Our history",
       "board": "Board and leadership",
-      "reports": "Annual reports"
+      "reports": "Annual reports",
+      "transparency": "Transparency and reports"
     },
     "workItems": {
       "our-work": "How we work",
@@ -64,17 +65,18 @@
       "note": "Figures from our published annual reports. Independently verified financials are filed with the IRS each year."
     },
     "problem": {
-      "eyebrow": "The problem",
+      "eyebrow": "The challenge",
       "title": "We visited 32 classrooms and found zero books.",
-      "body": "Not one extra book. Not one bookshelf. Six rural schools, thirty two classrooms, and nothing for a child to read for pleasure. Haiti is the least literate country in the Western Hemisphere. Families living on less than $2.15 a day cannot buy books, and the private rural schools that teach most Haitian children rarely have a budget for them.",
-      "stat1Value": "50%",
+      "body": "Not one storybook. Not one bookshelf. Across six rural schools and thirty two classrooms, children had nothing to read beyond their required lessons, and no chance to discover the joy of reading for themselves. For families struggling to meet basic needs, buying books is out of reach, and rural schools face the same hard choices. Your support helps change that, one book, one classroom, and one young reader at a time.",
+      "stat1Value": "38%",
       "stat1Label": "of adults in Haiti cannot read",
-      "stat2Value": "70%",
-      "stat2Label": "of children leave school before sixth grade",
+      "stat2Value": "40%",
+      "stat2Label": "of children leave school before ninth grade",
       "stat3Value": "95%",
       "stat3Label": "speak Kreyòl, yet almost all books are in French",
       "quote": "Where there is no book, there is no reader. We start with the book.",
-      "quoteBy": "Dr. Sara Currie Mansbach, Founder"
+      "quoteBy": "Dr. Sara Currie Mansbach, Founder",
+      "sources": "Sources: USAID International Data and Economic Analysis, 2022. UNESCO IIEP, 2020."
     },
     "approach": {
       "eyebrow": "How we work",
@@ -126,7 +128,7 @@
     },
     "trust": {
       "title": "Where your money goes",
-      "body": "PILH is an all volunteer board with two part time paid specialists. Our books are purchased in Haiti when possible so the money stays in the Haitian economy.",
+      "body": "PILH is led by an all volunteer board. Our books are purchased in Haiti when possible so the money stays in the Haitian economy.",
       "seal": "Candid Platinum Transparency",
       "ein": "EIN 87-0904773",
       "status": "501(c)(3) public charity"
@@ -171,6 +173,10 @@
       {
         "amount": 1000,
         "text": "Computers and a power source for the Duplan project"
+      },
+      {
+        "amount": 2500,
+        "text": "Stocks and equips a full school library from shelves to books"
       }
     ],
     "formTitle": "Give securely",
@@ -180,6 +186,10 @@
       {
         "title": "By check",
         "body": "Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA"
+      },
+      {
+        "title": "Major and foundation gifts",
+        "body": "For gifts above $1,000, foundation grants, donor advised funds, ACH or wire transfers, write to us and our treasurer will respond directly. EIN 87-0904773."
       },
       {
         "title": "Employer matching",
@@ -271,9 +281,9 @@
     }
   },
   "concierge": {
-    "name": "Sèvitè PILH",
+    "name": "PILH Assistant",
     "subtitle": "Ask us anything, in four languages",
-    "open": "Ask Sèvitè PILH",
+    "open": "Ask the PILH Assistant",
     "placeholder": "Type your question",
     "send": "Send",
     "greeting": "Hello, and welcome. I am Sèvitè PILH. I can explain where your gift goes, help you sponsor a library, or help a teacher in Haiti request Kreyòl books. What brings you here today?",
@@ -305,7 +315,8 @@
     "rights": "All rights reserved.",
     "builtBy": "Website donated by",
     "privacy": "Privacy",
-    "transparency": "Transparency"
+    "transparency": "Transparency",
+    "mailTitle": "Mail and checks"
   },
   "common": {
     "readMore": "Read more",
@@ -351,7 +362,7 @@
         "body": "Lawyers, accountants, librarians, teachers, technologists. A few hours of your craft goes far."
       }
     ],
-    "transparencyTitle": "Radical transparency",
+    "transparencyTitle": "Transparency",
     "transparencyBody": "We publish our annual reports, file with the IRS every year, and hold the Candid Platinum Transparency seal. Ask us anything about the money. We will answer.",
     "transparencyCta": "Read our annual reports",
     "contactCta": "Tell us how you want to help"
@@ -626,7 +637,9 @@
     "pricingNote": "Books ship from Haiti, so delays are possible. Charts ship from the USA. Reselling and reprinting are not permitted.",
     "orderTitle": "How to order",
     "orderBody": "Send us your name, email, where the materials will be used, a postal code, and the items and quantities you want. We reply with shipping cost and delivery time.",
-    "orderCta": "Order through the contact page"
+    "orderCta": "Order through the contact page",
+    "inventoryTitle": "Inventory update",
+    "inventoryBody": "Our printed book inventory is fully depleted, and about 50 alphabet charts remain. New donations fund the next print run, shipping, and electronic distribution of these materials. Chart orders ship while supplies last, and book orders join a waiting list for the next printing."
   },
   "workPage": {
     "eyebrow": "Our work",
@@ -742,7 +755,7 @@
     },
     "desertBody": "Not one bookshelf, and no source of books anywhere nearby. Haiti's mountain villages are cut off from age appropriate books and from a culture of reading. Seventy percent of primary schools are private and rarely budget for pleasure reading. Where a family lives on less than 2.15 dollars a day, buying books is out of reach. A library or book corner nearby changes the paradigm.",
     "whyTitle": "Why Kreyòl",
-    "whyBody": "Kreyòl is the spoken language of ninety five percent of Haiti's people. The old standard was colonial French, taught by rote, which frustrated struggling readers and helped drive seventy percent of children out of school before sixth grade.",
+    "whyBody": "Kreyòl is the spoken language of ninety five percent of Haiti's people. The old standard was colonial French, taught by rote, which frustrated struggling readers. UNESCO's education institute reports that about forty percent of Haitian children leave school before ninth grade.",
     "policyCallout": "In February 2022 Haiti's Minister of Education proclaimed that public schools should teach children aged three to eight in Kreyòl. Every PILH book, chart and training is built on the premise the government now shares: a Haitian child should learn to read in the Haitian language.",
     "ctaTitle": "Put ten books in young hands",
     "ctaBody": "Fifteen dollars a month funds ten Kreyòl children's books, every month.",
@@ -826,6 +839,34 @@
     "takeTitle": "What we take from this",
     "takeBody": "Two numbers drive our strategy. Ninety five percent of Haitians speak Kreyòl, and pre primary enrollment sits near five percent. The earliest learners are the least served, in the language almost nobody prints books in. That is exactly where a children's library changes lives, and exactly where PILH works.",
     "sourceNote": "Recent years of unrest, Covid and the 2021 Grand Sud earthquake kept many schools closed or late to open, so current conditions are likely harder than these figures show.",
-    "cta": "See what your gift does"
+    "cta": "See what your gift does",
+    "contextSources": "Sources: CIA World Factbook. USAID International Data and Economic Analysis, November 2022."
+  },
+  "transparencyPage": {
+    "eyebrow": "Transparency and accountability",
+    "title": "See exactly where the money goes.",
+    "lede": "Donor caution around charities working in Haiti is fair. We answer it with documents, not promises.",
+    "points": [
+      {
+        "title": "A verified public record",
+        "body": "PILH holds the Candid Platinum Transparency Seal, the highest level, and files its financials with the IRS every year. EIN 87-0904773, a 501(c)(3) public charity since 2021."
+      },
+      {
+        "title": "An all volunteer board",
+        "body": "Board members are unpaid. Books are purchased in Haiti whenever possible so the money strengthens the Haitian economy it serves."
+      },
+      {
+        "title": "Results before funding",
+        "body": "Project funding follows written agreements with village committees, monthly reports, and an external evaluator who verifies progress each year at Duplan."
+      },
+      {
+        "title": "Receipts in your inbox",
+        "body": "Every online gift is processed by Zeffy, which passes one hundred percent to PILH and emails your official tax receipt immediately."
+      }
+    ],
+    "reportsTitle": "Annual reports",
+    "verify": "Verify us independently on Candid",
+    "checkTitle": "Prefer to mail a check?",
+    "checkBody": "Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA."
   }
 }

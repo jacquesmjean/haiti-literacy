@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { Messages } from "@/lib/messages";
 
 type FormCopy = Messages["contact"]["form"];
@@ -13,10 +13,21 @@ export default function ContactForm({
   locale: string;
 }) {
   const [state, setState] = useState<"idle" | "sending" | "done" | "error">("idle");
+  // Anti spam: the moment the form mounted. Bots submit in under two seconds.
+  const mountedAt = useRef(Date.now());
 
   async function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const form = new FormData(event.currentTarget);
+    // Capture the element before any await. React nulls currentTarget after.
+    const formElement = event.currentTarget;
+    const form = new FormData(formElement);
+
+    // Honeypot: real people never fill a field they cannot see.
+    if (form.get("website")) {
+      setState("done");
+      return;
+    }
+
     setState("sending");
     try {
       const response = await fetch("/api/lead", {
@@ -31,10 +42,15 @@ export default function ContactForm({
           location: form.get("location"),
           topic: form.get("topic"),
           message: form.get("message"),
+          elapsed: Date.now() - mountedAt.current,
         }),
       });
-      setState(response.ok ? "done" : "error");
-      if (response.ok) event.currentTarget.reset();
+      if (response.ok) {
+        formElement.reset();
+        setState("done");
+      } else {
+        setState("error");
+      }
     } catch {
       setState("error");
     }
@@ -50,6 +66,15 @@ export default function ContactForm({
 
   return (
     <form onSubmit={onSubmit} className="grid gap-4">
+      {/* Honeypot. Hidden from people, filled by spam bots. */}
+      <input
+        type="text"
+        name="website"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        className="absolute left-[-9999px] h-0 w-0 opacity-0"
+      />
       <div className="grid gap-4 sm:grid-cols-2">
         <Field name="name" label={copy.name} required />
         <Field name="email" label={copy.email} type="email" required />

@@ -74,6 +74,27 @@ export default async function KreyolMaterialsPage(props: {
         </div>
       </section>
 
+      {/* Inventory status */}
+      <section className="wrap mt-6" data-reveal>
+        <div className="flex flex-wrap items-start gap-4 rounded-[2rem] border border-gold/40 bg-gold/10 p-7">
+          <span aria-hidden className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gold text-ink">
+            !
+          </span>
+          <div className="min-w-0 flex-1">
+            <h2 className="serif text-lg font-semibold text-ink">{t.inventoryTitle}</h2>
+            <p className="mt-1.5 max-w-3xl text-sm leading-relaxed text-ink-soft">
+              {t.inventoryBody}
+            </p>
+          </div>
+          <Link
+            href={href(locale, "/give")}
+            className="shrink-0 self-center rounded-full bg-red px-6 py-3 text-sm font-semibold text-white transition hover:bg-red-deep"
+          >
+            {m.common.donateNow}
+          </Link>
+        </div>
+      </section>
+
       {/* The bookshelf */}
       <section className="wrap py-20 lg:py-24">
         <div className="flex flex-wrap items-end justify-between gap-4" data-reveal>
@@ -163,12 +184,12 @@ export default async function KreyolMaterialsPage(props: {
             className="relative overflow-hidden rounded-3xl shadow-[var(--shadow-deep)]"
           >
             <Image
-              src="/img/teacher-training.webp"
-              alt=""
-              width={900}
-              height={640}
+              src="/img/alphabet-chart.webp"
+              alt="Alfabè Kreyòl Mwen alphabet chart"
+              width={1024}
+              height={614}
               sizes="(min-width:1024px) 40vw, 100vw"
-              className="w-full object-cover"
+              className="w-full bg-white object-contain"
             />
           </figure>
         </div>

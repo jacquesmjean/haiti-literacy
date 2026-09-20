@@ -16,13 +16,6 @@ export const site = {
   strategyEmail: "leedashton@gmail.com",
 
   addresses: {
-    office: {
-      line1: "202 Hope Street",
-      city: "Greenville",
-      region: "SC",
-      postal: "29601",
-      country: "USA",
-    },
     mail: {
       line1: "P.O. Box 90057",
       city: "Indianapolis",
@@ -177,6 +170,8 @@ export const board = [
 
 /** Annual reports hosted on the current site until they are re-uploaded. */
 export const reports = [
+  { year: 2025, href: "https://www.haiti-literacy.org/wp-content/uploads/2026/03/2025AnnualReport.pdf" },
   { year: 2024, href: "https://www.haiti-literacy.org/wp-content/uploads/2025/05/2024Annual-Report.pdf" },
+  { year: 2023, href: "https://www.haiti-literacy.org/wp-content/uploads/2024/08/2023AnnualReport.pdf" },
   { year: 2022, href: "https://www.haiti-literacy.org/wp-content/uploads/2023/04/PILH2022AnnualReport.pdf" },
 ] as const;

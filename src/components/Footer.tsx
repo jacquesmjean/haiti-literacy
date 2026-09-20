@@ -88,8 +88,8 @@ export default function Footer({
               </li>
             ))}
             <li>
-              <Link className="transition hover:text-white" href={href(locale, "/reports")}>
-                {m.nav.aboutItems.reports}
+              <Link className="transition hover:text-white" href={href(locale, "/transparency")}>
+                {m.nav.aboutItems.transparency}
               </Link>
             </li>
             <li>
@@ -109,7 +109,21 @@ export default function Footer({
             <NewsletterForm labels={m.newsletter} />
           </div>
 
-          <div className="mt-8 flex flex-wrap gap-2">
+          <div className="mt-8">
+            <h2 className="text-xs font-semibold uppercase tracking-[0.16em] text-white/50">
+              {m.contact.mailTitle}
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-white/70">
+              {site.name}
+              <br />
+              {site.addresses.mail.line1}
+              <br />
+              {site.addresses.mail.city}, {site.addresses.mail.region}{" "}
+              {site.addresses.mail.postal} {site.addresses.mail.country}
+            </p>
+          </div>
+
+          <div className="mt-6 flex flex-wrap gap-2">
             {(
               [
                 ["Facebook", site.social.facebook],

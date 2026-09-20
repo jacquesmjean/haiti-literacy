@@ -12,11 +12,19 @@ const nextConfig: NextConfig = {
   async redirects() {
     // Every old WordPress URL lands on its new home so no inbound link,
     // bookmark or search result breaks.
-    return Object.entries(legacyRedirects).map(([source, destination]) => ({
-      source,
-      destination: `/en${destination}`,
-      permanent: true,
-    }));
+    return [
+      ...Object.entries(legacyRedirects).map(([source, destination]) => ({
+        source,
+        destination: `/en${destination}`,
+        permanent: true,
+      })),
+      // The reports page folded into the transparency page.
+      {
+        source: "/:locale(en|ht|fr|es)/reports",
+        destination: "/:locale/transparency",
+        permanent: true,
+      },
+    ];
   },
 
   async headers() {

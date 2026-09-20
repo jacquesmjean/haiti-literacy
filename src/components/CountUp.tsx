@@ -15,7 +15,7 @@ export default function CountUp({
   locale: string;
 }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const [display, setDisplay] = useState(0);
+  const [display, setDisplay] = useState(value);
   const started = useRef(false);
 
   useEffect(() => {
@@ -33,6 +33,7 @@ export default function CountUp({
         if (!entries[0].isIntersecting || started.current) return;
         started.current = true;
         observer.disconnect();
+        setDisplay(0);
 
         const start = performance.now();
         const tick = (now: number) => {

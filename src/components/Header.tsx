@@ -122,8 +122,8 @@ export default function Header({
               href: href(locale, `/${slug}`),
               label: nav.aboutItems[slug] ?? slug,
             })).concat({
-              href: href(locale, "/reports"),
-              label: nav.aboutItems.reports,
+              href: href(locale, "/transparency"),
+              label: nav.aboutItems.transparency,
             })}
           />
           <Dropdown
@@ -231,8 +231,8 @@ export default function Header({
                     {nav.aboutItems[slug] ?? slug}
                   </MobileLink>
                 ))}
-                <MobileLink href={href(locale, "/reports")}>
-                  {nav.aboutItems.reports}
+                <MobileLink href={href(locale, "/transparency")}>
+                  {nav.aboutItems.transparency}
                 </MobileLink>
               </MobileGroup>
 

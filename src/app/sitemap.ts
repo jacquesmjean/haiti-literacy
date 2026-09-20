@@ -4,7 +4,7 @@ import { listNewsSlugs, listPageSlugs } from "@/lib/content";
 import { site } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticPaths = ["", "/give", "/contact", "/news", "/reports", "/get-involved", "/board", "/about", "/history", "/duplan", "/kreyol-materials", "/our-work", "/libraries", "/young-readers", "/alliance", "/statistics"];
+  const staticPaths = ["", "/give", "/contact", "/news", "/transparency", "/get-involved", "/board", "/about", "/history", "/duplan", "/kreyol-materials", "/our-work", "/libraries", "/young-readers", "/alliance", "/statistics"];
   const pageSlugs = listPageSlugs().map((slug) => `/${slug}`);
   const newsSlugs = listNewsSlugs().map((slug) => `/news/${slug}`);
   const all = [...staticPaths, ...pageSlugs, ...newsSlugs];

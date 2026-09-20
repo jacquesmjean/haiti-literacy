@@ -18,6 +18,13 @@ export async function POST(request: Request) {
   }
 
   const kind = typeof body.kind === "string" ? body.kind : "contact";
+
+  // Anti spam: submissions faster than two seconds after page load are bots.
+  // Accept them so the bot learns nothing, but do not forward them.
+  const elapsed = typeof body.elapsed === "number" ? body.elapsed : null;
+  if (kind === "contact" && elapsed !== null && elapsed < 2000) {
+    return NextResponse.json({ ok: true, delivered: [] });
+  }
   const email = typeof body.email === "string" ? body.email.slice(0, 200) : "";
   if (!email || !email.includes("@")) {
     return NextResponse.json({ error: "email_required" }, { status: 400 });

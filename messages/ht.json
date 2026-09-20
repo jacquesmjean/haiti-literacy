@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Patnè pou Alfabetizasyon Ayiti",
-    "tagline": "Chak timoun ayisyen merite yon liv nan lang pa l.",
+    "tagline": "Chak timoun ayisyen merite liv nan lang pa l.",
     "description": "Patnè pou Alfabetizasyon Ayiti (PILH) ap bati epi ranfòse bibliyotèk timoun nan zòn riral ann Ayiti ak liv kreyòl, teknoloji ak fòmasyon. Se yon òganizasyon 501(c)(3), EIN 87-0904773."
   },
   "nav": {
@@ -18,7 +18,8 @@
       "about": "Vizyon ak misyon",
       "history": "Istwa nou",
       "board": "Konsèy administrasyon",
-      "reports": "Rapò anyèl"
+      "reports": "Rapò anyèl",
+      "transparency": "Transparans ak rapò"
     },
     "workItems": {
       "our-work": "Kijan nou travay",
@@ -64,17 +65,18 @@
       "note": "Chif sa yo soti nan rapò anyèl nou pibliye. Nou depoze eta finansye nou bay IRS chak ane."
     },
     "problem": {
-      "eyebrow": "Pwoblèm nan",
+      "eyebrow": "Defi a",
       "title": "Nou vizite 32 sal klas epi nou pa jwenn yon sèl liv.",
-      "body": "Pa yon liv anplis. Pa yon etajè. Sis lekòl nan zòn riral, trannde sal klas, epi anyen pou yon timoun li pou plezi. Ayiti se peyi ki gen mwens moun ki konn li nan tout Amerik la. Fanmi k ap viv ak mwens pase $2.15 pa jou pa kapab achte liv, epi lekòl prive nan zòn riral yo, ki edike pifò timoun ayisyen, raman gen yon bidjè pou sa.",
-      "stat1Value": "50%",
+      "body": "Pa yon liv istwa. Pa yon etajè. Nan sis lekòl riral ak trannde sal klas, timoun yo pa t gen anyen pou li apre leson obligatwa yo, e okenn chans pou dekouvri lajwa lekti pou tèt yo. Pou fanmi k ap lite pou bezwen debaz, achte liv pa posib, epi lekòl riral yo fè menm chwa difisil yo. Sipò ou ede chanje sa, yon liv, yon sal klas, yon jèn lektè alafwa.",
+      "stat1Value": "38%",
       "stat1Label": "granmoun ann Ayiti pa konn li",
-      "stat2Value": "70%",
-      "stat2Label": "timoun kite lekòl anvan sizyèm ane",
+      "stat2Value": "40%",
+      "stat2Label": "timoun kite lekòl anvan nevyèm ane",
       "stat3Value": "95%",
       "stat3Label": "pale kreyòl, men prèske tout liv an franse",
       "quote": "Kote ki pa gen liv, pa gen lektè. Nou kòmanse ak liv la.",
-      "quoteBy": "Doktè Sara Currie Mansbach, Fondatè"
+      "quoteBy": "Doktè Sara Currie Mansbach, Fondatè",
+      "sources": "Sous: USAID International Data and Economic Analysis, 2022. UNESCO IIEP, 2020."
     },
     "approach": {
       "eyebrow": "Kijan nou travay",
@@ -126,7 +128,7 @@
     },
     "trust": {
       "title": "Kote lajan w ale",
-      "body": "PILH gen yon konsèy ki tout se volontè ak de espesyalis a tan pasyèl ki peye. Nou achte liv nou ann Ayiti lè nou kapab pou lajan an rete nan ekonomi ayisyen an.",
+      "body": "Se yon konsèy ki tout se volontè k ap dirije PILH. Nou achte liv nou ann Ayiti lè nou kapab pou lajan an rete nan ekonomi ayisyen an.",
       "seal": "Transparans Platinum Candid",
       "ein": "EIN 87-0904773",
       "status": "Òganizasyon charitab 501(c)(3)"
@@ -171,6 +173,10 @@
       {
         "amount": 1000,
         "text": "Òdinatè ak yon sous kouran pou pwojè Duplan an"
+      },
+      {
+        "amount": 2500,
+        "text": "Ekipe yon bibliyotèk lekòl konplè, depi etajè jiska liv"
       }
     ],
     "formTitle": "Bay an sekirite",
@@ -180,6 +186,10 @@
       {
         "title": "Pa chèk",
         "body": "Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA"
+      },
+      {
+        "title": "Gwo don ak fondasyon",
+        "body": "Pou don ki depase $1,000, sibvansyon fondasyon, fon konseye pa donatè, ACH oswa transfè, ekri nou epi trezorye nou an ap reponn ou dirèkteman. EIN 87-0904773."
       },
       {
         "title": "Konpayi w ka double don an",
@@ -305,7 +315,8 @@
     "rights": "Tout dwa rezève.",
     "builtBy": "Sit entènèt la se yon don",
     "privacy": "Konfidansyalite",
-    "transparency": "Transparans"
+    "transparency": "Transparans",
+    "mailTitle": "Lapòs ak chèk"
   },
   "common": {
     "readMore": "Li plis",
@@ -351,7 +362,7 @@
         "body": "Avoka, kontab, bibliyotekè, pwofesè, teknològ. Kèk èdtan nan metye w ale lwen."
       }
     ],
-    "transparencyTitle": "Transparans total",
+    "transparencyTitle": "Transparans",
     "transparencyBody": "Nou pibliye rapò anyèl nou, nou depoze dokiman nou bay IRS chak ane, epi nou genyen so Transparans Platinum Candid la. Mande nou nenpòt bagay sou lajan an. N ap reponn.",
     "transparencyCta": "Li rapò anyèl nou yo",
     "contactCta": "Di nou kijan ou vle ede"
@@ -626,7 +637,9 @@
     "pricingNote": "Liv yo soti Ayiti, kidonk reta posib. Tablo yo soti Ozetazini. Revann ak reenprime pa pèmèt.",
     "orderTitle": "Kijan pou kòmande",
     "orderBody": "Voye non w, imel ou, kote materyèl yo pral itilize, yon kòd postal, ak atik ak kantite ou vle yo. N ap reponn ak pri transpò ak delè livrezon.",
-    "orderCta": "Kòmande atravè paj kontak la"
+    "orderCta": "Kòmande atravè paj kontak la",
+    "inventoryTitle": "Nouvèl sou estòk la",
+    "inventoryBody": "Estòk liv enprime nou fini nèt, epi rete anviwon 50 tablo alfabè. Nouvo don yo finanse pwochen enpresyon an, transpò a, ak distribisyon elektwonik materyèl sa yo. Kòmand tablo yo ale pandan estòk la la, epi kòmand liv yo antre nan yon lis datant pou pwochen enpresyon an."
   },
   "workPage": {
     "eyebrow": "Travay nou",
@@ -742,7 +755,7 @@
     },
     "desertBody": "Pa yon etajè, epi okenn sous liv toupre. Vilaj mòn Ayiti yo koupe de liv ki adapte ak laj ak yon kilti lekti. Swasanndis pousan lekòl primè yo prive epi yo raman gen bidjè pou lekti plezi. Kote yon fanmi viv ak mwens pase 2.15 dola pa jou, achte liv pa posib. Yon bibliyotèk oswa yon kwen liv toupre chanje paradigm nan.",
     "whyTitle": "Poukisa kreyòl",
-    "whyBody": "Kreyòl se lang katrevenkenz pousan pèp ayisyen an pale. Ansyen estanda a se te franse kolonyal, anseye pa kè, ki te fristre lektè ki t ap lite yo epi ki te ede pouse swasanndis pousan timoun kite lekòl anvan sizyèm ane.",
+    "whyBody": "Kreyòl se lang katrevenkenz pousan pèp ayisyen an pale. Ansyen estanda a se te franse kolonyal, anseye pa kè, ki te fristre lektè ki t ap lite yo. Enstiti edikasyon UNESCO a rapòte anviwon karant pousan timoun ayisyen kite lekòl anvan nevyèm ane.",
     "policyCallout": "An fevriye 2022, Minis Edikasyon Ayiti a te pwoklame lekòl piblik yo dwe anseye timoun twa a uit an an kreyòl. Chak liv, tablo ak fòmasyon PILH bati sou prensip gouvènman an pataje kounye a: yon timoun ayisyen dwe aprann li nan lang ayisyen an.",
     "ctaTitle": "Mete dis liv nan men jèn timoun",
     "ctaBody": "Kenz dola pa mwa finanse dis liv kreyòl pou timoun, chak mwa.",
@@ -826,6 +839,34 @@
     "takeTitle": "Sa nou pran nan sa",
     "takeBody": "De chif dirije estrateji nou. Katrevenkenz pousan Ayisyen pale kreyòl, epi enskripsyon preprimè a prèske senk pousan. Timoun ki pi piti yo se yo ki pi mal sèvi, nan lang prèske pèsonn pa enprime liv ladan. Se egzakteman la yon bibliyotèk timoun chanje lavi, epi egzakteman la PILH ap travay.",
     "sourceNote": "Dènye ane yo, twoub, Covid ak tranblemanntè Gran Sid 2021 an te kenbe anpil lekòl fèmen oswa an reta, kidonk kondisyon aktyèl yo pwobableman pi difisil pase chif sa yo.",
-    "cta": "Gade sa don ou fè"
+    "cta": "Gade sa don ou fè",
+    "contextSources": "Sous: CIA World Factbook. USAID International Data and Economic Analysis, novanm 2022."
+  },
+  "transparencyPage": {
+    "eyebrow": "Transparans ak responsablite",
+    "title": "Gade egzakteman kote lajan an ale.",
+    "lede": "Pridans donatè yo sou òganizasyon k ap travay ann Ayiti jis. Nou reponn li ak dokiman, pa ak pwomès.",
+    "points": [
+      {
+        "title": "Yon dosye piblik verifye",
+        "body": "PILH gen So Transparans Platinum Candid la, pi wo nivo a, epi li depoze eta finansye li bay IRS chak ane. EIN 87-0904773, yon òganizasyon charitab 501(c)(3) depi 2021."
+      },
+      {
+        "title": "Yon konsèy tout volontè",
+        "body": "Manm konsèy yo pa peye. Liv yo achte ann Ayiti chak fwa sa posib pou lajan an ranfòse ekonomi ayisyen an li sèvi a."
+      },
+      {
+        "title": "Rezilta anvan finansman",
+        "body": "Finansman pwojè yo swiv akò alekri ak komite vilaj yo, rapò chak mwa, ak yon evalyatè ekstèn ki verifye pwogrè chak ane nan Duplan."
+      },
+      {
+        "title": "Resi nan imel ou",
+        "body": "Chak don sou entènèt pase pa Zeffy, ki voye san pou san bay PILH epi ki imele resi taks ofisyèl ou touswit."
+      }
+    ],
+    "reportsTitle": "Rapò anyèl",
+    "verify": "Verifye nou poukont ou sou Candid",
+    "checkTitle": "Ou pito voye yon chèk?",
+    "checkBody": "Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA."
   }
 }

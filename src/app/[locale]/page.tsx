@@ -173,6 +173,9 @@ export default async function HomePage(props: {
                 <p className="text-[0.9375rem] leading-snug text-ink-soft">{stat.label}</p>
               </div>
             ))}
+            <p className="text-[0.6875rem] leading-relaxed text-ink-faint" data-reveal>
+              {m.home.problem.sources}
+            </p>
           </div>
         </div>
       </section>

@@ -132,6 +132,14 @@ export default async function GivePage(props: {
             fallbackLabel={site.giving.zeffyForm.replace("https://", "")}
             amount={preselect}
           />
+          <p className="mt-3 text-sm">
+            <Link
+              href={href(locale, "/transparency")}
+              className="font-medium text-blue underline underline-offset-4 hover:text-red"
+            >
+              {m.nav.aboutItems.transparency} →
+            </Link>
+          </p>
         </div>
       </section>
     </>

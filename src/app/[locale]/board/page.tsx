@@ -38,15 +38,11 @@ export default async function BoardPage(props: {
 
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {board.map((person, index) => (
-          <a
+          <article
             key={person.id}
-            href={person.linkedin}
-            target="_blank"
-            rel="noreferrer"
             data-reveal
             style={{ "--reveal-delay": `${index * 80}ms` } as React.CSSProperties}
-            className="group overflow-hidden rounded-3xl border border-ink/8 bg-white shadow-[var(--shadow-lift)] transition hover:-translate-y-1 hover:shadow-[var(--shadow-deep)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue"
-            aria-label={`${person.name}, ${t.roles[person.role as keyof typeof t.roles]}. ${person.personal ? t.cta : t.ctaOrg}`}
+            className="group overflow-hidden rounded-3xl border border-ink/8 bg-white shadow-[var(--shadow-lift)] transition hover:-translate-y-1 hover:shadow-[var(--shadow-deep)]"
           >
             <div className="relative aspect-square overflow-hidden">
               <Image
@@ -56,10 +52,17 @@ export default async function BoardPage(props: {
                 sizes="(min-width:1024px) 31vw, (min-width:640px) 46vw, 100vw"
                 className="object-cover transition duration-500 group-hover:scale-[1.04]"
               />
-              {/* LinkedIn chip floats on the photo so the destination is obvious */}
-              <span className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-xl bg-white/90 text-[#0A66C2] shadow-[var(--shadow-lift)] backdrop-blur transition group-hover:bg-[#0A66C2] group-hover:text-white">
-                <LinkedInIcon />
-              </span>
+              {person.personal && (
+                <a
+                  href={person.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`${person.name}: ${t.cta}`}
+                  className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-xl bg-white/90 text-[#0A66C2] shadow-[var(--shadow-lift)] backdrop-blur transition hover:bg-[#0A66C2] hover:text-white"
+                >
+                  <LinkedInIcon />
+                </a>
+              )}
             </div>
 
             <div className="p-6">
@@ -69,16 +72,22 @@ export default async function BoardPage(props: {
               <p className="eyebrow mt-1.5">
                 {t.roles[person.role as keyof typeof t.roles]}
               </p>
-              <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+              <p className="mt-3 text-[0.9375rem] leading-relaxed text-ink">
                 {t.blurbs[person.id as keyof typeof t.blurbs]}
               </p>
-              <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-[#0A66C2] transition group-hover:gap-3">
-                <LinkedInIcon />
-                {person.personal ? t.cta : t.ctaOrg}
-                <span aria-hidden>→</span>
-              </span>
+              {person.personal && (
+                <a
+                  href={person.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-[#0A66C2] hover:underline"
+                >
+                  <LinkedInIcon />
+                  {t.cta}
+                </a>
+              )}
             </div>
-          </a>
+          </article>
         ))}
       </div>
 

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
 import { site } from "@/lib/site";
+import ObfuscatedEmail from "@/components/ObfuscatedEmail";
 import ContactForm from "@/components/ContactForm";
 
 export function generateStaticParams() {
@@ -38,23 +39,7 @@ export default async function ContactPage(props: {
           <div>
             <dt className="eyebrow">{m.contact.emailTitle}</dt>
             <dd className="mt-2">
-              <a
-                href={`mailto:${site.email}`}
-                className="font-medium text-blue underline underline-offset-4 hover:text-red"
-              >
-                {site.email}
-              </a>
-            </dd>
-          </div>
-          <div>
-            <dt className="eyebrow">{m.contact.officeTitle}</dt>
-            <dd className="mt-2 leading-relaxed text-ink-soft">
-              {site.name}
-              <br />
-              {site.addresses.office.line1}
-              <br />
-              {site.addresses.office.city}, {site.addresses.office.region}{" "}
-              {site.addresses.office.postal} {site.addresses.office.country}
+              <ObfuscatedEmail />
             </dd>
           </div>
           <div>
