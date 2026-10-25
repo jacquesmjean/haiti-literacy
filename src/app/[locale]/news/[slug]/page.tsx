@@ -6,6 +6,7 @@ import { isLocale } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
 import { allNewsParams, getNewsItem } from "@/lib/content";
 import { href } from "@/lib/routes";
+import { site } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -20,7 +21,15 @@ export async function generateMetadata(props: {
   if (!isLocale(locale)) return {};
   const item = await getNewsItem(locale, slug);
   if (!item) return {};
-  return { title: item.title, description: item.lede };
+  return {
+    title: item.title,
+    description: item.lede,
+    openGraph: {
+      type: "article",
+      publishedTime: item.date,
+      ...(item.image ? { images: [{ url: item.image }] } : {}),
+    },
+  };
 }
 
 export default async function NewsArticlePage(props: {
@@ -32,8 +41,29 @@ export default async function NewsArticlePage(props: {
   if (!item) notFound();
   const m = getMessages(locale);
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: item.title,
+    description: item.lede,
+    datePublished: item.date,
+    inLanguage: locale,
+    ...(item.image ? { image: [`${site.url}${item.image}`] } : {}),
+    mainEntityOfPage: `${site.url}${href(locale, "/news")}/${slug}`,
+    author: { "@type": "Organization", name: site.name, url: site.url },
+    publisher: {
+      "@type": "Organization",
+      name: site.name,
+      logo: { "@type": "ImageObject", url: `${site.url}/img/pilh-logo.png` },
+    },
+  };
+
   return (
     <article className="wrap-narrow pb-20 pt-12 lg:pt-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <Link
         href={href(locale, "/news")}
         className="text-sm font-medium text-blue underline underline-offset-4 hover:text-red"

@@ -213,7 +213,36 @@
     "volunteerCta": "Volunteer with us",
     "clubBadge": "Klib Liv la · The PILH Book Club",
     "clubTitle": "Join the Book Club",
-    "clubBody": "Monthly givers are the heartbeat of this work, so we gave them a name. Members of Klib Liv la fund the books, the shelves and the librarians month after month, and receive the stories from the libraries first through our newsletter. Start at fifteen dollars a month, ten Kreyòl books, every month."
+    "clubBody": "Monthly givers are the heartbeat of this work, so we gave them a name. Members of Klib Liv la fund the books, the shelves and the librarians month after month, and receive the stories from the libraries first through our newsletter. Start at fifteen dollars a month, ten Kreyòl books, every month.",
+    "faq": {
+      "title": "Questions donors ask",
+      "items": [
+        {
+          "q": "Is my donation tax deductible?",
+          "a": "Yes. Partners in Literacy Haiti is a 501(c)(3) public charity, EIN 87-0904773. Your official tax receipt is emailed to you the moment your gift goes through."
+        },
+        {
+          "q": "How much of my gift reaches Haiti?",
+          "a": "All of it. Our donation form is processed by Zeffy, which charges PILH nothing, and our board is all volunteer. We buy books in Haiti whenever we can, so the money strengthens the Haitian economy too."
+        },
+        {
+          "q": "What is Klib Liv la?",
+          "a": "Klib Liv la, the PILH Book Club, is our community of monthly givers. From $15 a month: ten Kreyòl children's books, every month, and the stories from the libraries first through our newsletter."
+        },
+        {
+          "q": "What does PILH actually do?",
+          "a": "Three things, done properly: we publish and place Kreyòl books, we build and mentor village libraries, and we train library workers and teachers. Five libraries across three departments of Haiti since 2011."
+        },
+        {
+          "q": "I am a teacher in Haiti. How do I request books?",
+          "a": "Write to us through the contact page or ask the PILH Assistant, and tell us your school, your commune and how many students you serve. Our team answers every request."
+        },
+        {
+          "q": "Can I give by check or from outside the United States?",
+          "a": "Yes. Checks go to Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA. The online form accepts major cards internationally."
+        }
+      ]
+    }
   },
   "contact": {
     "eyebrow": "Contact",

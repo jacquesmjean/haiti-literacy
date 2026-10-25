@@ -1,6 +1,6 @@
 # Partners in Literacy Haiti (PILH)
 
-> A 501(c)(3) nonprofit (EIN 87-0904773) building children's libraries in
+> A 501(c)(3) public charity (EIN 87-0904773) building children's libraries in
 > rural Haiti with Kreyòl books, technology, and teacher training, for
 > children from birth to eight years old. Founded 2011, incorporated 2021.
 > Candid Platinum Transparency Seal holder. Site available in English (/en),
@@ -9,25 +9,63 @@
 Key facts: more than 3,000 Kreyòl books placed in children's hands; five
 village libraries mentored across three departments (Ouest, Centre,
 Artibonite); 98 schools supplied with alphabet charts and books; 3,800
-students reached through teacher training. Flagship project: the Duplan
-Methodist Community Library, Ouest. Publisher of six Kreyòl easy readers and
-the Alfabè Kreyòl Mwen alphabet chart (MIT Haiti Initiative verified,
-US Library of Congress registered).
+students reached through teacher training. Publisher of six Kreyòl easy
+readers and the Alfabè Kreyòl Mwen alphabet chart (MIT Haiti Initiative
+verified, US Library of Congress registered).
+
+The model, three things done properly in one village at a time: publish and
+place easy readers written for Haitian children about Haitian life; build a
+real library with shelves, light, power, internet, computers and a paid
+library worker; train library workers through an eleven module curriculum
+built in Haiti, and train teachers to read aloud and run book corners.
+
+The five libraries: Duplan Methodist Community Library (Ouest, partner since
+2022, full services); Cange Community Library (Centre, since 2011, full
+services); La Chapelle Community Library (Artibonite, since 2016); Ravine
+Sèche Library Center (Artibonite, since 2020); Summits Education Library
+System (Centre, since 2018).
+
+Why it matters: 38% of adults in Haiti cannot read (USAID, 2022); 40% of
+children leave school before ninth grade; 95% of Haitians speak Kreyòl, yet
+almost all books are in French (UNESCO IIEP, 2020).
+
+## Giving
 
 Donations are processed by Zeffy, which passes one hundred percent of each
-gift to PILH; receipts are tax deductible in the United States. Checks:
-Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA.
+gift to PILH; receipts are tax deductible in the United States and arrive by
+email immediately. Checks: Partners in Literacy Haiti, P.O. Box 90057,
+Indianapolis, IN 46290-0057, USA.
+
+Klib Liv la, the PILH Book Club, is the monthly giving community: from $15 a
+month, which funds ten Kreyòl children's books every month. Other gift
+levels: $50/month funds a month of internet for a rural library; $100 buys
+four classroom sized Kreyòl alphabet charts; $250/month funds a librarian
+stipend and literacy workshops; $2,500 stocks and equips a full school
+library. PILH is eligible for employer matching gifts (EIN 87-0904773) and
+accepts donor advised funds, ACH and wire transfers.
+
+## Common questions
+
+Is a donation tax deductible? Yes: PILH is a 501(c)(3) public charity, EIN
+87-0904773, and receipts are emailed immediately.
+How much reaches Haiti? All of it: Zeffy charges PILH nothing and the board
+is all volunteer; books are bought in Haiti whenever possible.
+How does a teacher in Haiti request books? Through the contact page or the
+PILH Assistant, naming the school, commune and number of students.
 
 ## Main pages
 
-- [Home](https://haiti-literacy.vercel.app/en): mission, impact numbers, giving tiers
-- [Give](https://haiti-literacy.vercel.app/en/give): what each gift funds, secure donation form
-- [Transparency](https://haiti-literacy.vercel.app/en/transparency): annual reports 2022 to 2025, EIN, accountability
-- [How we work](https://haiti-literacy.vercel.app/en/our-work): the three part model
-- [The Duplan project](https://haiti-literacy.vercel.app/en/duplan): flagship library
-- [Kreyòl books and charts](https://haiti-literacy.vercel.app/en/kreyol-materials): publications and ordering
-- [The numbers](https://haiti-literacy.vercel.app/en/statistics): sourced education statistics for Haiti
-- [Contact](https://haiti-literacy.vercel.app/en/contact): for donors, educators in Haiti, and partners
+- [Home](https://www.haiti-literacy.org/en): mission, impact numbers, giving tiers
+- [Give](https://www.haiti-literacy.org/en/give): what each gift funds, secure donation form, donor FAQ
+- [Transparency](https://www.haiti-literacy.org/en/transparency): annual reports 2022 to 2025, EIN, accountability
+- [How we work](https://www.haiti-literacy.org/en/our-work): the three part model
+- [Libraries](https://www.haiti-literacy.org/en/libraries): the five village libraries
+- [The Duplan project](https://www.haiti-literacy.org/en/duplan): flagship library
+- [Kreyòl books and charts](https://www.haiti-literacy.org/en/kreyol-materials): publications and ordering
+- [The numbers](https://www.haiti-literacy.org/en/statistics): sourced education statistics for Haiti
+- [Board and leadership](https://www.haiti-literacy.org/en/board): the all volunteer board
+- [News](https://www.haiti-literacy.org/en/news): stories from the field
+- [Contact](https://www.haiti-literacy.org/en/contact): for donors, educators in Haiti, and partners
 
 ## Contact
 

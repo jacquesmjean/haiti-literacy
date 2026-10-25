@@ -67,28 +67,61 @@ export default async function LocaleLayout(props: {
   const isHaiti = country === "HT";
   const welcome = isHaiti ? m.welcome.haiti : m.welcome.global;
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "NGO",
-    name: site.name,
-    url: site.url,
-    logo: `${site.url}/img/pilh-logo.png`,
-    taxID: site.ein,
-    nonprofitStatus: "Nonprofit501c3",
-    email: site.email,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: site.addresses.mail.line1,
-      addressLocality: site.addresses.mail.city,
-      addressRegion: site.addresses.mail.region,
-      postalCode: site.addresses.mail.postal,
-      addressCountry: "US",
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "NGO",
+      "@id": `${site.url}/#organization`,
+      name: site.name,
+      alternateName: site.shortName,
+      url: site.url,
+      logo: `${site.url}/img/pilh-logo.png`,
+      taxID: site.ein,
+      identifier: {
+        "@type": "PropertyValue",
+        propertyID: "EIN",
+        value: site.ein,
+      },
+      nonprofitStatus: "Nonprofit501c3",
+      email: site.email,
+      slogan: m.meta.tagline,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: site.addresses.mail.line1,
+        addressLocality: site.addresses.mail.city,
+        addressRegion: site.addresses.mail.region,
+        postalCode: site.addresses.mail.postal,
+        addressCountry: "US",
+      },
+      sameAs: [...Object.values(site.social), site.candid],
+      areaServed: { "@type": "Country", name: "Haiti" },
+      foundingDate: "2021-09",
+      founder: { "@type": "Person", name: "Dr. Sara Currie Mansbach" },
+      knowsLanguage: ["en", "ht", "fr", "es"],
+      knowsAbout: [
+        "children's literacy",
+        "Haitian Creole children's books",
+        "community libraries in Haiti",
+        "teacher training",
+      ],
+      description: m.meta.description,
+      potentialAction: {
+        "@type": "DonateAction",
+        name: m.common.donateNow,
+        target: `${site.url}${href(locale, "/give")}`,
+        recipient: { "@id": `${site.url}/#organization` },
+      },
     },
-    sameAs: Object.values(site.social),
-    areaServed: "Haiti",
-    foundingDate: "2021-09",
-    description: m.meta.description,
-  };
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": `${site.url}/#website`,
+      name: m.meta.title,
+      url: site.url,
+      inLanguage: localeTags[locale],
+      publisher: { "@id": `${site.url}/#organization` },
+    },
+  ];
 
   return (
     <div lang={localeTags[locale as Locale]}>

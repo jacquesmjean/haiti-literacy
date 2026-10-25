@@ -213,7 +213,36 @@
     "volunteerCta": "Devenir bénévole",
     "clubBadge": "Klib Liv la · Le Club du Livre PILH",
     "clubTitle": "Rejoignez le Club du Livre",
-    "clubBody": "Les donateurs mensuels sont le cœur battant de ce travail, alors nous leur avons donné un nom. Les membres du Klib Liv la financent les livres, les étagères et les bibliothécaires mois après mois, et reçoivent en premier les histoires des bibliothèques par notre infolettre. Dès quinze dollars par mois, dix livres en kreyòl, chaque mois."
+    "clubBody": "Les donateurs mensuels sont le cœur battant de ce travail, alors nous leur avons donné un nom. Les membres du Klib Liv la financent les livres, les étagères et les bibliothécaires mois après mois, et reçoivent en premier les histoires des bibliothèques par notre infolettre. Dès quinze dollars par mois, dix livres en kreyòl, chaque mois.",
+    "faq": {
+      "title": "Les questions que les donateurs posent",
+      "items": [
+        {
+          "q": "Mon don est-il déductible des impôts ?",
+          "a": "Oui. Partners in Literacy Haiti est une organisation caritative américaine 501(c)(3), EIN 87-0904773. Votre reçu fiscal officiel vous est envoyé par courriel dès que votre don est traité."
+        },
+        {
+          "q": "Quelle part de mon don arrive en Haïti ?",
+          "a": "La totalité. Notre formulaire de don est traité par Zeffy, qui ne facture rien à PILH, et notre conseil d'administration est entièrement bénévole. Nous achetons les livres en Haïti chaque fois que possible, pour renforcer aussi l'économie haïtienne."
+        },
+        {
+          "q": "Qu'est-ce que Klib Liv la ?",
+          "a": "Klib Liv la, le Club du livre de PILH, est notre communauté de donateurs mensuels. À partir de 15 $ par mois : dix livres pour enfants en kreyòl, chaque mois, et les histoires des bibliothèques en avant-première dans notre infolettre."
+        },
+        {
+          "q": "Que fait PILH concrètement ?",
+          "a": "Trois choses, bien faites : nous publions et distribuons des livres en kreyòl, nous construisons et accompagnons des bibliothèques de village, et nous formons bibliothécaires et enseignants. Cinq bibliothèques dans trois départements d'Haïti depuis 2011."
+        },
+        {
+          "q": "Je suis enseignant en Haïti. Comment demander des livres ?",
+          "a": "Écrivez-nous via la page contact ou parlez à l'Assistant PILH : indiquez votre école, votre commune et le nombre d'élèves. Notre équipe répond à chaque demande."
+        },
+        {
+          "q": "Puis-je donner par chèque ou depuis l'étranger ?",
+          "a": "Oui. Les chèques sont à adresser à Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA. Le formulaire en ligne accepte les principales cartes à l'international."
+        }
+      ]
+    }
   },
   "contact": {
     "eyebrow": "Contact",

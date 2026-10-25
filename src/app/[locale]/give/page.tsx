@@ -172,6 +172,40 @@ export default async function GivePage(props: {
           </p>
         </div>
       </section>
+
+      {/* Donor FAQ: visible answers for people, FAQPage schema for search and answer engines */}
+      <section className="wrap pb-20" data-reveal>
+        <h2 className="serif text-2xl font-semibold text-ink">{m.give.faq.title}</h2>
+        <div className="mt-6 grid gap-3 lg:max-w-4xl">
+          {m.give.faq.items.map((item) => (
+            <details
+              key={item.q}
+              className="group rounded-2xl border border-ink/8 bg-white px-6 py-4 shadow-[var(--shadow-lift)]"
+            >
+              <summary className="cursor-pointer list-none text-sm font-semibold text-ink marker:content-none [&::-webkit-details-marker]:hidden">
+                <span className="mr-2 inline-block text-red transition group-open:rotate-90">›</span>
+                {item.q}
+              </summary>
+              <p className="mt-3 pl-5 text-sm leading-relaxed text-ink-soft">{item.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: m.give.faq.items.map((item) => ({
+              "@type": "Question",
+              name: item.q,
+              acceptedAnswer: { "@type": "Answer", text: item.a },
+            })),
+          }),
+        }}
+      />
     </>
   );
 }

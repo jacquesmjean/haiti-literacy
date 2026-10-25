@@ -213,7 +213,36 @@
     "volunteerCta": "Vin volontè avèk nou",
     "clubBadge": "Klib Liv la · Klib Liv PILH la",
     "clubTitle": "Antre nan Klib Liv la",
-    "clubBody": "Donatè chak mwa yo se kè travay sa a, kidonk nou ba yo yon non. Manm Klib Liv la finanse liv yo, etajè yo ak bibliyotekè yo mwa apre mwa, epi yo resevwa istwa bibliyotèk yo an premye nan bilten nou an. Kòmanse ak kenz dola pa mwa, dis liv kreyòl, chak mwa."
+    "clubBody": "Donatè chak mwa yo se kè travay sa a, kidonk nou ba yo yon non. Manm Klib Liv la finanse liv yo, etajè yo ak bibliyotekè yo mwa apre mwa, epi yo resevwa istwa bibliyotèk yo an premye nan bilten nou an. Kòmanse ak kenz dola pa mwa, dis liv kreyòl, chak mwa.",
+    "faq": {
+      "title": "Kesyon moun k ap bay yo konn poze",
+      "items": [
+        {
+          "q": "Èske don mwen an dediktib nan taks?",
+          "a": "Wi. Partners in Literacy Haiti se yon òganizasyon charitab 501(c)(3) Ozetazini, EIN 87-0904773. Resi ofisyèl ou a rive nan imel ou touswit apre don ou an pase."
+        },
+        {
+          "q": "Ki pòsyon nan don mwen an ki rive an Ayiti?",
+          "a": "Tout nèt. Fòm don nou an pase sou Zeffy, ki pa chaje PILH anyen, epi tout manm konsèy nou yo se volontè. Nou achte liv yo an Ayiti chak fwa sa posib, pou lajan an ranfòse ekonomi ayisyen an tou."
+        },
+        {
+          "q": "Kisa Klib Liv la ye?",
+          "a": "Klib Liv la se kominote moun k ap bay chak mwa yo. Apati 15 dola pa mwa: dis liv timoun an kreyòl, chak mwa, epi w resevwa istwa bibliyotèk yo an premye nan bilten nou an."
+        },
+        {
+          "q": "Kisa PILH fè menm?",
+          "a": "Twa bagay, byen fèt: nou pibliye epi distribye liv an kreyòl, nou bati epi akonpaye bibliyotèk nan vilaj yo, epi nou fòme bibliyotekè ak pwofesè. Senk bibliyotèk nan twa depatman an Ayiti depi 2011."
+        },
+        {
+          "q": "Mwen se yon pwofesè an Ayiti. Kòman pou m mande liv?",
+          "a": "Ekri nou sou paj kontak la oswa pale ak Asistan PILH la: di nou ki lekòl ou, ki komin ou, ak konbyen elèv ou sèvi. Ekip nou an reponn chak demann."
+        },
+        {
+          "q": "Èske m ka bay ak chèk oswa depi lòt peyi?",
+          "a": "Wi. Chèk yo ale sou non Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA. Fòm sou entènèt la aksepte gwo kat yo entènasyonalman."
+        }
+      ]
+    }
   },
   "contact": {
     "eyebrow": "Kontak",
