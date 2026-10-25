@@ -170,8 +170,8 @@ export const board = [
 
 /** Annual reports hosted on the current site until they are re-uploaded. */
 export const reports = [
-  { year: 2025, href: "https://www.haiti-literacy.org/wp-content/uploads/2026/03/2025AnnualReport.pdf" },
-  { year: 2024, href: "https://www.haiti-literacy.org/wp-content/uploads/2025/05/2024Annual-Report.pdf" },
-  { year: 2023, href: "https://www.haiti-literacy.org/wp-content/uploads/2024/08/2023AnnualReport.pdf" },
-  { year: 2022, href: "https://www.haiti-literacy.org/wp-content/uploads/2023/04/PILH2022AnnualReport.pdf" },
+  { year: 2025, href: "/reports/PILH-Annual-Report-2025.pdf" },
+  { year: 2024, href: "/reports/PILH-Annual-Report-2024.pdf" },
+  { year: 2023, href: "/reports/PILH-Annual-Report-2023.pdf" },
+  { year: 2022, href: "/reports/PILH-Annual-Report-2022.pdf" },
 ] as const;
