@@ -3,7 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
-import { board, boardGroups } from "@/lib/site";
+import { board } from "@/lib/site";
 
 type Person = (typeof board)[number];
 
@@ -38,15 +38,12 @@ export default async function BoardPage(props: {
         <p className="lede mt-5">{t.lede}</p>
       </div>
 
-      {boardGroups.map((group) => {
+      {(["officers", "members"] as const).map((group) => {
         const people = board.filter((p) => p.group === group);
         if (!people.length) return null;
         return (
           <div key={group} className="mt-14">
-            <div className="flex items-baseline gap-4 border-b border-ink/10 pb-3">
-              <h2 className="serif text-2xl font-semibold text-ink">{t.groups[group]}</h2>
-              <span className="text-sm text-ink-soft">{people.length}</span>
-            </div>
+            <GroupHeading title={t.groups[group]} count={people.length} />
             <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {people.map((person, index) => (
                 <BoardCard key={person.id} person={person} index={index} t={t} />
@@ -56,6 +53,22 @@ export default async function BoardPage(props: {
         );
       })}
 
+      {/* Single-person groups share one row so no card sits alone. */}
+      <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {(["leadership", "founder"] as const).map((group) =>
+          board
+            .filter((p) => p.group === group)
+            .map((person, index) => (
+              <div key={person.id}>
+                <GroupHeading title={t.groups[group]} />
+                <div className="mt-6">
+                  <BoardCard person={person} index={index} t={t} />
+                </div>
+              </div>
+            )),
+        )}
+      </div>
+
       <div className="mt-14 rounded-3xl bg-sand/60 p-8" data-reveal>
         <h2 className="serif text-lg font-semibold text-ink">{t.staffTitle}</h2>
         <p className="mt-2 max-w-3xl text-sm leading-relaxed text-ink-soft">
@@ -63,6 +76,15 @@ export default async function BoardPage(props: {
         </p>
       </div>
     </section>
+  );
+}
+
+function GroupHeading({ title, count }: { title: string; count?: number }) {
+  return (
+    <div className="flex items-baseline gap-4 border-b border-ink/10 pb-3">
+      <h2 className="serif text-2xl font-semibold text-ink">{title}</h2>
+      {count !== undefined && <span className="text-sm text-ink-soft">{count}</span>}
+    </div>
   );
 }
 
