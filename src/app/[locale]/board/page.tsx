@@ -3,7 +3,9 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
-import { board } from "@/lib/site";
+import { board, boardGroups } from "@/lib/site";
+
+type Person = (typeof board)[number];
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -36,60 +38,23 @@ export default async function BoardPage(props: {
         <p className="lede mt-5">{t.lede}</p>
       </div>
 
-      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {board.map((person, index) => (
-          <article
-            key={person.id}
-            data-reveal
-            style={{ "--reveal-delay": `${index * 80}ms` } as React.CSSProperties}
-            className="group overflow-hidden rounded-3xl border border-ink/8 bg-white shadow-[var(--shadow-lift)] transition hover:-translate-y-1 hover:shadow-[var(--shadow-deep)]"
-          >
-            <div className="relative aspect-square overflow-hidden">
-              <Image
-                src={person.image}
-                alt={person.name}
-                fill
-                sizes="(min-width:1024px) 31vw, (min-width:640px) 46vw, 100vw"
-                className="object-cover transition duration-500 group-hover:scale-[1.04]"
-              />
-              {person.personal && (
-                <a
-                  href={person.linkedin}
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label={`${person.name}: ${t.cta}`}
-                  className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-xl bg-white/90 text-[#0A66C2] shadow-[var(--shadow-lift)] backdrop-blur transition hover:bg-[#0A66C2] hover:text-white"
-                >
-                  <LinkedInIcon />
-                </a>
-              )}
+      {boardGroups.map((group) => {
+        const people = board.filter((p) => p.group === group);
+        if (!people.length) return null;
+        return (
+          <div key={group} className="mt-14">
+            <div className="flex items-baseline gap-4 border-b border-ink/10 pb-3">
+              <h2 className="serif text-2xl font-semibold text-ink">{t.groups[group]}</h2>
+              <span className="text-sm text-ink-soft">{people.length}</span>
             </div>
-
-            <div className="p-6">
-              <h2 className="serif text-xl font-semibold leading-tight text-ink transition group-hover:text-blue">
-                {person.name}
-              </h2>
-              <p className="eyebrow mt-1.5">
-                {t.roles[person.role as keyof typeof t.roles]}
-              </p>
-              <p className="mt-3 text-[0.9375rem] leading-relaxed text-ink">
-                {t.blurbs[person.id as keyof typeof t.blurbs]}
-              </p>
-              {person.personal && (
-                <a
-                  href={person.linkedin}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-[#0A66C2] hover:underline"
-                >
-                  <LinkedInIcon />
-                  {t.cta}
-                </a>
-              )}
+            <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {people.map((person, index) => (
+                <BoardCard key={person.id} person={person} index={index} t={t} />
+              ))}
             </div>
-          </article>
-        ))}
-      </div>
+          </div>
+        );
+      })}
 
       <div className="mt-14 rounded-3xl bg-sand/60 p-8" data-reveal>
         <h2 className="serif text-lg font-semibold text-ink">{t.staffTitle}</h2>
@@ -98,6 +63,68 @@ export default async function BoardPage(props: {
         </p>
       </div>
     </section>
+  );
+}
+
+function BoardCard({
+  person,
+  index,
+  t,
+}: {
+  person: Person;
+  index: number;
+  t: ReturnType<typeof getMessages>["board"];
+}) {
+  return (
+    <article
+      data-reveal
+      style={{ "--reveal-delay": `${index * 80}ms` } as React.CSSProperties}
+      className="group overflow-hidden rounded-3xl border border-ink/8 bg-white shadow-[var(--shadow-lift)] transition hover:-translate-y-1 hover:shadow-[var(--shadow-deep)]"
+    >
+      <div className="relative aspect-square overflow-hidden">
+        <Image
+          src={person.image}
+          alt={person.name}
+          fill
+          sizes="(min-width:1024px) 31vw, (min-width:640px) 46vw, 100vw"
+          className="object-cover transition duration-500 group-hover:scale-[1.04]"
+        />
+        {person.personal && (
+          <a
+            href={person.linkedin}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={`${person.name}: ${t.cta}`}
+            className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-xl bg-white/90 text-[#0A66C2] shadow-[var(--shadow-lift)] backdrop-blur transition hover:bg-[#0A66C2] hover:text-white"
+          >
+            <LinkedInIcon />
+          </a>
+        )}
+      </div>
+
+      <div className="p-6">
+        <h3 className="serif text-xl font-semibold leading-tight text-ink transition group-hover:text-blue">
+          {person.name}
+        </h3>
+        <p className="eyebrow mt-1.5">
+          {t.roles[person.role as keyof typeof t.roles]}
+        </p>
+        <p className="mt-3 text-[0.9375rem] leading-relaxed text-ink">
+          {t.blurbs[person.id as keyof typeof t.blurbs]}
+        </p>
+        {person.personal && (
+          <a
+            href={person.linkedin}
+            target="_blank"
+            rel="noreferrer"
+            className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-[#0A66C2] hover:underline"
+          >
+            <LinkedInIcon />
+            {t.cta}
+          </a>
+        )}
+      </div>
+    </article>
   );
 }
 

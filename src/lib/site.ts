@@ -113,59 +113,21 @@ export const libraries = [
 ] as const;
 
 /**
- * Board and leadership.
+ * Board and leadership, mirrored from the Mission Control board roster.
+ * group sets the section on the board page; order within a group is the order here.
  * linkedin: personal profile when known, otherwise the PILH company page.
- * Update a URL here and the board page follows.
  */
+export const boardGroups = ["officers", "members", "leadership", "founder"] as const;
+
 export const board = [
-  {
-    id: "fatima",
-    name: "Fatima-Iram Din",
-    role: "executive",
-    image: "/img/board-fatima.webp",
-    linkedin: "https://www.linkedin.com/company/partners-in-literacy-haitihttps-haiti-literacy-org",
-    personal: false,
-  },
-  {
-    id: "lisa",
-    name: "Lisa Bodenheimer",
-    role: "secretary",
-    image: "/img/board-lisa.webp",
-    linkedin: "https://www.linkedin.com/company/partners-in-literacy-haitihttps-haiti-literacy-org",
-    personal: false,
-  },
-  {
-    id: "dan",
-    name: "Dan Linginfelter",
-    role: "treasurer",
-    image: "/img/board-dan.webp",
-    linkedin: "https://www.linkedin.com/in/linginfelterarts/",
-    personal: true,
-  },
-  {
-    id: "yvan",
-    name: "Dr. Yvan Demosthenes",
-    role: "member",
-    image: "/img/board-yvan.webp",
-    linkedin: "https://www.linkedin.com/in/yvandemosthenes/",
-    personal: true,
-  },
-  {
-    id: "lee",
-    name: "Rev. Mr. Lee Ashton DMG",
-    role: "member",
-    image: "/img/board-lee.webp",
-    linkedin: "https://www.linkedin.com/company/partners-in-literacy-haitihttps-haiti-literacy-org",
-    personal: false,
-  },
-  {
-    id: "sara",
-    name: "Dr. Sara Currie Mansbach",
-    role: "founder",
-    image: "/img/board-sara.webp",
-    linkedin: "https://www.linkedin.com/in/sara-mansbach-2a371410",
-    personal: true,
-  },
+  { id: "yvan", name: "Dr. Yvan Demosthenes", role: "chair", group: "officers", image: "/img/board-yvan.webp", linkedin: "https://www.linkedin.com/in/yvandemosthenes/", personal: true },
+  { id: "dan", name: "Dan Linginfelter", role: "treasurer", group: "officers", image: "/img/board-dan.webp", linkedin: "https://www.linkedin.com/in/linginfelterarts/", personal: true },
+  { id: "lisa", name: "Lisa Bodenheimer", role: "secretary", group: "officers", image: "/img/board-lisa.webp", linkedin: "https://www.linkedin.com/company/partners-in-literacy-haitihttps-haiti-literacy-org", personal: false },
+  { id: "dell", name: "Dell Gerve", role: "social", group: "members", image: "/img/board-dell.webp", linkedin: "https://www.linkedin.com/company/partners-in-literacy-haitihttps-haiti-literacy-org", personal: false },
+  { id: "jacques", name: "Jacques M. Jean", role: "technology", group: "members", image: "/img/board-jacques.webp", linkedin: "https://www.linkedin.com/company/partners-in-literacy-haitihttps-haiti-literacy-org", personal: false },
+  { id: "lee", name: "Rev. Mr. Lee Ashton DMG", role: "member", group: "members", image: "/img/board-lee.webp", linkedin: "https://www.linkedin.com/company/partners-in-literacy-haitihttps-haiti-literacy-org", personal: false },
+  { id: "fatima", name: "Fatima-Iram Din", role: "executive", group: "leadership", image: "/img/board-fatima.webp", linkedin: "https://www.linkedin.com/company/partners-in-literacy-haitihttps-haiti-literacy-org", personal: false },
+  { id: "sara", name: "Dr. Sara Currie Mansbach", role: "founder", group: "founder", image: "/img/board-sara.webp", linkedin: "https://www.linkedin.com/in/sara-mansbach-2a371410", personal: true },
 ] as const;
 
 /** Annual reports hosted on the current site until they are re-uploaded. */

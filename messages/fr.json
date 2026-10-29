@@ -294,11 +294,14 @@
       "secretary": "Secrétaire du conseil",
       "treasurer": "Trésorier du conseil",
       "member": "Membre du conseil",
-      "founder": "Fondatrice et directrice générale émérite"
+      "founder": "Fondatrice et directrice générale émérite",
+      "chair": "Président du conseil",
+      "social": "Responsable des réseaux sociaux",
+      "technology": "Technologie et stratégie"
     },
     "eyebrow": "Notre équipe",
     "title": "Le conseil",
-    "lede": "Un conseil entièrement bénévole. Cliquez sur une personne pour la retrouver sur LinkedIn.",
+    "lede": "Un conseil entièrement bénévole, non rémunéré et responsable de chaque don. Les profils des nouveaux membres s'ajoutent ici dès leur entrée au conseil.",
     "cta": "Retrouver sur LinkedIn",
     "ctaOrg": "PILH sur LinkedIn",
     "staffTitle": "Derrière le conseil",
@@ -309,7 +312,15 @@
       "dan": "Directeur artistique publicitaire retraité, auteur du dessin de l'affiche Alfabè Kreyòl Mwen.",
       "yvan": "PDG de HamiltonDemo et quinze ans d'expérience de conseils associatifs, engagé pour la jeunesse.",
       "lee": "Cadre retraité de l'ingénierie et de la stratégie, dont les racines familiales en Haïti remontent à des décennies.",
-      "sara": "Elle a fondé PILH en 2011 et voyagé quatorze fois en Haïti pour bâtir ses bibliothèques de village."
+      "sara": "Elle a fondé PILH en 2011 et voyagé quatorze fois en Haïti pour bâtir ses bibliothèques de village.",
+      "dell": "Dirige les récits de PILH : la lettre d'information, les réseaux sociaux et la presse, en quatre langues.",
+      "jacques": "PDG de TechFides, 25 ans à la tête de la technologie chez Honeywell, Invensys et Schneider Electric. Né en Haïti, il a fondé Universal Learning Centre, qui a bâti trois bibliothèques publiques dans le nord d'Haïti."
+    },
+    "groups": {
+      "officers": "Le bureau",
+      "members": "Membres du conseil",
+      "leadership": "Direction",
+      "founder": "Fondatrice"
     }
   },
   "concierge": {

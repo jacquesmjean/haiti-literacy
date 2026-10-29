@@ -294,11 +294,14 @@
       "secretary": "Secretaria de la Junta",
       "treasurer": "Tesorero de la Junta",
       "member": "Miembro de la Junta",
-      "founder": "Fundadora y Directora Ejecutiva Emérita"
+      "founder": "Fundadora y Directora Ejecutiva Emérita",
+      "chair": "Presidente de la Junta",
+      "social": "Responsable de Redes Sociales",
+      "technology": "Tecnología y Estrategia"
     },
     "eyebrow": "Nuestra gente",
     "title": "La junta",
-    "lede": "Una junta totalmente voluntaria. Haga clic en cualquier persona para conectar en LinkedIn.",
+    "lede": "Una junta totalmente voluntaria, sin sueldo y responsable de cada donación. Los perfiles de los nuevos miembros aparecen aquí cuando se incorporan.",
     "cta": "Conectar en LinkedIn",
     "ctaOrg": "PILH en LinkedIn",
     "staffTitle": "Detrás de la junta",
@@ -309,7 +312,15 @@
       "dan": "Director de arte publicitario retirado que dibujó el cartel del alfabeto Alfabè Kreyòl Mwen.",
       "yvan": "Director general de HamiltonDemo y quince años en juntas sin fines de lucro, comprometido con los jóvenes.",
       "lee": "Ejecutivo retirado de ingeniería y estrategia cuyas raíces familiares en Haití se remontan décadas.",
-      "sara": "Fundó PILH en 2011 y viajó catorce veces a Haití para construir sus bibliotecas de aldea."
+      "sara": "Fundó PILH en 2011 y viajó catorce veces a Haití para construir sus bibliotecas de aldea.",
+      "dell": "Dirige las historias de PILH: el boletín, las redes sociales y la prensa, en cuatro idiomas.",
+      "jacques": "Director general de TechFides, con 25 años al frente de la tecnología en Honeywell, Invensys y Schneider Electric. Nacido en Haití, fundó Universal Learning Centre, que construyó tres bibliotecas públicas en el norte de Haití."
+    },
+    "groups": {
+      "officers": "Directiva",
+      "members": "Miembros de la junta",
+      "leadership": "Dirección",
+      "founder": "Fundadora"
     }
   },
   "concierge": {

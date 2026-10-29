@@ -294,11 +294,14 @@
       "secretary": "Sekretè Konsèy la",
       "treasurer": "Trezorye Konsèy la",
       "member": "Manm Konsèy la",
-      "founder": "Fondatè ak Direktè Egzekitif Emerit"
+      "founder": "Fondatè ak Direktè Egzekitif Emerit",
+      "chair": "Prezidan Konsèy la",
+      "social": "Responsab Rezo Sosyal",
+      "technology": "Teknoloji ak Estrateji"
     },
     "eyebrow": "Moun nou yo",
     "title": "Konsèy la",
-    "lede": "Yon konsèy tout volontè. Klike sou nenpòt moun pou konekte sou LinkedIn.",
+    "lede": "Yon konsèy tout volontè, ki pa touche, epi ki responsab chak kado. Pwofil nouvo manm yo ap parèt isit la lè yo antre nan konsèy la.",
     "cta": "Konekte sou LinkedIn",
     "ctaOrg": "PILH sou LinkedIn",
     "staffTitle": "Dèyè konsèy la",
@@ -309,7 +312,15 @@
       "dan": "Direktè atistik piblisite retrete ki te desine tablo alfabè Alfabè Kreyòl Mwen an.",
       "yvan": "PDG HamiltonDemo ak kenz ane eksperyans nan konsèy san bi likratif, angaje pou jèn yo.",
       "lee": "Egzekitif jeni ak estrateji retrete ki gen rasin fanmi ann Ayiti depi plizyè deseni.",
-      "sara": "Li fonde PILH an 2011 epi li vwayaje Ayiti katòz fwa pou bati bibliyotèk vilaj li yo."
+      "sara": "Li fonde PILH an 2011 epi li vwayaje Ayiti katòz fwa pou bati bibliyotèk vilaj li yo.",
+      "dell": "Li dirije istwa PILH yo: bilten an, rezo sosyal yo ak laprès, nan kat lang.",
+      "jacques": "PDG TechFides, ak 25 ane l ap dirije teknoloji nan Honeywell, Invensys ak Schneider Electric. Li fèt ann Ayiti, li fonde Universal Learning Centre, ki bati twa bibliyotèk piblik nan nò Ayiti."
+    },
+    "groups": {
+      "officers": "Ofisye konsèy la",
+      "members": "Manm konsèy la",
+      "leadership": "Direksyon",
+      "founder": "Fondatè"
     }
   },
   "concierge": {

@@ -294,11 +294,14 @@
       "secretary": "Board Secretary",
       "treasurer": "Board Treasurer",
       "member": "Board Member",
-      "founder": "Founder and Executive Director Emeritus"
+      "founder": "Founder and Executive Director Emeritus",
+      "chair": "Board Chair",
+      "social": "Social Media Lead",
+      "technology": "Technology and Strategy"
     },
     "eyebrow": "Our people",
     "title": "The board",
-    "lede": "An all volunteer board. Click anyone to connect on LinkedIn.",
+    "lede": "An all volunteer board, unpaid and accountable for every gift. Profiles of newer members appear here as they are seated.",
     "cta": "Connect on LinkedIn",
     "ctaOrg": "PILH on LinkedIn",
     "staffTitle": "Behind the board",
@@ -309,7 +312,15 @@
       "dan": "Retired advertising art director who drew the Alfabè Kreyòl Mwen alphabet chart.",
       "yvan": "CEO of HamiltonDemo and a fifteen year nonprofit board veteran committed to young people.",
       "lee": "Retired engineering and strategy executive whose family roots in Haiti go back decades.",
-      "sara": "Founded PILH in 2011 and traveled to Haiti fourteen times to build its village libraries."
+      "sara": "Founded PILH in 2011 and traveled to Haiti fourteen times to build its village libraries.",
+      "dell": "Leads PILH's storytelling: the newsletter, social channels and press, in four languages.",
+      "jacques": "CEO of TechFides, with 25 years leading technology at Honeywell, Invensys and Schneider Electric. Born in Haiti, he founded Universal Learning Centre, which built three public libraries in northern Haiti."
+    },
+    "groups": {
+      "officers": "Officers",
+      "members": "Board members",
+      "leadership": "Staff leadership",
+      "founder": "Founder"
     }
   },
   "concierge": {
