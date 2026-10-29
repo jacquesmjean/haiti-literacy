@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
-import { impact, libraries, tiers, site } from "@/lib/site";
+import { impact, libraries, tiers, site, zeffyLink } from "@/lib/site";
 import { listNews } from "@/lib/content";
 import { href } from "@/lib/routes";
 import CountUp from "@/components/CountUp";
@@ -32,12 +32,12 @@ export default async function HomePage(props: {
             </h1>
             <p className="lede mt-6 max-w-xl">{m.home.hero.lede}</p>
             <div className="mt-9 flex flex-wrap items-center gap-4">
-              <Link
-                href={href(locale, "/give")}
+              <a
+                href={zeffyLink()} target="_blank" rel="noopener"
                 className="rounded-full bg-red px-7 py-4 text-[0.9375rem] font-semibold text-white shadow-[0_10px_28px_-8px_rgba(213,31,54,0.75)] transition hover:-translate-y-0.5 hover:bg-red-deep"
               >
                 {m.home.hero.ctaPrimary}
-              </Link>
+              </a>
               <Link
                 href={href(locale, "/our-work")}
                 className="rounded-full border border-ink/15 px-7 py-4 text-[0.9375rem] font-semibold text-ink transition hover:border-blue/50 hover:text-blue"
@@ -306,9 +306,9 @@ export default async function HomePage(props: {
             {tiers.map((tier, index) => {
               const amountText = m.give.amounts.find((a) => a.amount === tier.amount)?.text ?? "";
               return (
-                <Link
+                <a
                   key={tier.id}
-                  href={`${href(locale, "/give")}?amount=${tier.amount}`}
+                  href={zeffyLink(tier.amount)} target="_blank" rel="noopener"
                   data-reveal
                   style={{ "--reveal-delay": `${index * 90}ms` } as React.CSSProperties}
                   className="group overflow-hidden rounded-3xl border border-ink/8 bg-white shadow-[var(--shadow-lift)] transition hover:-translate-y-1 hover:shadow-[var(--shadow-deep)]"
@@ -336,7 +336,7 @@ export default async function HomePage(props: {
                       {m.home.give.cta} <ArrowIcon />
                     </span>
                   </div>
-                </Link>
+                </a>
               );
             })}
           </div>

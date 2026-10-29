@@ -6,7 +6,7 @@ import { isLocale } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
 import { allNewsParams, getNewsItem } from "@/lib/content";
 import { href } from "@/lib/routes";
-import { site } from "@/lib/site";
+import { site, zeffyLink } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -112,12 +112,12 @@ export default async function NewsArticlePage(props: {
       <div className="rule mt-14" />
       <div className="flex flex-wrap items-center justify-between gap-5 py-8">
         <p className="serif text-lg text-ink">{m.meta.tagline}</p>
-        <Link
-          href={href(locale, "/give")}
+        <a
+          href={zeffyLink()} target="_blank" rel="noopener"
           className="rounded-full bg-red px-6 py-3 text-sm font-semibold text-white transition hover:bg-red-deep"
         >
           {m.common.donateNow}
-        </Link>
+        </a>
       </div>
     </article>
   );

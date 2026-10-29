@@ -52,6 +52,15 @@ export const site = {
   },
 } as const;
 
+/**
+ * Direct link to the Zeffy donation form, optionally with the amount filled in.
+ * Every Donate button and priced gift on the site goes straight here so donors,
+ * especially on phones, land on the secure form in one tap.
+ */
+export function zeffyLink(amount?: number): string {
+  return amount ? `${site.giving.zeffyForm}?amount=${amount}` : site.giving.zeffyForm;
+}
+
 /** Headline numbers. Update these once and the whole site follows. */
 export const impact = [
   { value: 3000, suffix: "+", key: "books" },

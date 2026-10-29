@@ -242,7 +242,11 @@
           "a": "Wi. Chèk yo ale sou non Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA. Fòm sou entènèt la aksepte gwo kat yo entènasyonalman."
         }
       ]
-    }
+    },
+    "donateCta": "Fè yon don kounye a",
+    "donateSub": "Peman sekirize sou Zeffy. 100% rive bay PILH.",
+    "amountsHint": "Tape sou nenpòt kado pou bay kantite sa a.",
+    "giveAmount": "Bay"
   },
   "contact": {
     "eyebrow": "Kontak",

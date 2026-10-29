@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
-import { site } from "@/lib/site";
+import { site, zeffyLink } from "@/lib/site";
 import { href } from "@/lib/routes";
 import DonateEmbed from "@/components/DonateEmbed";
 
@@ -39,6 +39,17 @@ export default async function GivePage(props: {
             {m.give.hero.title}
           </h1>
           <p className="lede mt-6">{m.give.hero.lede}</p>
+          <div className="mt-8 flex flex-wrap items-center gap-4">
+            <a
+              href={zeffyLink(preselect)}
+              target="_blank"
+              rel="noopener"
+              className="rounded-full bg-red px-8 py-4 text-[0.9375rem] font-semibold text-white shadow-[0_10px_28px_-8px_rgba(213,31,54,0.75)] transition hover:-translate-y-0.5 hover:bg-red-deep"
+            >
+              {m.give.donateCta}
+            </a>
+            <span className="text-sm text-ink-soft">{m.give.donateSub}</span>
+          </div>
         </div>
       </section>
 
@@ -63,7 +74,9 @@ export default async function GivePage(props: {
               <p className="mt-3 leading-relaxed text-white/75">{m.give.clubBody}</p>
             </div>
             <a
-              href="#give-form"
+              href={zeffyLink(15)}
+              target="_blank"
+              rel="noopener"
               className="rounded-full bg-red px-8 py-4 text-sm font-semibold text-white shadow-[0_10px_28px_-8px_rgba(213,31,54,0.7)] transition hover:-translate-y-0.5 hover:bg-red-deep"
             >
               {m.home.give.cta}
@@ -78,19 +91,30 @@ export default async function GivePage(props: {
           <h2 className="serif text-2xl font-semibold text-ink" data-reveal>
             {m.give.amountsTitle}
           </h2>
+          <p className="mt-2 text-sm text-ink-soft" data-reveal>{m.give.amountsHint}</p>
           <ul className="mt-6 grid gap-3">
             {m.give.amounts.map((row, index) => (
               <li
                 key={row.amount}
                 data-reveal
                 style={{ "--reveal-delay": `${index * 60}ms` } as React.CSSProperties}
-                className="flex items-center gap-5 rounded-2xl border border-ink/8 bg-white px-5 py-4 shadow-[var(--shadow-lift)]"
               >
-                <span className="display w-20 shrink-0 text-right text-2xl text-red">
-                  ${row.amount.toLocaleString(locale)}
-                </span>
-                <span className="h-8 w-px bg-ink/10" aria-hidden />
-                <span className="text-sm leading-snug text-ink-soft">{row.text}</span>
+                <a
+                  href={zeffyLink(row.amount)}
+                  target="_blank"
+                  rel="noopener"
+                  aria-label={`${m.give.giveAmount} $${row.amount.toLocaleString(locale)}: ${row.text}`}
+                  className="group flex items-center gap-5 rounded-2xl border border-ink/8 bg-white px-5 py-4 shadow-[var(--shadow-lift)] transition hover:-translate-y-0.5 hover:border-red/30 hover:shadow-[var(--shadow-deep)]"
+                >
+                  <span className="display w-20 shrink-0 text-right text-2xl text-red">
+                    ${row.amount.toLocaleString(locale)}
+                  </span>
+                  <span className="h-8 w-px bg-ink/10" aria-hidden />
+                  <span className="flex-1 text-sm leading-snug text-ink-soft">{row.text}</span>
+                  <span className="shrink-0 rounded-full bg-red/10 px-3 py-1.5 text-xs font-semibold text-red transition group-hover:bg-red group-hover:text-white">
+                    {m.give.giveAmount} →
+                  </span>
+                </a>
               </li>
             ))}
           </ul>

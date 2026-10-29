@@ -4,7 +4,7 @@ import { headers } from "next/headers";
 import Script from "next/script";
 import { isLocale, locales, localeTags, type Locale } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
-import { site } from "@/lib/site";
+import { site, zeffyLink } from "@/lib/site";
 import { href } from "@/lib/routes";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -132,7 +132,7 @@ export default async function LocaleLayout(props: {
         {m.common.skip}
       </a>
 
-      <Header locale={locale} nav={m.nav} donateHref={href(locale, "/give")} />
+      <Header locale={locale} nav={m.nav} donateHref={zeffyLink()} />
 
       <WelcomeBand
         isHaiti={isHaiti}

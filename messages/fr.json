@@ -242,7 +242,11 @@
           "a": "Oui. Les chèques sont à adresser à Partners in Literacy Haiti, P.O. Box 90057, Indianapolis, IN 46290-0057, USA. Le formulaire en ligne accepte les principales cartes à l'international."
         }
       ]
-    }
+    },
+    "donateCta": "Faire un don",
+    "donateSub": "Paiement sécurisé sur Zeffy. 100 % va à PILH.",
+    "amountsHint": "Touchez un don pour offrir ce montant.",
+    "giveAmount": "Donner"
   },
   "contact": {
     "eyebrow": "Contact",

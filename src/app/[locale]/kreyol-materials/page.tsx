@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
 import { href } from "@/lib/routes";
+import { zeffyLink } from "@/lib/site";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -86,12 +87,12 @@ export default async function KreyolMaterialsPage(props: {
               {t.inventoryBody}
             </p>
           </div>
-          <Link
-            href={href(locale, "/give")}
+          <a
+            href={zeffyLink()} target="_blank" rel="noopener"
             className="shrink-0 self-center rounded-full bg-red px-6 py-3 text-sm font-semibold text-white transition hover:bg-red-deep"
           >
             {m.common.donateNow}
-          </Link>
+          </a>
         </div>
       </section>
 

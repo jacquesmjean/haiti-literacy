@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
-import { href } from "@/lib/routes";
+import { zeffyLink } from "@/lib/site";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -226,12 +225,12 @@ export default async function NumbersPage(props: {
             <h2 className="serif text-2xl font-semibold">{t.takeTitle}</h2>
             <p className="mt-3 max-w-2xl leading-relaxed text-white/75">{t.takeBody}</p>
           </div>
-          <Link
-            href={href(locale, "/give")}
+          <a
+            href={zeffyLink()} target="_blank" rel="noopener"
             className="self-center rounded-full bg-red px-8 py-4 text-center text-sm font-semibold text-white shadow-[0_10px_28px_-8px_rgba(213,31,54,0.7)] transition hover:-translate-y-0.5 hover:bg-red-deep"
           >
             {t.cta}
-          </Link>
+          </a>
         </div>
       </section>
     </>

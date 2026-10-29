@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
 import { href } from "@/lib/routes";
+import { zeffyLink } from "@/lib/site";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -55,12 +56,12 @@ export default async function GetInvolvedPage(props: {
               >
                 {t.diasporaCta}
               </Link>
-              <Link
-                href={href(locale, "/give")}
+              <a
+                href={zeffyLink()} target="_blank" rel="noopener"
                 className="rounded-full border border-white/30 px-7 py-3.5 text-sm font-semibold text-white transition hover:border-white/70"
               >
                 {m.nav.donate}
-              </Link>
+              </a>
             </div>
           </div>
           <figure className="arch relative hidden aspect-[4/4.4] lg:block" data-reveal>
@@ -88,7 +89,8 @@ export default async function GetInvolvedPage(props: {
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {m.campaigns.items.map((campaign, index) => {
             const toGive = campaign.id !== "volunteer" && campaign.id !== "ambassador";
-            const target = toGive ? href(locale, "/give") : href(locale, "/contact");
+            const amount = Number.parseInt(campaign.amount.replace(/[^0-9]/g, ""), 10) || undefined;
+            const target = toGive ? zeffyLink(amount) : href(locale, "/contact");
             return (
               <article
                 key={campaign.id}
@@ -103,8 +105,9 @@ export default async function GetInvolvedPage(props: {
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-ink-soft">
                   {campaign.body}
                 </p>
-                <Link
+                <a
                   href={target}
+                  {...(toGive ? { target: "_blank", rel: "noopener" } : {})}
                   className={`mt-6 inline-block self-start rounded-full px-5 py-2.5 text-sm font-semibold transition ${
                     toGive
                       ? "bg-red text-white hover:bg-red-deep"
@@ -112,7 +115,7 @@ export default async function GetInvolvedPage(props: {
                   }`}
                 >
                   {campaign.cta}
-                </Link>
+                </a>
               </article>
             );
           })}

@@ -242,7 +242,11 @@
           "a": "Sí. Los cheques van a nombre de Partners in Literacy Haiti, P.O. Box 90057, Indianápolis, IN 46290-0057, USA. El formulario en línea acepta las principales tarjetas internacionales."
         }
       ]
-    }
+    },
+    "donateCta": "Donar ahora",
+    "donateSub": "Pago seguro en Zeffy. El 100 % llega a PILH.",
+    "amountsHint": "Toque cualquier regalo para donar esa cantidad.",
+    "giveAmount": "Donar"
   },
   "contact": {
     "eyebrow": "Contacto",

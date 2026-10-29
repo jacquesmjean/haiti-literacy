@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
 import { allPageParams, getPage } from "@/lib/content";
-import { href } from "@/lib/routes";
+import { zeffyLink } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -99,12 +98,12 @@ export default async function ContentPage(props: {
         <div className="rule" />
         <div className="flex flex-wrap items-center justify-between gap-5 py-10">
           <p className="serif text-xl text-ink">{m.meta.tagline}</p>
-          <Link
-            href={href(locale, "/give")}
+          <a
+            href={zeffyLink()} target="_blank" rel="noopener"
             className="rounded-full bg-red px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-red-deep"
           >
             {m.common.donateNow}
-          </Link>
+          </a>
         </div>
       </div>
     </article>

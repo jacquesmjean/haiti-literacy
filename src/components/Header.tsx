@@ -180,12 +180,15 @@ export default function Header({
             )}
           </div>
 
-          <Link
+          <a
             href={donateHref}
-            className="hidden rounded-full bg-red px-5 py-2.5 text-[0.8125rem] font-semibold tracking-wide text-white shadow-[0_6px_18px_-6px_rgba(213,31,54,0.7)] transition hover:bg-red-deep hover:shadow-[0_10px_24px_-8px_rgba(213,31,54,0.8)] sm:block"
+            target="_blank"
+            rel="noopener"
+            className="flex items-center gap-1.5 rounded-full bg-red px-4 py-2.5 text-[0.8125rem] font-semibold tracking-wide text-white shadow-[0_6px_18px_-6px_rgba(213,31,54,0.7)] transition hover:bg-red-deep hover:shadow-[0_10px_24px_-8px_rgba(213,31,54,0.8)] sm:px-5"
           >
+            <HeartIcon />
             {nav.donate}
-          </Link>
+          </a>
 
           <button
             type="button"
@@ -273,12 +276,15 @@ export default function Header({
             </nav>
 
             <div className="border-t border-ink/10 p-5">
-              <Link
+              <a
                 href={donateHref}
-                className="block rounded-full bg-red px-5 py-3.5 text-center text-sm font-semibold text-white"
+                target="_blank"
+                rel="noopener"
+                className="flex items-center justify-center gap-2 rounded-full bg-red px-5 py-3.5 text-center text-sm font-semibold text-white"
               >
+                <HeartIcon />
                 {nav.donate}
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -419,6 +425,14 @@ function CloseIcon() {
   return (
     <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden fill="none" stroke="currentColor" strokeWidth="1.6">
       <path d="M3 3l10 10M13 3 3 13" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function HeartIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+      <path d="M12 21s-7.5-4.6-10-9.3C.4 8.3 2.3 4.5 6 4.1c2.1-.2 3.7.9 4.6 2.3h2.8c.9-1.4 2.5-2.5 4.6-2.3 3.7.4 5.6 4.2 4 7.6C19.5 16.4 12 21 12 21Z" />
     </svg>
   );
 }

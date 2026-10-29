@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
-import { href } from "@/lib/routes";
+import { zeffyLink } from "@/lib/site";
 import CountUp from "@/components/CountUp";
 
 export function generateStaticParams() {
@@ -146,12 +145,12 @@ export default async function YoungReadersPage(props: {
             <h2 className="serif text-2xl font-semibold">{t.ctaTitle}</h2>
             <p className="mt-2 text-white/85">{t.ctaBody}</p>
           </div>
-          <Link
-            href={`${href(locale, "/give")}?amount=15`}
+          <a
+            href={zeffyLink(15)} target="_blank" rel="noopener"
             className="rounded-full bg-white px-8 py-4 text-sm font-semibold text-red-deep transition hover:-translate-y-0.5 hover:bg-sand"
           >
             {t.cta}
-          </Link>
+          </a>
         </div>
       </section>
     </>

@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
-import { href } from "@/lib/routes";
+import { zeffyLink } from "@/lib/site";
 import CountUp from "@/components/CountUp";
 
 export function generateStaticParams() {
@@ -53,12 +52,12 @@ export default async function DuplanPage(props: {
               {t.title}
             </h1>
             <p className="lede mt-6 max-w-xl">{t.lede}</p>
-            <Link
-              href={`${href(locale, "/give")}?amount=250`}
+            <a
+              href={zeffyLink(250)} target="_blank" rel="noopener"
               className="mt-8 inline-block rounded-full bg-red px-7 py-3.5 text-sm font-semibold text-white shadow-[0_10px_28px_-8px_rgba(213,31,54,0.7)] transition hover:-translate-y-0.5 hover:bg-red-deep"
             >
               {t.cta}
-            </Link>
+            </a>
           </div>
 
           <div className="grid animate-rise grid-cols-2 gap-4 [animation-delay:140ms]">
@@ -206,12 +205,12 @@ export default async function DuplanPage(props: {
           <div className="rounded-3xl bg-white/8 p-7 backdrop-blur">
             <h3 className="serif text-xl font-semibold">{t.ctaTitle}</h3>
             <p className="mt-2 text-sm leading-relaxed text-white/70">{t.ctaBody}</p>
-            <Link
-              href={`${href(locale, "/give")}?amount=250`}
+            <a
+              href={zeffyLink(250)} target="_blank" rel="noopener"
               className="mt-5 inline-block rounded-full bg-red px-6 py-3 text-sm font-semibold text-white transition hover:bg-red-deep"
             >
               {t.cta}
-            </Link>
+            </a>
           </div>
         </div>
       </section>

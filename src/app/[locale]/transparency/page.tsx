@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/lib/i18n";
 import { getMessages } from "@/lib/messages";
-import { reports, site } from "@/lib/site";
-import { href } from "@/lib/routes";
+import { reports, site, zeffyLink } from "@/lib/site";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -130,12 +128,12 @@ export default async function TransparencyPage(props: {
             <h2 className="serif text-xl font-semibold text-ink">{t.checkTitle}</h2>
             <p className="mt-2 text-sm leading-relaxed text-ink-soft">{t.checkBody}</p>
           </div>
-          <Link
-            href={href(locale, "/give")}
+          <a
+            href={zeffyLink()} target="_blank" rel="noopener"
             className="rounded-full bg-red px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-red-deep"
           >
             {m.common.donateNow}
-          </Link>
+          </a>
         </div>
       </section>
     </>
