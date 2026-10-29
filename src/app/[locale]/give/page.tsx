@@ -104,14 +104,14 @@ export default async function GivePage(props: {
                   target="_blank"
                   rel="noopener"
                   aria-label={`${m.give.giveAmount} $${row.amount.toLocaleString(locale)}: ${row.text}`}
-                  className="group flex items-center gap-5 rounded-2xl border border-ink/8 bg-white px-5 py-4 shadow-[var(--shadow-lift)] transition hover:-translate-y-0.5 hover:border-red/30 hover:shadow-[var(--shadow-deep)]"
+                  className="group flex items-center gap-3 rounded-2xl border border-ink/8 bg-white px-4 py-4 sm:gap-5 sm:px-5 shadow-[var(--shadow-lift)] transition hover:-translate-y-0.5 hover:border-red/30 hover:shadow-[var(--shadow-deep)]"
                 >
-                  <span className="display w-20 shrink-0 text-right text-2xl text-red">
+                  <span className="display w-16 shrink-0 text-right text-xl text-red sm:w-20 sm:text-2xl">
                     ${row.amount.toLocaleString(locale)}
                   </span>
                   <span className="h-8 w-px bg-ink/10" aria-hidden />
                   <span className="flex-1 text-sm leading-snug text-ink-soft">{row.text}</span>
-                  <span className="shrink-0 rounded-full bg-red/10 px-3 py-1.5 text-xs font-semibold text-red transition group-hover:bg-red group-hover:text-white">
+                  <span className="shrink-0 rounded-full bg-red/10 px-2.5 py-1.5 text-xs sm:px-3 font-semibold text-red transition group-hover:bg-red group-hover:text-white">
                     {m.give.giveAmount} →
                   </span>
                 </a>
