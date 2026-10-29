@@ -18,6 +18,18 @@ const nextConfig: NextConfig = {
         destination: `/en${destination}`,
         permanent: true,
       })),
+      // Addresses donors guess. The bare path goes to /give so the locale
+      // proxy can send each visitor to the page in their own language.
+      {
+        source: "/:alias(donate|donation|donations|give-now)",
+        destination: "/give",
+        permanent: true,
+      },
+      {
+        source: "/:locale(en|ht|fr|es)/:alias(donate|donation|donations|give-now)",
+        destination: "/:locale/give",
+        permanent: true,
+      },
       // The reports page folded into the transparency page.
       {
         source: "/:locale(en|ht|fr|es)/reports",
