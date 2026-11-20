@@ -33,6 +33,8 @@ export type NewsFrontmatter = {
   lede?: string;
   image?: string;
   credit?: string;
+  /** Drafts written in the back office stay hidden until published. */
+  draft?: boolean;
 };
 
 export type NewsDoc = NewsFrontmatter & {
@@ -135,6 +137,7 @@ export function listNewsSlugs(locale: Locale = defaultLocale): string[] {
   return fs
     .readdirSync(dir)
     .filter((f) => f.endsWith(".md"))
+    .filter((f) => !matter(fs.readFileSync(path.join(dir, f), "utf8")).data.draft)
     .map((f) => f.replace(/\.md$/, ""));
 }
 

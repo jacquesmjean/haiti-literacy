@@ -1,0 +1,103 @@
+{
+  "year": 2027,
+  "note": "Q2 to Q4 monthly themes. Same rhythm: Monday reader story, Wednesday learn, Friday act. Posts for each quarter are written the month before it starts.",
+  "themes": [
+    {
+      "quarter": "Q2",
+      "month": "April",
+      "theme": "Inside the libraries",
+      "focus": "One library a week: Cange, La Chapelle, Ravine Sèche, Summits, Duplan. Photos, hours, what a day looks like.",
+      "dates": [
+        "US National Library Week (mid April)"
+      ],
+      "blog": "A day in a village library",
+      "ask": "$50 = a month of internet for a rural library"
+    },
+    {
+      "quarter": "Q2",
+      "month": "May",
+      "theme": "Haitian heritage, Haitian books",
+      "focus": "Haitian Heritage Month in the US. Haitian authors, illustrators and translators behind PILH's books. Flag Day story.",
+      "dates": [
+        "Haitian Heritage Month (all May)",
+        "Haitian Flag Day, May 18 (Tuesday): post Mon May 17 and Wed May 19"
+      ],
+      "blog": "The Haitian artists behind our Kreyòl books",
+      "ask": "Diaspora giving: honor a family member with books"
+    },
+    {
+      "quarter": "Q2",
+      "month": "June",
+      "theme": "Families who read",
+      "focus": "Parents and caregivers as first teachers. Read aloud tips in Kreyòl. End of the Haitian school year.",
+      "dates": [
+        "US Father's Day, June 20"
+      ],
+      "blog": "How to raise a reader before age five",
+      "ask": "Klib Liv la mid year member drive"
+    },
+    {
+      "quarter": "Q3",
+      "month": "July",
+      "theme": "Summer reading circles",
+      "focus": "Reading circles and contests when school is out. Children retelling stories. $5 supplies.",
+      "dates": [],
+      "blog": "What a reading circle looks like",
+      "ask": "$5 = pencils, crayons and markers for a reading circle"
+    },
+    {
+      "quarter": "Q3",
+      "month": "August",
+      "theme": "Ready for school",
+      "focus": "Back to school in Haiti (September start). Alphabet charts on classroom walls. Teachers we train.",
+      "dates": [],
+      "blog": "One chart, one classroom, many years",
+      "ask": "$100 = four alphabet charts"
+    },
+    {
+      "quarter": "Q3",
+      "month": "September",
+      "theme": "Literacy changes everything",
+      "focus": "The numbers behind our strategy, told simply. Teacher training. Haiti Libraries Alliance anniversary year.",
+      "dates": [
+        "International Literacy Day, September 8 (Wednesday)"
+      ],
+      "blog": "The evidence behind every decision",
+      "ask": "$400 trains a library worker"
+    },
+    {
+      "quarter": "Q4",
+      "month": "October",
+      "theme": "Kreyòl pride",
+      "focus": "Kreyòl as a language of learning and literature. Our six easy readers. Kreyòl Day.",
+      "dates": [
+        "International Kreyòl Day, October 28 (Thursday): post Wed Oct 27 and Fri Oct 29"
+      ],
+      "blog": "Kreyòl is a language of books",
+      "ask": "$25 = three Kreyòl storybooks"
+    },
+    {
+      "quarter": "Q4",
+      "month": "November",
+      "theme": "Gratitude and Giving Tuesday",
+      "focus": "Thank the volunteers, board and members. Giving Tuesday campaign with a clear goal and a progress counter.",
+      "dates": [
+        "US Thanksgiving, November 25",
+        "Giving Tuesday, November 30"
+      ],
+      "blog": "What your gifts built in 2027",
+      "ask": "Giving Tuesday goal, employer matching"
+    },
+    {
+      "quarter": "Q4",
+      "month": "December",
+      "theme": "A library for every village",
+      "focus": "Year end giving. Klib Liv la year end drive. Annual impact recap. Tax deduction deadline reminder.",
+      "dates": [
+        "Year end giving deadline, December 31"
+      ],
+      "blog": "2027 in review",
+      "ask": "$2,500 stocks a full school library; Klib Liv la"
+    }
+  ]
+}
