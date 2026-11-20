@@ -123,6 +123,7 @@ export async function getNewsItem(locale: Locale, slug: string): Promise<NewsDoc
   const found = readFileWithFallback("news", slug, locale);
   if (!found) return null;
   const { data, content } = matter(found.raw);
+  if (data.draft) return null;
   return {
     ...(data as NewsFrontmatter),
     slug,
